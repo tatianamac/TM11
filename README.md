@@ -6,7 +6,7 @@ Built by hand using CSS Grid.
 
 ## Built With
 
-* [CSS Grid]
+* CSS Grid
 
 ## Authors
 
