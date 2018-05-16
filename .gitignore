@@ -1,5 +1,5 @@
+.sass-cache/
+*.css.map
+css/
 .DS_Store
-bower_components
-node_modules
-npm-debug.log
-css
+scss/.DS_store
