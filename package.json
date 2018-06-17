@@ -1,0 +1,15 @@
+{
+  "name": "package.json",
+  "version": "1.0.0",
+  "description": "Tatiana Mac's portfolio site. Called TM11 because it will be the first post-#a11y website to date, and to honor the eleven characters in my name.",
+  "dependencies": {
+    "gulp-sass": "^4.0.1",
+    "gulp-watch": "^5.0.0"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
