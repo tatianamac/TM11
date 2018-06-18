@@ -1,0 +1,198 @@
+@charset 'utf-8';
+@import url('https://fonts.googleapis.com/css?family=Lora|Karla');
+@import url("https://use.typekit.net/yqw7qlf.css");
+
+// COLORS //
+  $primary-color: #0e4bff; //cobalt blue is so pretty//
+  $secondary-color: #F3F315; //
+
+  $black: #000000;
+  $white: #ffffff;
+
+  $yellow: #ffd400;
+  $red: #FF5327;
+
+  $mid-grey: #767676; // the lightest shade of grey you can get away with, #a11y
+  $light-grey: #dddddd; // for backgrounds only
+
+// TYPOGRAPHY //
+
+  $sans-serif: "Karla", Helvetica, sans-serif;
+  $serif: "Lora", Georgia, serif;
+  $mono: "Source Code Pro", Courier, mono;
+
+  $thin: 200;
+  $light: 300;
+  $regular: 400;
+  $medium: 500;
+  $bold: 700;
+
+  body {
+      font-family: $sans-serif;
+      font-weight: $light;
+      font-size: 20px; //The smallest it should be!
+      line-height: 1.5;
+      color: $black;
+      padding: 4em;
+  }
+
+  h1 {
+	 font-size: 2em;
+	 line-height: 1.25;
+	 font-family: $serif;
+	 }
+
+  h2 {
+ 	font-family: $sans-serif;
+ 	color: $mid-grey;
+ 	font-size: 1em;
+ 	font-weight: $thin;
+  }
+
+  h3 {
+	font-family: $serif;
+	font-size: 1.35em;
+  }
+
+  h4 {
+	 text-transform: uppercase;
+	 font-size: .75em;
+	 font-weight: $thin;
+	 letter-spacing: .15em;
+	 border-right: 1px solid $light-grey;
+   overflow: hidden;
+  }
+
+  h4:after {
+  content: "";
+  border-bottom: 1px solid $light-grey;
+  display: inline-block;
+  width:100%; height:100%;
+  margin-right:-100%;
+  vertical-align: middle;
+  }
+
+  h5 {
+    color: $mid-grey;
+    font-weight: $regular;
+  }
+
+
+  p {
+    color: $mid-grey;
+
+   &.wip {
+      font-style: italic;
+      font-size: .75em;
+    }
+
+  &.emojinisimo {
+      font-size: 5em;
+    }
+  }
+
+a {
+  color: $primary-color;
+}
+
+
+  ul {
+  	list-style: none outside;
+  	padding: 0;
+  }
+
+  li {
+        &.subtitle {
+      font-weight: $light;
+      color: $mid-grey;
+      font-size: .75em;
+      margin-top: 1em;
+    }
+  }
+
+  // COMPONENTS //
+
+  button {
+	  font-family: inherit;
+    text-transform: uppercase;
+	  font-size: .75em;
+	  padding: 1em;
+    margin: 1em 1em 0 0;
+
+    &.primary {
+    border: 1px solid $white;
+    background: $primary-color;
+    color: $white;
+    }
+
+    &.secondary {
+    border: 1px solid $primary-color;
+    background: $white;
+    color: $primary-color;
+    }
+  }
+
+  //DIV STYLINGS//
+
+.wrapper {
+    display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 4em;
+
+    // grid-template-areas: a thing to explore later; cool a a b type formatting
+    //   "header"
+    //   "nav"
+    //   "content"
+    //   "footer"
+}
+
+.intro {
+	grid-row: 1;
+	grid-column: 1;
+	padding-right: 10em;
+}
+
+.item { 
+  padding: 1em;
+  height: 50vmin;
+}
+
+// WORK STYLINGS //
+#lovelust {
+	background: #f12711;  /*fallback for old browsers */
+	background: -webkit-linear-gradient(to bottom, #f5af19, #f12711);
+	background: linear-gradient(to bottom, #f5af19, #f12711);
+	text-align: center;
+	grid-column: span 2;
+}
+
+// MEDIA QUERIES //
+
+@media screen and (min-width: 200px) {
+  .wrapper {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .wrapper {
+    grid-template-columns: 1fr 1fr;
+  }
+  .intro {
+  	grid-column: span 2;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .wrapper {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+
+}
+
+@media screen and (min-width: 1920px) {
+  .wrapper {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
