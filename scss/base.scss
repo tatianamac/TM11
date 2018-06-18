@@ -12,6 +12,9 @@
   $yellow: #ffd400;
   $red: #FF5327;
 
+  $pink: #e536ba;
+
+
   $mid-grey: #767676; // the lightest shade of grey you can get away with, #a11y
   $light-grey: #dddddd; // for backgrounds only
 
@@ -91,9 +94,18 @@
     }
   }
 
-a {
-  color: $primary-color;
-}
+  a {
+    color: $primary-color;
+    text-decoration: none;
+    padding: 10px 0;
+    border-bottom: 1px solid $pink;
+    transition: all .4s ease;
+
+    &:hover {
+      border-bottom: 5px solid $pink;
+      border-width: 100%;
+    }
+  }
 
 
   ul {
@@ -104,7 +116,7 @@ a {
   li {
         &.subtitle {
       font-weight: $light;
-      color: $mid-grey;
+      color: $pink;
       font-size: .75em;
       margin-top: 1em;
     }
@@ -135,9 +147,10 @@ a {
   //DIV STYLINGS//
 
 .wrapper {
-    display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 4em;
+  display: grid;
+	grid-template-columns: repeat(12, [col-start] 1fr [col-end]);
+  grid-column-gap: 1em;
+  grid-row-gap: 5em;
 
     // grid-template-areas: a thing to explore later; cool a a b type formatting
     //   "header"
@@ -146,53 +159,75 @@ a {
     //   "footer"
 }
 
-.intro {
-	grid-row: 1;
-	grid-column: 1;
-	padding-right: 10em;
-}
-
-.item { 
+.item {
   padding: 1em;
   height: 50vmin;
 }
 
+.triptych {
+  grid-column: col / span 2;
+}
+
+#bio {
+  grid-column: 1 / span 6;
+}
+
+#headshot {
+  grid-column: 7 / span 6;
+  background-color: $pink;
+}
+
 // WORK STYLINGS //
+
 #lovelust {
+  grid-column: 3 / span 3;
 	background: #f12711;  /*fallback for old browsers */
 	background: -webkit-linear-gradient(to bottom, #f5af19, #f12711);
 	background: linear-gradient(to bottom, #f5af19, #f12711);
 	text-align: center;
-	grid-column: span 2;
+}
+
+#lovelustcopy {
+  grid-column: 8 / span 3;
+}
+
+#skillshare {
+  grid-column: 7 / span 4;
+  background: #FEAC5E;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #4BC0C8, #C779D0, #FEAC5E);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #4BC0C8, #C779D0, #FEAC5E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#skillsharecopy {
+  grid-column: 3 / span 3;
+}
+
+#experience {
+  grid-column-start: 3;
+}
+
+#clients {
+  grid-column-start: 6;
+}
+
+#skills {
+  grid-column-start: 9;
 }
 
 // MEDIA QUERIES //
 
 @media screen and (min-width: 200px) {
-  .wrapper {
-    grid-template-columns: 1fr;
-  }
+
 }
 
 @media screen and (min-width: 600px) {
-  .wrapper {
-    grid-template-columns: 1fr 1fr;
-  }
-  .intro {
-  	grid-column: span 2;
-  }
+
 }
 
 @media screen and (min-width: 1440px) {
-  .wrapper {
-    grid-template-columns: 1fr 1fr 1fr;
-  }
-
 
 }
 
 @media screen and (min-width: 1920px) {
-  .wrapper {
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-  }
+
 }
