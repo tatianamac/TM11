@@ -9,6 +9,9 @@
   $black: #000000;
   $white: #ffffff;
 
+  $yellow: #ffd400;
+  $red: #FF5327;
+
   $mid-grey: #767676; // the lightest shade of grey you can get away with, #a11y
   $light-grey: #dddddd; // for backgrounds only
 
@@ -69,6 +72,11 @@
   vertical-align: middle;
   }
 
+  h5 {
+    color: $mid-grey;
+    font-weight: $regular;
+  }
+
 
   p {
     color: $mid-grey;
@@ -78,6 +86,9 @@
       font-size: .75em;
     }
 
+  &.emojinisimo {
+      font-size: 5em;
+    }
   }
 
 a {
@@ -90,6 +101,15 @@ a {
   	padding: 0;
   }
 
+  li {
+        &.subtitle {
+      font-weight: $light;
+      color: $mid-grey;
+      font-size: .75em;
+      margin-top: 1em;
+    }
+  }
+
   // COMPONENTS //
 
   button {
@@ -97,7 +117,7 @@ a {
     text-transform: uppercase;
 	  font-size: .75em;
 	  padding: 1em;
-    margin: 1em 0;
+    margin: 1em 1em 0 0;
 
     &.primary {
     border: 1px solid $white;
@@ -148,7 +168,7 @@ a {
 
 // MEDIA QUERIES //
 
-@media screen and (min-width: 300px) {
+@media screen and (min-width: 200px) {
   .wrapper {
     grid-template-columns: 1fr;
   }
