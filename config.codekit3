@@ -44,15 +44,22 @@
 		"oF": 0,
 		"oS": 3
 		},
-	"\/gulpfile.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
+	"\/images\/36556B481AF9BFD6._t_": {
+		"cB": 0,
+		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/gulpfile-min.js",
+		"oAP": "\/images\/36556B481AF9BFD6._t_",
+		"oF": 0
+		},
+	"\/images\/snakes_illo.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/snakes_illo.svg",
 		"oF": 0,
-		"sC": 3,
-		"tS": 0
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"\/images\/tatianamac_logo.svg": {
 		"ft": 2097152,
