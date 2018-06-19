@@ -12,7 +12,7 @@
   $yellow: #ffd400;
   $red: #FF5327;
 
-  $pink: #e536ba;
+  $pink: #FF0DD1;
 
 
   $mid-grey: #767676; // the lightest shade of grey you can get away with, #a11y
@@ -97,13 +97,13 @@
   a {
     color: $primary-color;
     text-transform: uppercase;
-    font-size: .75em;
+    font-size: .8em;
     letter-spacing: .1em;
     text-decoration: none;
     padding: 10px 0;
-    margin-right: 10em;
+    margin-right: 5em;
     border-bottom: 1px solid $primary-color;
-    transition: all .4s ease;
+    transition: all .2s ease-in;
 
     &:hover {
       border-bottom: 5px solid $pink;
@@ -157,9 +157,10 @@
 .wrapper {
 
   display: grid;
-	grid-template-columns: repeat(12, [col-start] 1fr [col-end]);
-  grid-column-gap: 1em;
-  grid-row-gap: 5em;
+	grid-template-columns: repeat(12, [col] 1fr [col]);
+  grid-auto-rows: minmax (50vmin, auto);
+  grid-column-gap: 2em;
+  grid-row-gap: 6em;
 
     // grid-template-areas: a thing to explore later; cool a a b type formatting
     //   "header"
@@ -170,7 +171,6 @@
 
 .item {
   padding: 1em;
-  height: 50vmin;
 }
 
 .triptych {
@@ -217,7 +217,8 @@ nav {
 // WORK STYLINGS //
 
 #lovelust {
-  grid-column: 3 / span 3;
+  grid-column: 2 / span 3;
+  grid-row: 2;
 	background: #f12711;  /*fallback for old browsers */
 	background: -webkit-linear-gradient(to bottom, #f5af19, #f12711);
 	background: linear-gradient(to bottom, #f5af19, #f12711);
@@ -226,10 +227,18 @@ nav {
 
 #lovelustcopy {
   grid-column: 8 / span 3;
+  grid-row: 2;
+}
+
+#lovelustimg {
+  vertical-align: middle;
+  grid-column: 3 / span 4;
+  grid-row: 2;
 }
 
 #skillshare {
-  grid-column: 7 / span 4;
+  grid-column: 8 / span 3;
+  grid-row: 3;
   background: #FEAC5E;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to top, #4BC0C8, #C779D0, #FEAC5E);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to top, #4BC0C8, #C779D0, #FEAC5E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -237,6 +246,13 @@ nav {
 
 #skillsharecopy {
   grid-column: 3 / span 3;
+  grid-row: 3;
+}
+
+#skillshareimg {
+  grid-column: 6 / span 6;
+  grid-row: 3;
+  padding: 3em;
 }
 
 #experience {
