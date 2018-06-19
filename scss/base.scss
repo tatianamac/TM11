@@ -84,21 +84,25 @@
   p {
     color: $mid-grey;
 
-   &.wip {
-      font-style: italic;
-      font-size: .75em;
-    }
-
   &.emojinisimo {
       font-size: 5em;
     }
   }
 
+  .wip {
+     font-style: italic;
+     color: $mid-grey;
+   }
+
   a {
     color: $primary-color;
+    text-transform: uppercase;
+    font-size: .75em;
+    letter-spacing: .1em;
     text-decoration: none;
     padding: 10px 0;
-    border-bottom: 1px solid $pink;
+    margin-right: 10em;
+    border-bottom: 1px solid $primary-color;
     transition: all .4s ease;
 
     &:hover {
@@ -111,14 +115,18 @@
   ul {
   	list-style: none outside;
   	padding: 0;
+    line-height: 1.3;
   }
 
   li {
+    margin-bottom: 8px;
+
         &.subtitle {
       font-weight: $light;
       color: $pink;
-      font-size: .75em;
       margin-top: 1em;
+      font-size: .75em;
+
     }
   }
 
@@ -147,6 +155,7 @@
   //DIV STYLINGS//
 
 .wrapper {
+
   display: grid;
 	grid-template-columns: repeat(12, [col-start] 1fr [col-end]);
   grid-column-gap: 1em;
@@ -167,6 +176,34 @@
 .triptych {
   grid-column: col / span 2;
 }
+// NAVIGATION //
+nav {
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(2, 1fr);
+
+  ul {
+    text-align: right;
+  }
+
+  li {
+    display: inline;
+    margin-right: 5em;
+
+    a {
+      margin: 0;
+      font-size: .75em;
+      letter-spacing: normal;
+      color: $black;
+    }
+
+    a:hover {
+      border-bottom: 5px solid $pink;
+      border-width: 100%;
+    }
+  }
+}
+// HERO STYLINGS //
 
 #bio {
   grid-column: 1 / span 6;
@@ -174,7 +211,7 @@
 
 #headshot {
   grid-column: 7 / span 6;
-  background-color: $pink;
+  // background-color: $pink;
 }
 
 // WORK STYLINGS //
