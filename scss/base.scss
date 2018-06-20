@@ -116,6 +116,18 @@
         font-size: .75em;
         color: $primary-color;
     }
+
+    &.comingsoon {
+      color: $mid-grey;
+      text-transform: uppercase;
+      font-size: .8em;
+      letter-spacing: .1em;
+      text-decoration: none;
+      padding: 10px 0;
+      margin-right: 2em;
+      border-bottom: 1px solid $primary-color;
+      transition: all .2s ease-in;
+    }
   }
 
 
@@ -172,7 +184,7 @@
 }
 
 .item {
-  padding: 1em;
+/*  padding: 1em;*/
 }
 
 // NAVIGATION //
@@ -221,45 +233,31 @@ nav {
 	// text-align: center;
 }
 
-// #lovelustcopy {
-//   grid-column: span 3;
-// }
-//
-// #lovelustimg {
-//   grid-column: span 4;
-//   display: flex;
-//   justify-content: middle;
-// }
-
 #skillshare {
   grid-column: span 3;
-  background: #FEAC5E;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to top, #4BC0C8, #C779D0, #FEAC5E);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to top, #4BC0C8, #C779D0, #FEAC5E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background:  #a6c1ee;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #fbc2eb, #a6c1ee);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #fbc2eb, #a6c1ee); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
-// #skillsharecopy {
-//   grid-column: span 3;
-// }
-//
-// #skillshareimg {
-//   grid-column: span 5;
-//   padding: 4em;
-//   display: flex;
-//   justify-content: center;
-// }
-//
-// #experience {
-//   grid-column-start: 3;
-// }
-//
-// #clients {
-//   grid-column-start: 6;
-// }
-//
-// #skills {
-//   grid-column-start: 9;
-// }
+#butterflies {
+  background: #f5576c;
+  background: linear-gradient(120deg, #f093fb, #f5576c);
+  background: -webkit-linear-gradient(120deg, #f093fb, #f5576c);
+
+}
+
+#ucx {
+  background: #c2e9fb;
+  background-image: linear-gradient(120deg, #a1c4fd, #c2e9fb);
+  background-image: -webkit-linear-gradient(120deg, #a1c4fd, #c2e9fb);
+}
+
+#lovelustimg, #butterfliesimg, #skillshareimg, #ucximg {
+  padding: 10%;
+  display: flex;
+}
 
 // MEDIA QUERIES //
 
@@ -296,7 +294,6 @@ nav {
     #lovelustimg {
       grid-column: 1 / span 12;
       grid-row: 2;
-      margin-top: 2em 0;
     }
 
     #skillshare {
@@ -312,51 +309,98 @@ nav {
     #skillshareimg {
       grid-column: 1 / span 12;
       grid-row: 4;
-      padding: 3em;
+    }
+
+    #butterflies {
+      grid-column: 1 / span 12;
+      grid-row: 4;
+  }
+
+    #butterfliescopy {
+      grid-column: span 12;
+      grid-row: 5;
+    }
+
+    #butterfliesimg {
+      grid-column: 1 / span 12;
+      grid-row: 4;
     }
 }
 
 @media screen and (min-width: 600px) {
+.wrapper {
+  grid-auto-rows: minmax(500px, auto);
+  grid-column-gap: 2em;
+  grid-row-gap: 3em;
+  }
 
-    #lovelust {
+    #butterflies {
       grid-column: 1 / span 6;
       grid-row: 2;
     }
 
-    #lovelustcopy {
+    #butterfliescopy {
       grid-column: span 6;
       grid-row: 3;
     }
 
-    #lovelustimg {
+    #butterfliesimg {
       grid-column: 1 / span 6;
       grid-row: 2;
-      margin-top: 2em 0;
     }
 
-    #skillshare {
+    #ucx {
       grid-column: 7 / span 6;
       grid-row: 2;
   }
 
-    #skillsharecopy {
+    #ucxcopy {
       grid-column: span 6;
       grid-row: 3;
     }
 
-    #skillshareimg {
+    #ucximg {
       grid-column: 7 / span 6;
       grid-row: 2;
-      padding: 3em;
+    }
+
+    #lovelust {
+      grid-column: 1 / span 6;
+      grid-row: 4;
+    }
+
+    #lovelustcopy {
+      grid-column: span 6;
+      grid-row: 5;
+    }
+
+    #lovelustimg {
+      grid-column: 1 / span 6;
+      grid-row: 4;
+    }
+
+    #skillshare {
+      grid-column: 7 / span 6;
+      grid-row: 4;
+  }
+
+    #skillsharecopy {
+      grid-column: span 6;
+      grid-row: 5;
+    }
+
+    #skillshareimg {
+      grid-column: 7 / span 6;
+      grid-row: 4;
     }
 
     .triptych {
       grid-column: span 4;
-      // grid-row: 4;
+      grid-row: 6;
     }
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1240px) {
 .wrapper {
   grid-auto-rows: minmax(500px, auto);
   grid-column-gap: 2em;
@@ -375,10 +419,6 @@ nav {
   #butterflies {
     grid-column: 5 / span 2;
     grid-row: 2;
-  	// background: #f12711;  /*fallback for old browsers */
-  	// background: -webkit-linear-gradient(to bottom, #f5af19, #f12711);
-  	// background: linear-gradient(to bottom, #f5af19, #f12711);
-  	// text-align: center;
   }
 
   #butterfliescopy {
@@ -394,12 +434,8 @@ nav {
   }
 
   #ucx {
-    grid-column: 10 / span 2;
+    grid-column: 11 / span 2;
     grid-row: 2;
-  	// background: #f12711;  /*fallback for old browsers */
-  	// background: -webkit-linear-gradient(to bottom, #f5af19, #f12711);
-  	// background: linear-gradient(to bottom, #f5af19, #f12711);
-  	// text-align: center;
   }
 
   #ucxcopy {
@@ -410,18 +446,12 @@ nav {
   #ucximg {
     grid-column: 10 / span 3;
     grid-row: 2;
-    display: flex;
-    justify-content: middle;
   }
 
 
   #lovelust {
     grid-column: 2 / span 2;
     grid-row: 3;
-  	// background: #f12711;  /*fallback for old browsers */
-  	// background: -webkit-linear-gradient(to bottom, #f5af19, #f12711);
-  	// background: linear-gradient(to bottom, #f5af19, #f12711);
-  	// text-align: center;
   }
 
   #lovelustcopy {
@@ -432,8 +462,6 @@ nav {
   #lovelustimg {
     grid-column: 1 / span 3;
     grid-row: 3;
-    display: flex;
-    justify-content: middle;
   }
 
   #skillshare {
@@ -449,13 +477,11 @@ nav {
   #skillshareimg {
     grid-column: 6 / span 4;
     grid-row: 3;
-    display: flex;
-    justify-content: middle;
   }
 
   .triptych {
     grid-column: span 4;
-    // grid-row: 3;
+    grid-row: 4;
   }
 
 }
