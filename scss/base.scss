@@ -207,6 +207,12 @@ nav {
 
 // WORK STYLINGS //
 
+#butterflies {
+  background: #3a7bd5;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #3a6073, #3a7bd5);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #3a6073, #3a7bd5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
 #lovelust {
   grid-column: span 3;
 	background: #f12711;  /*fallback for old browsers */
@@ -272,11 +278,11 @@ nav {
     grid-column: span 12;
   }
 
-  #bio {
-    grid-column: span 12;
-    grid-row: 1;
+    #bio {
+      grid-column: span 12;
+      grid-row: 1;
   }
-}
+
     #lovelust {
       grid-column: 1 / span 12;
       grid-row: 2;
@@ -308,7 +314,7 @@ nav {
       grid-row: 4;
       padding: 3em;
     }
-
+}
 
 @media screen and (min-width: 600px) {
 
@@ -366,9 +372,52 @@ nav {
     // background-color: $pink;
   }
 
+  #butterflies {
+    grid-column: 5 / span 2;
+    grid-row: 2;
+  	// background: #f12711;  /*fallback for old browsers */
+  	// background: -webkit-linear-gradient(to bottom, #f5af19, #f12711);
+  	// background: linear-gradient(to bottom, #f5af19, #f12711);
+  	// text-align: center;
+  }
+
+  #butterfliescopy {
+    grid-column: 1 / span 3;
+    grid-row: 2;
+  }
+
+  #butterfliesimg {
+    grid-column: 4 / span 3;
+    grid-row: 2;
+    display: flex;
+    justify-content: middle;
+  }
+
+  #ucx {
+    grid-column: 10 / span 2;
+    grid-row: 2;
+  	// background: #f12711;  /*fallback for old browsers */
+  	// background: -webkit-linear-gradient(to bottom, #f5af19, #f12711);
+  	// background: linear-gradient(to bottom, #f5af19, #f12711);
+  	// text-align: center;
+  }
+
+  #ucxcopy {
+    grid-column: 7 / span 3;
+    grid-row: 2;
+  }
+
+  #ucximg {
+    grid-column: 10 / span 3;
+    grid-row: 2;
+    display: flex;
+    justify-content: middle;
+  }
+
+
   #lovelust {
     grid-column: 2 / span 2;
-    grid-row: 2;
+    grid-row: 3;
   	// background: #f12711;  /*fallback for old browsers */
   	// background: -webkit-linear-gradient(to bottom, #f5af19, #f12711);
   	// background: linear-gradient(to bottom, #f5af19, #f12711);
@@ -377,29 +426,29 @@ nav {
 
   #lovelustcopy {
     grid-column: 4 / span 2;
-    grid-row: 2;
+    grid-row: 3;
   }
 
   #lovelustimg {
     grid-column: 1 / span 3;
-    grid-row: 2;
+    grid-row: 3;
     display: flex;
     justify-content: middle;
   }
 
   #skillshare {
     grid-column: 7 / span 2;
-    grid-row: 2;
+    grid-row: 3;
 }
 
   #skillsharecopy {
     grid-column: 10 / span 3;
-    grid-row: 2;
+    grid-row: 3;
   }
 
   #skillshareimg {
     grid-column: 6 / span 4;
-    grid-row: 2;
+    grid-row: 3;
     display: flex;
     justify-content: middle;
   }
