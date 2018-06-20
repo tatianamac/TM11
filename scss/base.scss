@@ -34,7 +34,7 @@
       font-family: $sans-serif;
       font-weight: $light;
       font-size: 20px; //The smallest it should be!
-      line-height: 1.5;
+      line-height: 1.45;
       color: $black;
       padding: 4em;
   }
@@ -101,13 +101,20 @@
     letter-spacing: .1em;
     text-decoration: none;
     padding: 10px 0;
-    margin-right: 5em;
+    margin-right: 2em;
     border-bottom: 1px solid $primary-color;
     transition: all .2s ease-in;
 
     &:hover {
       border-bottom: 5px solid $pink;
       border-width: 100%;
+    }
+
+    &:after {
+        content: "\2197";
+        margin-left: 1em;
+        font-size: .75em;
+        color: $primary-color;
     }
   }
 
@@ -155,13 +162,8 @@
   //DIV STYLINGS//
 
 .wrapper {
-
   display: grid;
 	grid-template-columns: repeat(12, [col] 1fr [col]);
-  grid-auto-rows: minmax (50vmin, auto);
-  grid-column-gap: 2em;
-  grid-row-gap: 6em;
-
     // grid-template-areas: a thing to explore later; cool a a b type formatting
     //   "header"
     //   "nav"
@@ -173,9 +175,6 @@
   padding: 1em;
 }
 
-.triptych {
-  grid-column: col / span 2;
-}
 // NAVIGATION //
 nav {
   display: grid;
@@ -188,7 +187,7 @@ nav {
 
   li {
     display: inline;
-    margin-right: 5em;
+    margin-right: 1em;
 
     a {
       margin: 0;
@@ -205,82 +204,242 @@ nav {
 }
 // HERO STYLINGS //
 
-#bio {
-  grid-column: 1 / span 6;
-}
-
-#headshot {
-  grid-column: 7 / span 6;
-  // background-color: $pink;
-}
 
 // WORK STYLINGS //
 
 #lovelust {
-  grid-column: 2 / span 3;
-  grid-row: 2;
+  grid-column: span 3;
 	background: #f12711;  /*fallback for old browsers */
 	background: -webkit-linear-gradient(to bottom, #f5af19, #f12711);
 	background: linear-gradient(to bottom, #f5af19, #f12711);
-	text-align: center;
+	// text-align: center;
 }
 
-#lovelustcopy {
-  grid-column: 8 / span 3;
-  grid-row: 2;
-}
-
-#lovelustimg {
-  vertical-align: middle;
-  grid-column: 3 / span 4;
-  grid-row: 2;
-}
+// #lovelustcopy {
+//   grid-column: span 3;
+// }
+//
+// #lovelustimg {
+//   grid-column: span 4;
+//   display: flex;
+//   justify-content: middle;
+// }
 
 #skillshare {
-  grid-column: 8 / span 3;
-  grid-row: 3;
+  grid-column: span 3;
   background: #FEAC5E;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to top, #4BC0C8, #C779D0, #FEAC5E);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to top, #4BC0C8, #C779D0, #FEAC5E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-#skillsharecopy {
-  grid-column: 3 / span 3;
-  grid-row: 3;
-}
-
-#skillshareimg {
-  grid-column: 6 / span 6;
-  grid-row: 3;
-  padding: 3em;
-}
-
-#experience {
-  grid-column-start: 3;
-}
-
-#clients {
-  grid-column-start: 6;
-}
-
-#skills {
-  grid-column-start: 9;
-}
+// #skillsharecopy {
+//   grid-column: span 3;
+// }
+//
+// #skillshareimg {
+//   grid-column: span 5;
+//   padding: 4em;
+//   display: flex;
+//   justify-content: center;
+// }
+//
+// #experience {
+//   grid-column-start: 3;
+// }
+//
+// #clients {
+//   grid-column-start: 6;
+// }
+//
+// #skills {
+//   grid-column-start: 9;
+// }
 
 // MEDIA QUERIES //
 
 @media screen and (min-width: 200px) {
+  body {
+    padding: 2em;
+  }
 
+  .wrapper {
+    grid-auto-rows: minmax(200px, auto);
+    grid-column-gap: 1em;
+    grid-row-gap: 2em;
+  }
+
+  .triptych {
+    grid-column: span 12;
+  }
+
+  #bio {
+    grid-column: span 12;
+    grid-row: 1;
+  }
 }
+    #lovelust {
+      grid-column: 1 / span 12;
+      grid-row: 2;
+    }
+
+    #lovelustcopy {
+      grid-column: span 12;
+      grid-row: 3;
+    }
+
+    #lovelustimg {
+      grid-column: 1 / span 12;
+      grid-row: 2;
+      margin-top: 2em 0;
+    }
+
+    #skillshare {
+      grid-column: 1 / span 12;
+      grid-row: 4;
+  }
+
+    #skillsharecopy {
+      grid-column: span 12;
+      grid-row: 5;
+    }
+
+    #skillshareimg {
+      grid-column: 1 / span 12;
+      grid-row: 4;
+      padding: 3em;
+    }
+
 
 @media screen and (min-width: 600px) {
 
+    #lovelust {
+      grid-column: 1 / span 6;
+      grid-row: 2;
+    }
+
+    #lovelustcopy {
+      grid-column: span 6;
+      grid-row: 3;
+    }
+
+    #lovelustimg {
+      grid-column: 1 / span 6;
+      grid-row: 2;
+      margin-top: 2em 0;
+    }
+
+    #skillshare {
+      grid-column: 7 / span 6;
+      grid-row: 2;
+  }
+
+    #skillsharecopy {
+      grid-column: span 6;
+      grid-row: 3;
+    }
+
+    #skillshareimg {
+      grid-column: 7 / span 6;
+      grid-row: 2;
+      padding: 3em;
+    }
+
+    .triptych {
+      grid-column: span 4;
+      // grid-row: 4;
+    }
 }
 
 @media screen and (min-width: 1440px) {
+.wrapper {
+  grid-auto-rows: minmax(500px, auto);
+  grid-column-gap: 2em;
+  grid-row-gap: 6em;
+  }
 
+  #bio {
+    grid-column: 1 / span 6;
+  }
+
+  #headshot {
+    grid-column: 7 / span 6;
+    // background-color: $pink;
+  }
+
+  #lovelust {
+    grid-column: 2 / span 2;
+    grid-row: 2;
+  	// background: #f12711;  /*fallback for old browsers */
+  	// background: -webkit-linear-gradient(to bottom, #f5af19, #f12711);
+  	// background: linear-gradient(to bottom, #f5af19, #f12711);
+  	// text-align: center;
+  }
+
+  #lovelustcopy {
+    grid-column: 4 / span 2;
+    grid-row: 2;
+  }
+
+  #lovelustimg {
+    grid-column: 1 / span 3;
+    grid-row: 2;
+    display: flex;
+    justify-content: middle;
+  }
+
+  #skillshare {
+    grid-column: 7 / span 2;
+    grid-row: 2;
 }
 
-@media screen and (min-width: 1920px) {
+  #skillsharecopy {
+    grid-column: 10 / span 3;
+    grid-row: 2;
+  }
 
+  #skillshareimg {
+    grid-column: 6 / span 4;
+    grid-row: 2;
+    display: flex;
+    justify-content: middle;
+  }
+
+  .triptych {
+    grid-column: span 4;
+    // grid-row: 3;
+  }
+
+}
+@media screen and (min-width: 1920px) {
+//   #lovelust {
+//     grid-column: 2 / span 3;
+//     grid-row: 2;
+//   	// text-align: center;
+//   }
+//
+//   #lovelustcopy {
+//     grid-column: 8 / span 3;
+//     grid-row: 2;
+//   }
+//
+//   #lovelustimg {
+//     grid-column: 1 / span 5;
+//     grid-row: 2;
+//   }
+//
+//   #skillshare {
+//     grid-column: 5 / span 3;
+//     grid-row: 3;
+// }
+//
+//   #skillsharecopy {
+//     grid-column: 1 / span 3;
+//     grid-row: 3;
+//   }
+//
+//   #skillshareimg {
+//     grid-column: 4 / span 5;
+//     grid-row: 3;
+//     padding: 4em;
+//   }
 }
