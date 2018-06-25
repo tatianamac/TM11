@@ -334,8 +334,13 @@ nav {
   background-image: -webkit-linear-gradient(120deg, #D4D4FF, #B8B8FFb);
 }
 
-#lovelustimg, #butterfliesimg, #skillshareimg, #tbellimg {
+#lovelustimg, #butterfliesimg, #skillshareimg {
   padding: 0 10%;
+  display: flex;
+}
+
+#tbellimg {
+  padding: 10% 0;
   display: flex;
 }
 
