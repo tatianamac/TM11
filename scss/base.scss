@@ -2,6 +2,15 @@
 @import url('https://fonts.googleapis.com/css?family=Lora|Karla|Assistant');
 /*@import url("https://use.typekit.net/yqw7qlf.css");
 */
+<<<<<<< HEAD
+=======
+
+// BASE //
+
+img {
+  height: 100%;
+}
+
 // COLORS //
   $primary-color: #0e4bff; //cobalt blue is so pretty//
   $secondary-color: #F3F315; //
@@ -141,6 +150,7 @@
         color: $primary-color;
         text-decoration: none;
         transition: all .2s ease-in;
+<<<<<<< HEAD
     }
 
     &.intext {
@@ -151,6 +161,18 @@
       padding: 0;
     }
 
+=======
+    }
+
+    &.intext {
+      text-decoration: none;
+      text-transform: none;
+      font-size: inherit;
+      margin-right: 0;
+      padding: 0;
+    }
+
+>>>>>>> 714751046e1f9faa910b8781928a74895d4a4ef2
     &.intext:after {
       content: "";
       margin-left: 0;
@@ -226,9 +248,14 @@
 
 .logo {
   margin: 1em 0;
+<<<<<<< HEAD
   width: 40px;
 }
 
+=======
+
+}
+>>>>>>> 714751046e1f9faa910b8781928a74895d4a4ef2
 .item {
 /*  padding: 1em;*/
 }
@@ -334,6 +361,7 @@ nav {
   background-image: -webkit-linear-gradient(120deg, #D4D4FF, #B8B8FFb);
 }
 
+<<<<<<< HEAD
 #lovelustimg, #butterfliesimg, #skillshareimg {
   padding: 0 10%;
   display: flex;
@@ -342,6 +370,11 @@ nav {
 #tbellimg {
   padding: 10% 0;
   display: flex;
+=======
+#lovelustimg, #butterfliesimg, #skillshareimg, #tbellimg {
+  padding: 0 10%;
+  display: flex;
+>>>>>>> 714751046e1f9faa910b8781928a74895d4a4ef2
 }
 
 
