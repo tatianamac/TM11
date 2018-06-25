@@ -150,7 +150,6 @@ img {
         color: $primary-color;
         text-decoration: none;
         transition: all .2s ease-in;
-<<<<<<< HEAD
     }
 
     &.intext {
@@ -160,11 +159,9 @@ img {
       margin-right: 0;
       padding: 0;
     }
-
-=======
     }
 
-    &.intext {
+/*    &.intext {
       text-decoration: none;
       text-transform: none;
       font-size: inherit;
@@ -172,13 +169,11 @@ img {
       padding: 0;
     }
 
->>>>>>> 714751046e1f9faa910b8781928a74895d4a4ef2
     &.intext:after {
       content: "";
       margin-left: 0;
     }
-
-  }
+*/
 
   ul {
   	list-style: none outside;
@@ -248,14 +243,9 @@ img {
 
 .logo {
   margin: 1em 0;
-<<<<<<< HEAD
   width: 40px;
 }
 
-=======
-
-}
->>>>>>> 714751046e1f9faa910b8781928a74895d4a4ef2
 .item {
 /*  padding: 1em;*/
 }
@@ -374,7 +364,6 @@ nav {
 #lovelustimg, #butterfliesimg, #skillshareimg, #tbellimg {
   padding: 0 10%;
   display: flex;
->>>>>>> 714751046e1f9faa910b8781928a74895d4a4ef2
 }
 
 
