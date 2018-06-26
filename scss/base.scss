@@ -17,17 +17,18 @@ img {
   $white: #ffffff;
   $beige: #F5F4EE;
 
-  $fuschia: #B2098B;
-  $yellow: #FFD926; /*#FFBC0E; #ffd400;*/
-  $red: #FF5327;
-
-  $pink: #FF0DD1;
-
-  $true-blue: #0531B2;
-
   $dark-grey: #333333;
   $mid-grey: #767676; // the lightest shade of grey you can get away with, #a11y
   $light-grey: #eeeeee; // for backgrounds only
+
+
+  $fuschia: #B2098B;
+  $yellow: #FFD926; /*#FFBC0E; #ffd400;*/
+  $red: #FF5327;
+  $pink: #FF0DD1;
+  $true-blue: #0531B2;
+
+  $curry: #cbab00;
 
 // TYPOGRAPHY //
 
@@ -270,6 +271,8 @@ img {
   }
 }
 
+
+
 // NAVIGATION //
 nav {
   display: grid;
@@ -299,6 +302,17 @@ nav {
 }
 // HERO STYLINGS //
 
+#workhero {
+  background: $curry;
+/*  background: #cbab00 url('../images/teocalihero.png') no-repeat right bottom;
+  background-size: contain;*/
+}
+
+#workintro {
+  h2 {
+  color: $black;
+  }
+}
 
 // WORK STYLINGS //
 
@@ -345,9 +359,6 @@ nav {
   display: flex;
 }
 
-#workhero {
-}
-
 // MEDIA QUERIES //
 
 @media screen and (min-width: 200px) {
@@ -365,13 +376,21 @@ nav {
     grid-column: span 12;
   }
 
+  #workhero {
+    padding: 2em 0 0 2em;
+  }
+
   h1 {
     font-size: 1.5em;
   }
 
-  #bio, #workhero {
+  #bio, #workintro {
       grid-column: span 12;
       grid-row: 1;
+  }
+  #workimage {
+    grid-column: span 12;
+    align-items: right;
   }
 
     #headshot {
@@ -392,8 +411,8 @@ nav {
     #butterfliesimg {
       grid-column: 1 / span 12;
       grid-row: 1;
+      padding: 10%;
     }
-
 
     #tbell {
       grid-column: 1 / span 12;
@@ -408,6 +427,7 @@ nav {
     #tbellimg {
       grid-column: 1 / span 12;
       grid-row: 3;
+      padding: 10%;
     }
 
     #lovelust {
@@ -418,6 +438,7 @@ nav {
     #lovelustimg {
       grid-column: 1 / span 12;
       grid-row: 5;
+      padding: 10%;
     }
 
     #lovelustcopy {
@@ -433,18 +454,20 @@ nav {
     #skillshareimg {
       grid-column: 1 / span 12;
       grid-row: 7;
+      padding: 10%;
     }
 
     #skillsharecopy {
       grid-column: span 12;
       grid-row: 8;
     }
+
 }
 
 @media screen and (min-width: 600px) {
 
 .wrapper {
-  grid-auto-rows: minmax(500px, auto);
+  grid-auto-rows: minmax(300px, auto);
   grid-column-gap: 2em;
   grid-row-gap: 3em;
   }
@@ -453,9 +476,21 @@ nav {
   padding: 4em;
 }
 
+#workhero {
+  padding: 4em 0 0 4em;
+}
+
 h1 {
      font-size: 2em;
 }
+
+/*#workintro {
+  grid-column: span 7;
+}
+
+#workimage {
+  grid-column: span 4;
+}*/
 
     #butterflies {
       grid-column: 1 / span 6;
@@ -522,6 +557,20 @@ h1 {
     }
 }
 
+@media screen and (min-width: 1024px) {
+
+  #workintro {
+    grid-column: 1 / span 8;
+  }
+
+  #workimage {
+    grid-column: span 4;
+    align-items: flex-end;
+    display: flex;
+  }
+
+}
+
 @media screen and (min-width: 1240px) {
 .wrapper {
   grid-auto-rows: minmax(500px, auto);
@@ -529,8 +578,8 @@ h1 {
   grid-row-gap: 5em;
   }
 
-  #bio, #workhero {
-    grid-column: 1 / span 9;
+  #bio {
+    grid-column: 1 / span 6;
   }
 
   #headshot {
