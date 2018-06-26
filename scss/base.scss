@@ -59,7 +59,7 @@ img {
 
   h2 {
   font-family: $sans-serif;
-  color: $mid-grey;
+  color: $dark-grey;
   font-size: 1em;
   font-weight: $thin;
   }
@@ -81,6 +81,19 @@ img {
   h4:after {
   content: "";
   border-bottom: 1px solid $light-grey;
+  display: inline-block;
+  width:100%; height:100%;
+  margin-right:-100%;
+  vertical-align: middle;
+  }
+
+  .triptych h4 {
+    border-color: $pink;
+  }
+
+  .triptych h4:after {
+  content: "";
+  border-bottom: 1px solid $pink;
   display: inline-block;
   width:100%; height:100%;
   margin-right:-100%;
@@ -244,9 +257,8 @@ img {
 
 #experience {
   background-color: $beige;
-  /*color: $white;*/
 
-  a {
+/*  a {
     color: $pink;
     border-bottom: 1px solid $pink;
     transition: all .2s ease-in;
@@ -268,7 +280,7 @@ img {
         text-decoration: none;
         transition: all .2s ease-in;
     }
-  }
+  }*/
 }
 
 
