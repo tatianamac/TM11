@@ -2,6 +2,8 @@
 @import url('https://fonts.googleapis.com/css?family=Lora|Karla|Assistant');
 /*@import url("https://use.typekit.net/yqw7qlf.css");
 */
+<<<<<<< HEAD
+=======
 
 // BASE //
 
@@ -157,13 +159,21 @@ img {
       margin-right: 0;
       padding: 0;
     }
+    }
+
+/*    &.intext {
+      text-decoration: none;
+      text-transform: none;
+      font-size: inherit;
+      margin-right: 0;
+      padding: 0;
+    }
 
     &.intext:after {
       content: "";
       margin-left: 0;
     }
-
-  }
+*/
 
   ul {
   	list-style: none outside;
@@ -183,6 +193,12 @@ img {
       font-size: .75em;
 
     }
+  }
+
+  // IMAGE PROPERTIES //
+  img {
+    width: 100%;
+    height: auto;
   }
 
   // COMPONENTS //
@@ -227,8 +243,9 @@ img {
 
 .logo {
   margin: 1em 0;
-
+  width: 40px;
 }
+
 .item {
 /*  padding: 1em;*/
 }
@@ -334,6 +351,16 @@ nav {
   background-image: -webkit-linear-gradient(120deg, #D4D4FF, #B8B8FFb);
 }
 
+<<<<<<< HEAD
+#lovelustimg, #butterfliesimg, #skillshareimg {
+  padding: 0 10%;
+  display: flex;
+}
+
+#tbellimg {
+  padding: 10% 0;
+  display: flex;
+=======
 #lovelustimg, #butterfliesimg, #skillshareimg, #tbellimg {
   padding: 0 10%;
   display: flex;
