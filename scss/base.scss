@@ -2,8 +2,6 @@
 @import url('https://fonts.googleapis.com/css?family=Lora|Karla|Assistant');
 /*@import url("https://use.typekit.net/yqw7qlf.css");
 */
-<<<<<<< HEAD
-=======
 
 // BASE //
 
@@ -54,28 +52,28 @@ img {
   }
 
   h1 {
-	 line-height: 1.25;
-	 font-family: $serif;
-	 }
+   line-height: 1.25;
+   font-family: $serif;
+   }
 
   h2 {
- 	font-family: $sans-serif;
- 	color: $mid-grey;
- 	font-size: 1em;
- 	font-weight: $thin;
+  font-family: $sans-serif;
+  color: $mid-grey;
+  font-size: 1em;
+  font-weight: $thin;
   }
 
   h3 {
-	font-family: $serif;
-	font-size: 1.35em;
+  font-family: $serif;
+  font-size: 1.35em;
   }
 
   h4 {
-	 text-transform: uppercase;
-	 font-size: .75em;
-	 font-weight: $thin;
-	 letter-spacing: .15em;
-	 border-right: 1px solid $light-grey;
+   text-transform: uppercase;
+   font-size: .75em;
+   font-weight: $thin;
+   letter-spacing: .15em;
+   border-right: 1px solid $light-grey;
    overflow: hidden;
   }
 
@@ -159,25 +157,17 @@ img {
       margin-right: 0;
       padding: 0;
     }
-    }
-
-/*    &.intext {
-      text-decoration: none;
-      text-transform: none;
-      font-size: inherit;
-      margin-right: 0;
-      padding: 0;
-    }
 
     &.intext:after {
       content: "";
       margin-left: 0;
     }
-*/
+
+  }
 
   ul {
-  	list-style: none outside;
-  	padding: 0;
+    list-style: none outside;
+    padding: 0;
     line-height: 1.3;
   }
 
@@ -195,19 +185,13 @@ img {
     }
   }
 
-  // IMAGE PROPERTIES //
-  img {
-    width: 100%;
-    height: auto;
-  }
-
   // COMPONENTS //
 
   button {
-	  font-family: inherit;
+    font-family: inherit;
     text-transform: uppercase;
-	  font-size: .75em;
-	  padding: 1em;
+    font-size: .75em;
+    padding: 1em;
     margin: 1em 1em 0 0;
 
     &.primary {
@@ -228,7 +212,7 @@ img {
 .wrapper {
   background-color: transparent;
   display: grid;
-	grid-template-columns: repeat(12, [col] 1fr [col]);
+  grid-template-columns: repeat(12, [col] 1fr [col]);
     // grid-template-areas: a thing to explore later; cool a a b type formatting
     //   "header"
     //   "nav"
@@ -243,9 +227,8 @@ img {
 
 .logo {
   margin: 1em 0;
-  width: 40px;
-}
 
+}
 .item {
 /*  padding: 1em;*/
 }
@@ -325,10 +308,10 @@ nav {
 }
 
 #lovelust {
-	background: #f12711;  /*fallback for old browsers */
-	background: -webkit-linear-gradient(to bottom, #f5af19, #f12711);
-	background: linear-gradient(to bottom, #f5af19, #f12711);
-	// text-align: center;
+  background: #f12711;  /*fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #f5af19, #f12711);
+  background: linear-gradient(to bottom, #f5af19, #f12711);
+  // text-align: center;
 }
 
 #skillshare {
@@ -351,16 +334,6 @@ nav {
   background-image: -webkit-linear-gradient(120deg, #D4D4FF, #B8B8FFb);
 }
 
-<<<<<<< HEAD
-#lovelustimg, #butterfliesimg, #skillshareimg {
-  padding: 0 10%;
-  display: flex;
-}
-
-#tbellimg {
-  padding: 10% 0;
-  display: flex;
-=======
 #lovelustimg, #butterfliesimg, #skillshareimg, #tbellimg {
   padding: 0 10%;
   display: flex;
@@ -626,7 +599,7 @@ h1 {
 /*//   #lovelust {
 //     grid-column: 2 / span 3;
 //     grid-row: 1;
-//   	// text-align: center;
+//    // text-align: center;
 //   }
 //
 //   #lovelustcopy {

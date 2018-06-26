@@ -44,6 +44,17 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"\/images\/apple-touch-icon.png": {
+		"ft": 32768,
+		"iS": 1175,
+		"oA": 0,
+		"oAP": "\/images\/apple-touch-icon.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/butterflies.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -63,6 +74,27 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"\/images\/safari-pinned-tab.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/safari-pinned-tab.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/site.manifest.png": {
+		"ft": 32768,
+		"iS": 1021,
+		"oA": 0,
+		"oAP": "\/images\/site.manifest.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
 		},
 	"\/images\/skillshare_hero.jpg": {
 		"ft": 16384,
@@ -183,7 +215,7 @@
 	"creationDate": 550961432,
 	"displayValue": "TM11",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "meme-crying",
+	"iconImageName": "\/images\/apple-touch-icon.png",
 	"iconImageWasSetByUser": 0
 	},
 "projectSettings": {
