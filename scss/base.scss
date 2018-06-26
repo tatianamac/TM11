@@ -6,7 +6,7 @@
 // BASE //
 
 img {
-  height: 100%;
+  width: 100%;
 }
 
 // COLORS //
@@ -227,6 +227,7 @@ img {
 
 .logo {
   margin: 1em 0;
+  width: 40px;
 
 }
 .item {
@@ -334,11 +335,18 @@ nav {
   background-image: -webkit-linear-gradient(120deg, #D4D4FF, #B8B8FFb);
 }
 
-#lovelustimg, #butterfliesimg, #skillshareimg, #tbellimg {
+#lovelustimg, #butterfliesimg, #skillshareimg {
   padding: 0 10%;
   display: flex;
 }
 
+#tbellimg {
+  padding: 20%;
+  display: flex;
+}
+
+#workhero {
+}
 
 // MEDIA QUERIES //
 
@@ -361,7 +369,7 @@ nav {
     font-size: 1.5em;
   }
 
-    #bio {
+  #bio, #workhero {
       grid-column: span 12;
       grid-row: 1;
   }
@@ -521,8 +529,8 @@ h1 {
   grid-row-gap: 5em;
   }
 
-  #bio {
-    grid-column: 1 / span 6;
+  #bio, #workhero {
+    grid-column: 1 / span 9;
   }
 
   #headshot {

@@ -44,6 +44,13 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"\/images\/36556B481AF9BFD6._t_": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/images\/36556B481AF9BFD6._t_",
+		"oF": 0
+		},
 	"\/images\/apple-touch-icon.png": {
 		"ft": 32768,
 		"iS": 1175,
@@ -194,8 +201,8 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/scss\/base.css",
-		"oF": 0,
+		"oAP": "\/css\/base.css",
+		"oF": 2,
 		"oS": 0,
 		"uL": 1
 		},
