@@ -408,7 +408,6 @@ background: linear-gradient(to top, #6E48AA, #9D50BB); /* W3C, IE 10+/ Edge, Fir
   }
 
   .wrapper {
-    grid-auto-rows: minmax(200px, auto);
     grid-column-gap: 1em;
     grid-row-gap: 2em;
   }
@@ -513,6 +512,9 @@ background: linear-gradient(to top, #6E48AA, #9D50BB); /* W3C, IE 10+/ Edge, Fir
       grid-row: 8;
     }
 
+    //WORK PAGE//
+
+
     #salondoux {
       grid-column: 1 / -1;
       grid-row: 7;
@@ -565,7 +567,6 @@ background: linear-gradient(to top, #6E48AA, #9D50BB); /* W3C, IE 10+/ Edge, Fir
 @media screen and (min-width: 600px) {
 
 .wrapper {
-  // grid-auto-rows: minmax(300px, auto);
   grid-column-gap: 2em;
   grid-row-gap: 3em;
   }
@@ -581,14 +582,6 @@ background: linear-gradient(to top, #6E48AA, #9D50BB); /* W3C, IE 10+/ Edge, Fir
 h1 {
      font-size: 2em;
 }
-
-/*#workintro {
-  grid-column: span 7;
-}
-
-#workimage {
-  grid-column: span 4;
-}*/
 
     #butterflies {
       grid-column: 1 / span 6;
@@ -734,9 +727,51 @@ h1 {
   }
 }
 
+  #work-butterflies {
+    grid-column: 2 / span 3;
+    grid-row: 1 / span 4;
+        background-color: $pink; /*testing*/
+
+}
+
+  #work-butterfliesimg {
+    grid-column: 2 / span 3;
+    grid-row: 1;
+    padding: 10%;
+        background-color: $pink; /*testing*/
+
+  }
+
+  #work-butterfliestag {
+    grid-column: 4 / 5;
+    grid-row: 2;
+    background-color: $curry; /*testing*/
+  }
+
+  #work-tbelltag {
+    grid-column: 10 / 11;
+    grid-row: 4;
+    background-color: $curry; /*testing*/
+  }
+
+  #work-tbell {
+    grid-column: 7 / span 4;
+    grid-row: 1 / span 6;
+        background-color: $pink; /*testing*/
+
+}
+
+  #work-tbellimg {
+    grid-column: 7 / span 3;
+    grid-row: 1 / span 4;
+    padding: 10%;
+        background-color: $pink; /*testing*/
+
+  }
+
+
 @media screen and (min-width: 1240px) {
 .wrapper {
-  // grid-auto-rows: minmax(500px, auto);
   grid-column-gap: 2em;
   grid-row-gap: 5em;
   }
