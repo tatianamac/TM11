@@ -332,8 +332,12 @@ nav {
 // HERO STYLINGS //
 
 #workhero {
-  background: $curry;
-/*  background: #cbab00 url('../images/teocalihero.png') no-repeat right bottom;
+  background: #cbab00;
+  background-image: -webkit-gradient( linear, left top, left bottom, color-stop( 50%, #cbab00), color-stop( 50%, #cbab00), color-stop( 50%, #ffffff) ); /* Chrome, Safari4+ */
+  background-image: -webkit-linear-gradient(top, #cbab00 70%, #cbab00 70%, #ffffff 30%); /* Chrome10+, Safari5.1+ */    
+  background-image:    -moz-linear-gradient(top, #cbab00 70%, #cbab00 70%, #ffffff 30%); /* Fx3.6+ */   
+  background-image:         linear-gradient(#cbab00 70%, #cbab00 70%, #ffffff 30%); /* W3C */
+/*  background: #cbab00 url('../images/ hero.png') no-repeat right bottom;
   background-size: contain;*/
 }
 
