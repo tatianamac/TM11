@@ -16,20 +16,6 @@
 		"oAP": "\/.gitignore",
 		"oF": 0
 		},
-	"\/.sass-cache\/c931b073d345f62f24e893de50a63b944696d75d\/app.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/.sass-cache\/c931b073d345f62f24e893de50a63b944696d75d\/app.scssc",
-		"oF": 0
-		},
-	"\/.sass-cache\/c931b073d345f62f24e893de50a63b944696d75d\/base.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/.sass-cache\/c931b073d345f62f24e893de50a63b944696d75d\/base.scssc",
-		"oF": 0
-		},
 	"\/CHANGELOG.md": {
 		"cB": 0,
 		"cS": 0,
@@ -57,13 +43,6 @@
 		"oAP": "\/css\/base-min.css",
 		"oF": 0,
 		"oS": 3
-		},
-	"\/css\/base.css.map": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/css\/base.css.map",
-		"oF": 0
 		},
 	"\/images\/apple-touch-icon.png": {
 		"ft": 32768,
