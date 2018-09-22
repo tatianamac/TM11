@@ -24,7 +24,8 @@
   $red: #FF5327;
   $pink: #FF0DD1;
   $blush-pink: #FFF3F3;
-  $true-blue: #0531B2;
+  $true-blue: #0531B2; 
+  $royal-blue: #2159FE;
   $gold: #FFBC0E;
 
   $curry: #cbab00;
@@ -279,10 +280,36 @@ img {
 /*  padding: 1em;*/
 }
 
+#separator {
+  margin:2.5em 0;
+  padding:0;
+  height: 5em;
+}
+
 .zigzag {
+    margin: -7.5em -2.5em;
     height: 5em;
-    background: linear-gradient(-45deg, transparent 74%, $primary-color 75%),
-                linear-gradient( 45deg, transparent 74%, $primary-color 75%) 0 50%;
+    background: linear-gradient(135deg, transparent 74%, $yellow 75%),
+                linear-gradient(-135deg, transparent 74%, $curry 75%) 0 50%;
+    background-repeat: repeat-x;
+    background-size: 5em 5em, 5em 5em;
+}
+
+/*.zigzag2 {
+    margin: -2.5em -2.5em;
+    height: 5em;
+    background: linear-gradient(-45deg, transparent 74%, $red 75%),
+                linear-gradient(45deg, transparent 74%, $blush-pink 75%) 0 50%;
+    background-repeat: repeat-x;
+    background-size: 5em 5em, 5em 5em;
+}*/
+
+.zigzag3 {
+    /*margin: -2.5em -2.5em;*/
+    height: 5em;
+    margin: 7.5em 0;
+    background: linear-gradient(-45deg, transparent 74%, $yellow 75%),
+                linear-gradient(45deg, transparent 74%, $curry 75%) 0 50%;
     background-repeat: repeat-x;
     background-size: 5em 5em, 5em 5em;
 }
@@ -550,19 +577,21 @@ background: linear-gradient(to top, #6E48AA, #9D50BB); /* W3C, IE 10+/ Edge, Fir
   }
 
 
-  #bio, #arrow, #intro, #zigzag, #workintro, #workimage, #worktag, #work-butterfliesimg, #work-butterfliestag, #work-lovelusttag, #work-skillshareimg, #work-skillsharetag, #work-skillshareimg {
+  #bio, #intro, #zigzag, #workintro, #workimage, #worktag, #work-butterfliesimg, #work-butterfliestag, #work-lovelusttag, #work-skillshareimg, #work-skillsharetag, #work-skillshareimg {
       grid-column: span 12;
 /*      grid-row: 1;
 */  }
 
-    #arrow {
-      grid-row: 2;
-    }
-
     #hat, #heroillo {
       grid-column: span 12;
-      padding: 4em;
+      padding: 2em;
     }
+
+/*    #hat, #heroillo {
+      grid-column: span 12;
+      padding: em;
+    }
+*/
 
     #butterflies {
       grid-column: 1 / -1;
@@ -910,7 +939,7 @@ h1 {
   }
 
   #bio, #heroillo {
-    grid-column: span 6;
+    grid-column: 8 / span 4;
   }
 
   #butterflies {
