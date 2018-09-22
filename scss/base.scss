@@ -281,41 +281,41 @@ img {
 }
 
 #separator {
-  margin:2.5em 0;
+  margin:0;
   padding:0;
-  height: 5em;
 }
 
 .zigzag {
-    margin: -7.5em -2.5em;
     height: 5em;
-    background: linear-gradient(135deg, transparent 74%, $yellow 75%),
-                linear-gradient(-135deg, transparent 74%, $curry 75%) 0 50%;
+    background: 
+                linear-gradient(45deg, transparent 50%, $primary-color 50%),
+                linear-gradient(90deg, transparent 50%, $yellow 50%),
+                linear-gradient(135deg, $primary-color 50%, $curry 50%), 0 50%;
+    background-repeat: repeat-x;
+    background-size: 5em 5em, 5em 5em;
+    overflow: hidden;
+}
+
+.zigzag2 {
+    height: 5em;
+    background: linear-gradient(-45deg, transparent 74%, $curry 75%),
+                linear-gradient(45deg, transparent 74%, $yellow 75%) 0 50%;
     background-repeat: repeat-x;
     background-size: 5em 5em, 5em 5em;
 }
 
-/*.zigzag2 {
-    margin: -2.5em -2.5em;
+/*.zigzag3 {
     height: 5em;
-    background: linear-gradient(-45deg, transparent 74%, $red 75%),
-                linear-gradient(45deg, transparent 74%, $blush-pink 75%) 0 50%;
+    background: linear-gradient(-45deg, transparent 74%, $pink 75%),
+                linear-gradient(-135deg, transparent 74%, red 75%) 0 50%;
     background-repeat: repeat-x;
     background-size: 5em 5em, 5em 5em;
+        overflow: hidden;
 }*/
-
-.zigzag3 {
-    /*margin: -2.5em -2.5em;*/
-    height: 5em;
-    margin: 7.5em 0;
-    background: linear-gradient(-45deg, transparent 74%, $yellow 75%),
-                linear-gradient(45deg, transparent 74%, $curry 75%) 0 50%;
-    background-repeat: repeat-x;
-    background-size: 5em 5em, 5em 5em;
-}
 
 #hero {
   background: $primary-color;
+  padding-bottom: 2em;
 }
 
 #intro {
@@ -940,6 +940,7 @@ h1 {
 
   #bio, #heroillo {
     grid-column: 8 / span 4;
+    padding: 0;
   }
 
   #butterflies {
