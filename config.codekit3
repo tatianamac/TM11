@@ -295,6 +295,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/scss\/partials\/typography\/_typography.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/scss\/partials\/typography\/_typography.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/work.html": {
 		"cB": 0,
 		"ft": 8192,

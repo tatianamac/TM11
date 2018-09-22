@@ -1,14 +1,10 @@
 @charset 'utf-8';
 @import url('https://fonts.googleapis.com/css?family=Lora|Karla|Assistant');
-@import url("https://use.typekit.net/nan0dse.css");
+/*@import url("https://use.typekit.net/nan0dse.css");*/
 /*@import url("https://use.typekit.net/yqw7qlf.css");
 */
-
-// BASE //
-
-img {
-  width: 100%;
-}
+/*@import 'partials/typography';
+*/
 
 // COLORS //
   $primary-color: #0e4bff; //cobalt blue is so pretty//
@@ -27,6 +23,7 @@ img {
   $yellow: #FFD926; /*#FFBC0E; #ffd400;*/
   $red: #FF5327;
   $pink: #FF0DD1;
+  $blush-pink: #FFF3F3;
   $true-blue: #0531B2;
   $gold: #FFBC0E;
 
@@ -34,9 +31,8 @@ img {
   $dark-curry: #a88d00;
   $dusty-rose: #cbab99;
 
-// TYPOGRAPHY //
-
-  $sans-serif: "Karla", Helvetica, sans-serif;
+// TYPOGRAPHY // 
+  $sans-serif: /*Circular, "Karla",*/ Helvetica, sans-serif;
   $serif: "Lora", Georgia, serif;
   $mono: "Source Code Pro", Courier, mono;
 
@@ -72,6 +68,7 @@ img {
   h3 {
   font-family: $serif;
   font-size: 1.35em;
+  font-weight: $light;
   }
 
   h4 {
@@ -208,6 +205,11 @@ img {
     }
 
   }
+// BASE //
+
+img {
+  width: 100%;
+}
 
   // COMPONENTS //
 
@@ -281,13 +283,61 @@ img {
   background: $primary-color;
 }
 
-#bio h1, p {
-  color: $white;
+#intro {
+    h1, p {
+      color: $white;
+    }
+
+  a {
+    color: $white;
+    border-bottom: 2px solid $blush-pink;
+    transition: all .2s ease-in;
+
+    &:hover {
+      border-bottom: 5px solid $pink;
+      border-width: 100%;
+    }
+
+    &:hover:after {
+      color: $pink;
+    }
+
+    &:after {
+        color: $primary-color;
+        text-decoration: none;
+    }
+  }
+
+/*    a {
+      margin: 0;
+      font-size: 1em;
+      letter-spacing: normal;
+      color: $white;
+      text-decoration: none;
+      border-bottom: 5px solid $gold;
+      content: "";
+    }
+
+    a:hover {
+      border-bottom: 5px solid $pink;
+      border-width: 100%;
+    }
+
+    a::after {
+      content: "\2197";
+      margin-left: 1em;
+      font-size: .75em;
+      color: $white;
+      text-decoration: none;
+      transition: all .2s ease-in;
+    }*/
 }
 
 #experience {
-  /*background-color: $beige;*/
-
+  background: $blush-pink;
+  p {
+    color: $black;
+  }
 /*  a {
     color: $pink;
     border-bottom: 1px solid $pink;
@@ -490,13 +540,14 @@ background: linear-gradient(to top, #6E48AA, #9D50BB); /* W3C, IE 10+/ Edge, Fir
   }
 
 
-  #bio, #workintro, #workimage, #worktag, #work-butterfliesimg, #work-butterfliestag, #work-lovelusttag, #work-skillshareimg, #work-skillsharetag, #work-skillshareimg {
+  #bio, #intro, #workintro, #workimage, #worktag, #work-butterfliesimg, #work-butterfliestag, #work-lovelusttag, #work-skillshareimg, #work-skillsharetag, #work-skillshareimg {
       grid-column: span 12;
 /*      grid-row: 1;
 */  }
 
-    #headshot {
+    #hat, #heroillo {
       grid-column: span 12;
+      padding: 4em;
 
     }
 
@@ -620,7 +671,7 @@ background: linear-gradient(to top, #6E48AA, #9D50BB); /* W3C, IE 10+/ Edge, Fir
 
 .wrapper {
   grid-column-gap: 2em;
-  grid-row-gap: 3em;
+  grid-row-gap: 2em;
   }
 
 .container {
@@ -742,7 +793,7 @@ h1 {
         }
 
     .triptych {
-      grid-column: span 4;
+      grid-column: span 12;
     }
 }
 
@@ -841,12 +892,12 @@ h1 {
   grid-row-gap: 5em;
   }
 
-  #bio {
-    grid-column: 1 / span 6;
+  #intro, #hat {
+    grid-column: span 6;
   }
 
-  #headshot {
-    grid-column: 7 / span 6;
+  #bio, #heroillo {
+    grid-column: span 6;
   }
 
   #butterflies {
