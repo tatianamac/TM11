@@ -155,14 +155,16 @@
     margin-right: 2em;
     border-bottom: 1px solid $primary-color;
     transition: all .2s ease-in;
+    content: "";
 
     &:hover {
       border-bottom: 5px solid $pink;
-      border-width: 100%;
+      
     }
 
     &:hover:after {
       color: $pink;
+      border-width: 100%;
     }
 
     &:after {
@@ -178,13 +180,13 @@
       text-decoration: none;
       text-transform: none;
       font-size: inherit;
-      margin-right: 0;
+      margin: 0;
       padding: 0;
     }
 
     &.intext:after {
       content: "";
-      margin-left: 0;
+      margin: 0;
     }
 
   }
@@ -201,7 +203,7 @@
 
         &.subtitle {
       font-family: Lora;
-      color: $primary-color;
+      color: $fuschia;
       margin-top: 1.5em;
     }
 
@@ -293,13 +295,30 @@ img {
                 linear-gradient(135deg, $primary-color 50%, $curry 50%), 0 50%;
     background-repeat: repeat-x;
     background-size: 5em 5em, 5em 5em;
-    overflow: hidden;
 }
 
 .zigzag2 {
     height: 5em;
     background: linear-gradient(-45deg, transparent 74%, $curry 75%),
                 linear-gradient(45deg, transparent 74%, $yellow 75%) 0 50%;
+    background-repeat: repeat-x;
+    background-size: 5em 5em, 5em 5em;
+}
+
+.zigzag3 {
+    height: 5em;
+    background: 
+                linear-gradient(45deg, transparent 50%, $white 50%),
+                linear-gradient(90deg, transparent 50%, $light-grey 50%),
+                linear-gradient(135deg, $white 50%, $mid-grey 50%), 0 50%;
+    background-repeat: repeat-x;
+    background-size: 5em 5em, 5em 5em;
+}
+
+.zigzag4 {
+    height: 5em;
+    background: linear-gradient(-45deg, transparent 74%, $mid-grey 75%),
+                linear-gradient(45deg, $blush-pink 74%, $light-grey 75%) 0 50%;
     background-repeat: repeat-x;
     background-size: 5em 5em, 5em 5em;
 }
@@ -343,35 +362,11 @@ img {
     }
   }
   
-
-
-/*    a {
-      margin: 0;
-      font-size: 1em;
-      letter-spacing: normal;
-      color: $white;
-      text-decoration: none;
-      border-bottom: 5px solid $gold;
-      content: "";
-    }
-
-    a:hover {
-      border-bottom: 5px solid $pink;
-      border-width: 100%;
-    }
-
-    a::after {
-      content: "\2197";
-      margin-left: 1em;
-      font-size: .75em;
-      color: $white;
-      text-decoration: none;
-      transition: all .2s ease-in;
-    }*/
 }
 
 #experience {
   background: $blush-pink;
+  padding-top: 0;
   p {
     color: $black;
   }
@@ -934,8 +929,13 @@ h1 {
   grid-row-gap: 5em;
   }
 
-  #intro, #hat {
+  #intro {
     grid-column: span 6;
+  }
+
+  #hat {
+    grid-column: span 6;
+    padding: 2em;
   }
 
   #bio, #heroillo {
@@ -1055,4 +1055,25 @@ h1 {
 //     grid-column: 4 / span 5;
 //     grid-row: 2;
 //   }*/
+}
+
+// ANIMATION //
+
+@keyframes floating {
+    from {
+      transform:translate(0, 0px);
+  }
+    50% {
+      transform:translate(0, -30px);
+  }
+    to {
+      transform: translate(0, 0px);
+  }
+}
+
+.floating {
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
 }
