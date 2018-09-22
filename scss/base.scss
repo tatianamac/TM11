@@ -278,11 +278,11 @@ img {
 }
 
 #hero {
-  background: $beige;
+  background: $primary-color;
 }
 
-#bio p {
-  color: $black;
+#bio h1, p {
+  color: $white;
 }
 
 #experience {
