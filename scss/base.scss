@@ -1,8 +1,8 @@
 @charset 'utf-8';
 @import url('https://fonts.googleapis.com/css?family=Lora|Karla|Assistant');
-/*@import url("https://use.typekit.net/nan0dse.css");*/
-/*@import url("https://use.typekit.net/yqw7qlf.css");
-*/
+@import url("https://use.typekit.net/nan0dse.css");
+@import url("https://use.typekit.net/yqw7qlf.css");
+
 /*@import 'partials/typography';
 */
 
@@ -32,7 +32,7 @@
   $dusty-rose: #cbab99;
 
 // TYPOGRAPHY // 
-  $sans-serif: /*Circular, "Karla",*/ Helvetica, sans-serif;
+  $sans-serif: "Karla", Helvetica, sans-serif;
   $serif: "Lora", Georgia, serif;
   $mono: "Source Code Pro", Courier, mono;
 
@@ -279,6 +279,14 @@ img {
 /*  padding: 1em;*/
 }
 
+.zigzag {
+    height: 5em;
+    background: linear-gradient(-45deg, transparent 74%, $primary-color 75%),
+                linear-gradient( 45deg, transparent 74%, $primary-color 75%) 0 50%;
+    background-repeat: repeat-x;
+    background-size: 5em 5em, 5em 5em;
+}
+
 #hero {
   background: $primary-color;
 }
@@ -307,6 +315,8 @@ img {
         text-decoration: none;
     }
   }
+  
+
 
 /*    a {
       margin: 0;
@@ -540,15 +550,18 @@ background: linear-gradient(to top, #6E48AA, #9D50BB); /* W3C, IE 10+/ Edge, Fir
   }
 
 
-  #bio, #intro, #workintro, #workimage, #worktag, #work-butterfliesimg, #work-butterfliestag, #work-lovelusttag, #work-skillshareimg, #work-skillsharetag, #work-skillshareimg {
+  #bio, #arrow, #intro, #zigzag, #workintro, #workimage, #worktag, #work-butterfliesimg, #work-butterfliestag, #work-lovelusttag, #work-skillshareimg, #work-skillsharetag, #work-skillshareimg {
       grid-column: span 12;
 /*      grid-row: 1;
 */  }
 
+    #arrow {
+      grid-row: 2;
+    }
+
     #hat, #heroillo {
       grid-column: span 12;
       padding: 4em;
-
     }
 
     #butterflies {
