@@ -104,8 +104,8 @@
 
   h5 {
     font-family: $serif;
-    font-weight: $medium;
-    font-size:1.25em;
+    font-weight: $light;
+    font-size:1.75em;
   }
 
 
@@ -201,9 +201,10 @@
     margin-bottom: 10px;
 
         &.subtitle {
-      font-family: Lora;
+      font-family: $serif;
       color: $fuschia;
       margin-top: 1.5em;
+      font-size: 1.25em;
     }
 
   }
