@@ -1,8 +1,6 @@
 @charset 'utf-8';
-@import url('https://fonts.googleapis.com/css?family=Lora|Karla|Assistant');
 @import url("https://use.typekit.net/nan0dse.css");
-@import url("https://use.typekit.net/yqw7qlf.css");
-
+/*@import url('https://fonts.googleapis.com/css?family=Lora|Karla|Assistant');*/
 /*@import 'partials/typography';
 */
 
@@ -33,9 +31,9 @@
   $dusty-rose: #cbab99;
 
 // TYPOGRAPHY // 
-  $sans-serif: "Karla", Helvetica, sans-serif;
-  $serif: "Lora", Georgia, serif;
-  $mono: "Source Code Pro", Courier, mono;
+  $sans-serif: brother-1816, Helvetica, sans-serif;
+  $serif: freight-display-pro, Georgia, serif;
+  $mono: Courier, mono;
 
   $thin: 200;
   $light: 300;
@@ -45,8 +43,8 @@
 
   body {
       font-family: $sans-serif;
-      font-weight: $thin;
-      font-size: 20px; //The smallest it should be!
+      font-weight: $regular;
+      font-size: 18px; //The smallest it should be!
       line-height: 1.45;
       color: $black;
       margin: 0;
@@ -54,7 +52,7 @@
   }
 
   h1 {
-   line-height: 1.25;
+   line-height: 1.1;
    font-family: $serif;
    font-weight: $light;
    }
@@ -63,19 +61,20 @@
   font-family: $sans-serif;
   color: $dark-grey;
   font-size: 1em;
-  font-weight: $thin;
+  font-weight: $light;
   }
 
   h3 {
   font-family: $serif;
-  font-size: 1.35em;
+  font-size: 2em;
+  line-height: 1.25em;
   font-weight: $light;
   }
 
   h4 {
    text-transform: uppercase;
    font-size: .75em;
-   font-weight: $thin;
+   font-weight: $regular;
    letter-spacing: .15em;
    border-right: 1px solid $light-grey;
    overflow: hidden;
@@ -105,7 +104,7 @@
 
   h5 {
     font-family: $serif;
-    font-weight: $regular;
+    font-weight: $medium;
     font-size:1.25em;
   }
 
@@ -370,6 +369,11 @@ img {
   p {
     color: $black;
   }
+
+  #about {
+  align-items: center;
+  display: flex;
+  }
 /*  a {
     color: $pink;
     border-bottom: 1px solid $pink;
@@ -568,12 +572,13 @@ background: linear-gradient(to top, #6E48AA, #9D50BB); /* W3C, IE 10+/ Edge, Fir
   // }
 
   h1 {
-    font-size: 1.5em;
+    font-size: 3em;
   }
 
 
   #bio, #intro, #zigzag, #workintro, #workimage, #worktag, #work-butterfliesimg, #work-butterfliestag, #work-lovelusttag, #work-skillshareimg, #work-skillsharetag, #work-skillshareimg {
       grid-column: span 12;
+
 /*      grid-row: 1;
 */  }
 
@@ -720,7 +725,7 @@ background: linear-gradient(to top, #6E48AA, #9D50BB); /* W3C, IE 10+/ Edge, Fir
 }
 
 h1 {
-     font-size: 2em;
+     font-size: 3em;
 }
 
     #butterflies {
