@@ -1,7 +1,3 @@
-// -----------------------------------------------------------------------------
-// This file contains CSS helper classes.
-// -----------------------------------------------------------------------------
-
 /**
  * Clear inner floats
  */
@@ -25,11 +21,15 @@
  }
 
 @mixin container--tablet() {
+  .container {
   padding: 3em;
+  }
 }
 
 @mixin container--laptop() {
+  .container {
   padding: 4em;
+  }
 }
 
 

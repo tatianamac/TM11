@@ -12,19 +12,58 @@ img {
   width: 100%;
 }
 
-.item {	
+// GRID THINGS
+
+.quarter {	
 	grid-column: span 12;
 }
 
-@mixin item--tablet() {
+@mixin quarter--tablet() {
+	.quarter {
 	grid-column: span 6;
+	}
 }
 
-@mixin item--bigdesktop() {
+@mixin quarter--laptop() {
+	.quarter {
 	grid-column: span 3;
+	}
 }
 
-.skills {
+@mixin quarter--bigdesktop() {
+	.quarter {
+	grid-column: span 2;
+	}
+}
+
+.third {
 	grid-column: span 12;
 }
 
+@mixin third--tablet() {
+	.third {
+	grid-column: span 6;
+	}
+}
+
+@mixin third--laptop() {
+	.third {
+	grid-column: span 4;
+	}
+}
+
+.half {
+	grid-column: span 12;
+}
+
+@mixin half--laptop() {
+	.half {
+	grid-column: span 6;
+	}
+}
+
+// PADDING THINGS
+
+.thinpadding {
+	padding: $thinspace;
+}

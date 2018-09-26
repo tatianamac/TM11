@@ -29,11 +29,15 @@
 }
 
 @mixin wrapperhero--watch() {
+  .wrapper {
     grid-column-gap: 1em;
     grid-row-gap: 2em;
+    }
 }
 
 @mixin wrapperhero--desktop() {
+  .wrapper {
     grid-column-gap: 2em;
     grid-row-gap: 5em;
-}
+    }
+  }
