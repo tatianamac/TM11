@@ -241,6 +241,7 @@ img {
 .wrapper {
   background-color: transparent;
   display: grid;
+  /*grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));*/
   grid-template-columns: repeat(12, [col] 1fr [col]);
     // grid-template-areas: a thing to explore later; cool a a b type formatting
     //   "header"
@@ -255,6 +256,7 @@ img {
   grid-template-rows: repeat (2);
   grid-column-gap: 1em;
   grid-row-gap: 2em;
+  grid-auto-flow: dense;
     // grid-template-areas: a thing to explore later; cool a a b type formatting
     //   "header"
     //   "nav"
@@ -1010,28 +1012,13 @@ h1 {
     grid-row: 2;
   }
 
-//   #ucx {
-//     grid-column: 1 / span 2;
-//     grid-row: 3;
-// }
-//
-//   #ucxcopy {
-//     grid-column: 4 / span 3;
-//     grid-row: 3;
-//   }
-//
-//   #ucximg {
-//     grid-column: 1 / span 4;
-//     grid-row: 3;
-//   }
-
   .triptych {
     grid-column: span 4;
   }
 
 }
-@media screen and (min-width: 1920px) {
-/*//   #lovelust {
+/*@media screen and (min-width: 1920px) {
+//   #lovelust {
 //     grid-column: 2 / span 3;
 //     grid-row: 1;
 //    // text-align: center;
@@ -1060,8 +1047,8 @@ h1 {
 //   #skillshareimg {
 //     grid-column: 4 / span 5;
 //     grid-row: 2;
-//   }*/
-}
+//   }
+}*/
 
 // ANIMATION //
 
