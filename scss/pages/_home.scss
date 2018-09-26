@@ -1,3 +1,342 @@
-// -----------------------------------------------------------------------------
-// This file contains styles that are specific to the home page.
-// -----------------------------------------------------------------------------
+#hero {
+  background: $cobalt;
+}
+
+#intro {
+    h1, p {
+      color: $white;
+    }
+
+ul#herolinks {
+  display: inline;    
+    }
+
+#separator {
+  margin:0;
+  padding:0;
+}
+
+.zigzag {
+    height: 5em;
+    background: 
+                linear-gradient(45deg, transparent 50%, $cobalt 50%),
+                linear-gradient(90deg, transparent 50%, $yellow 50%),
+                linear-gradient(135deg, $cobalt 50%, $curry 50%), 0 50%;
+    background-repeat: repeat-x;
+    background-size: 5em 5em, 5em 5em;
+}
+
+.zigzag2 {
+    height: 5em;
+    background: linear-gradient(-45deg, transparent 74%, $curry 75%),
+                linear-gradient(45deg, transparent 74%, $yellow 75%) 0 50%;
+    background-repeat: repeat-x;
+    background-size: 5em 5em, 5em 5em;
+}
+
+.zigzag3 {
+    height: 5em;
+    background: 
+                linear-gradient(45deg, transparent 50%, $white 50%),
+                linear-gradient(90deg, transparent 50%, $light-grey 50%),
+                linear-gradient(135deg, $white 50%, $mid-grey 50%), 0 50%;
+    background-repeat: repeat-x;
+    background-size: 5em 5em, 5em 5em;
+}
+
+.zigzag4 {
+    height: 5em;
+    background: linear-gradient(-45deg, transparent 74%, $mid-grey 75%),
+                linear-gradient(45deg, $blush-pink 74%, $light-grey 75%) 0 50%;
+    background-repeat: repeat-x;
+    background-size: 5em 5em, 5em 5em;
+}
+
+/*.zigzag3 {
+    height: 5em;
+    background: linear-gradient(-45deg, transparent 74%, $pink 75%),
+                linear-gradient(-135deg, transparent 74%, red 75%) 0 50%;
+    background-repeat: repeat-x;
+    background-size: 5em 5em, 5em 5em;
+        overflow: hidden;
+}*/
+
+
+
+  a {
+    color: $white;
+    border-bottom: 2px solid $blush-pink;
+    transition: all .2s ease-in;
+
+    &:hover {
+      border-bottom: 5px solid $pink;
+      border-width: 100%;
+    }
+
+    &:hover:after {
+      color: $pink;
+    }
+
+    &:after {
+        color: $cobalt;
+        text-decoration: none;
+    }
+  }
+  
+}
+
+@mixin intro--laptop() {
+    grid-column: span 6;
+  }
+// WORK EXAMPLES // 
+
+    #hat {
+      padding: 2em;
+    }
+
+     @mixin hat--laptop() { 
+        grid-column: span 6;
+        padding: 2em;
+    }
+
+    #heroillo {
+      padding: 3em;
+    }
+
+    #bio {
+    padding: 0;
+    }
+
+    #butterflies {
+      grid-row: 1;
+  }
+    @mixin butterflies--tablet() {
+      grid-column: 1 / span 6;
+      grid-row: 1;
+      }
+  
+      @mixin butterflies--desktop() {
+      grid-column: 5 / span 2;
+      grid-row: 1;
+      }
+
+    #butterfliescopy {
+      grid-row: 2;
+    }
+
+          @mixin butterfliescopy--tablet() {
+      grid-column: span 6;
+      grid-row: 2;
+      }
+
+      @mixin butterfliescopy--desktop() {
+      grid-column: 1 / span 3;
+      grid-row: 1;
+      }
+
+    #butterfliesimg {
+      grid-row: 1;
+      padding: 10%;
+      
+    }
+
+      @mixin butterfliesimg--tablet() {
+      grid-column: 1 / span 6;
+      grid-row: 1;
+      }
+      
+      @mixin butterfliesimg--desktop() {
+      grid-column: 4 / span 3;
+      grid-row: 1;
+
+      }
+
+    #tbell {
+      grid-row: 3;
+  }
+
+      @mixin tbell--tablet() {
+      grid-column: 7 / span 6;
+      grid-row: 1;
+  }
+
+      @mixin tbell--desktop() {
+      grid-column: 11 / span 2;
+      grid-row: 1;
+      }
+
+    #tbellcopy {
+      grid-row: 4;
+    }
+
+     @mixin tbellcopy--tablet() {
+      grid-column: span 6;
+      grid-row: 2;
+    }
+
+      @mixin tbellcopy--desktop() {
+      grid-column: 7 / span 3;
+      grid-row: 1;
+        
+        }
+
+    #tbellimg {
+      grid-row: 3;
+      padding: 10%;
+    }
+
+    @mixin tbellimg--desktop() {
+    grid-column: 10 / span 3;
+    grid-row: 1;
+    }
+
+    #lovelust {
+      grid-row: 5;
+    }
+
+      mixin lovelust--tablet() {
+      grid-column: 1 / span 6;
+      grid-row: 3;
+    
+      }
+   
+      @mixin lovelust--desktop() {
+      grid-column: 1 / span 2;
+      grid-row: 2;
+      }
+
+    #lovelustimg {
+      grid-row: 5;
+      padding: 10%;
+    }
+
+      @mixin lovelustimg--tablet() {
+      grid-column: 1 / span 6;
+      grid-row: 3;
+    }
+
+      @mixin lovelustimg--desktop() {
+      grid-column: 1 / span 3;
+      grid-row: 2;
+      }
+
+    #lovelustcopy {
+      grid-row: 6;
+    }
+
+      @mixin lovelustcopy--tablet() {
+      grid-column: span 6;
+      grid-row: 4;
+    }
+
+
+      @mixin lovelustcopy--desktop() {
+      grid-column: 4 / span 3;
+      grid-row: 2;
+      }
+
+    #skillshare {
+      grid-row: 7;
+
+      @mixin skillshare--tablet {
+      grid-column: 7 / span 6;
+      grid-row: 3;
+      }
+
+      @mixin skillshare--desktop {
+      grid-column: 7 / span 2;
+      grid-row: 2;
+      }
+    }
+
+    #skillshareimg {
+      grid-row: 7;
+      padding: 10%;
+
+      @mixin skillshareimg--tablet {
+      grid-column: 7 / span 6;
+      grid-row: 3;
+      }
+
+      @mixin skillshareimg--desktop {
+      grid-column: 6 / span 4;
+      grid-row: 2;
+      }
+    }
+
+    #skillsharecopy {
+      grid-row: 8;
+  
+      @mixin skillsharecopy--tablet {
+      grid-column: span 6;
+      grid-row: 4;
+    }
+      @mixin skillsharecopy--desktop {
+      grid-column: 10 / span 3;
+      grid-row: 2;
+      }
+    }
+
+
+
+// EXPERIENCE //
+#experience {
+  background: $blush-pink;
+  padding-top: 0;
+  p {
+    color: $black;
+  }
+
+  #about {
+  align-items: center;
+  display: flex;
+  }
+/*  a {
+    color: $pink;
+    border-bottom: 1px solid $pink;
+    transition: all .2s ease-in;
+
+    &:hover {
+      border-bottom: 5px solid $cobalt;
+      color: $cobalt;
+    }
+
+    &:hover:after {
+      color: $cobalt;
+    }
+
+    &:after {
+        content: "\2197";
+        margin-left: 1em;
+        font-size: .75em;
+        color: $pink;
+        text-decoration: none;
+        transition: all .2s ease-in;
+    }
+  }*/
+}
+
+  @mixin triptych--desktop() {
+    grid-column: span 4;
+    }
+  
+// ANIMATION //
+
+@keyframes floating {
+    from {
+      transform:translate(0, 0px);
+  }
+    50% {
+      transform:translate(0, -30px);
+  }
+    to {
+      transform: translate(0, 0px);
+  }
+}
+
+.floating {
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}

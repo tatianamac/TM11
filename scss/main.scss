@@ -19,6 +19,7 @@
 
 // 4. Layout-related sections
 @import
+  'layout/grid',
   'layout/header',
   'layout/footer';
 
@@ -28,8 +29,13 @@
 
 // 6. Page-specific styles
 @import
-  'pages/home';
+  'pages/home',
+  'pages/work';
 
 // 7. Themes
 @import
   'themes/default';
+
+// 8. Media Queries
+@import
+  'abstracts/mediaqueries';

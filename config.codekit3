@@ -16,32 +16,6 @@
 		"oAP": "\/.gitignore",
 		"oF": 0
 		},
-	"\/_typography.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/_typography.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/base.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/base.css",
-		"oF": 2,
-		"oS": 0,
-		"uL": 1
-		},
 	"\/CHANGELOG.md": {
 		"cB": 0,
 		"cS": 0,
@@ -60,26 +34,15 @@
 		"rFN": 0,
 		"uCM": 0
 		},
-	"\/css\/base.css": {
+	"\/css\/main.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/css\/base-min.css",
+		"oAP": "\/css\/main-min.css",
 		"oF": 0,
 		"oS": 3
-		},
-	"\/images.jpg": {
-		"ft": 16384,
-		"iS": 9194,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/images.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
 		},
 	"\/images\/apple-touch-icon.png": {
 		"ft": 32768,
@@ -371,6 +334,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/scss\/abstracts\/_mediaqueries.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/scss\/abstracts\/_mediaqueries.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/scss\/abstracts\/_mixins.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -529,6 +505,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/scss\/layout\/_grid.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/scss\/layout\/_grid.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/scss\/layout\/_header.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -568,8 +557,8 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/scss\/main.css",
-		"oF": 0,
+		"oAP": "\/css\/main.css",
+		"oF": 3,
 		"oS": 0,
 		"uL": 1
 		},
@@ -582,6 +571,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/scss\/pages\/_home.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/scss\/pages\/_work.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/scss\/pages\/_work.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1

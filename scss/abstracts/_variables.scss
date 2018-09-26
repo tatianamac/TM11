@@ -1,71 +1,44 @@
-// -----------------------------------------------------------------------------
-// This file contains all application-wide Sass variables.
-// -----------------------------------------------------------------------------
 
+// COLORS //
 
+$cobalt: #0e4bff;
+$citron: #F3F315;
 
+$black: #222222;
+$white: #ffffff;
+$beige: #F5F4EE;
 
+$dark-grey: #4F4F4F;
+$mid-grey: #767676; // the lightest shade of grey you can get away with, #a11y
+$light-grey: #eeeeee; // for backgrounds only
 
-/// Regular font family
-/// @type List
-$text-font-stack: 'Open Sans', 'Helvetica Neue Light', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif !default;
+$fuschia: #B2098B;
+$yellow: #FFD926; /*#FFBC0E; #ffd400;*/
+$red: #FF5327;
+$pink: #FF0DD1;
+$blush-pink: #FFF3F3;
+$true-blue: #0531B2; 
+$royal-blue: #2159FE;
+$gold: #FFBC0E;
 
-/// Code (monospace) font family
-/// @type List
-$code-font-stack: 'Courier New', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Monaco', monospace !default;
+$curry: #cbab00;
+$dark-curry: #a88d00;
+$dusty-rose: #cbab99;
 
+// TYPOGRAPHY //
+$sans-serif: brother-1816, Helvetica, sans-serif;
+$serif: freight-display-pro, Georgia, serif;
+$mono: Courier, mono;
 
+$thin: 200;
+$light: 300;
+$regular: 400;
+$medium: 500;
+$bold: 700;
 
-
-
-/// Copy text color
-/// @type Color
-$text-color: rgb(34, 34, 34) !default;
-
-/// Main brand color
-/// @type Color
-$brand-color: rgb(229, 0, 80) !default;
-
-/// Light grey
-/// @type Color
-$light-grey: rgb(237, 237, 237) !default;
-
-/// Medium grey
-/// @type Color
-$mid-grey: rgb(153, 153, 153) !default;
-
-/// Dark grey
-/// @type Color
-$dark-grey: rgb(68, 68, 68) !default;
-
-
-
-
-
-/// Container's maximum width
-/// @type Length
-$max-width: 1180px !default;
-
-
-
-
-
-/// Breakpoints map
-/// @prop {String} keys - Keys are identifiers mapped to a given length
-/// @prop {Map} values - Values are actual breakpoints expressed in pixels
-$breakpoints: (
-  'small': 320px,
-  'medium': 768px,
-  'large': 1024px,
-) !default;
-
-
-
-
-
-
-/// Relative or absolute URL where all assets are served from
-/// @type String
-/// @example scss - When using a CDN
-///   $base-url: 'http://cdn.example.com/assets/';
-$base-url: '/assets/' !default;
+// SIZE // 
+$watch: 200px;
+$tablet: 600px;
+$laptop: 1024px;
+$desktop: 1290px;
+$bigdesktop: 1980px;

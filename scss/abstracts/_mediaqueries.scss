@@ -1,0 +1,45 @@
+// ($watch)
+@media  (m-width: 200px) {
+@include workhero--watch();
+@include wrapperhero--watch();
+}
+
+// ($tablet)
+@media (min-width: 600px) {
+@include item--tablet();
+@include workhero--tablet();
+@include tbell--tablet();
+@include tbellcopy--tablet();
+}
+
+// ($laptop)
+@media (min-width: 1024px) {
+// // HOME
+@include workintro--laptop();
+@include intro--laptop();
+@include hat--laptop();
+
+}
+
+// ($desktop)
+@media (min-width: 1290px) {
+	@include wrapperhero--desktop();
+	@include triptych--desktop();
+		
+	@include tbell--desktop();
+	@include tbellimg--desktop();
+	@include tbellcopy--desktop();
+
+	@include butterflies--desktop();
+	@include butterfliesimg--desktop();
+	@include butterfliescopy--desktop ();
+
+	@include lovelust--desktop();
+	@include lovelustimg--desktop();
+	@include lovelustcopy--desktop();
+}
+
+// ($bigdesktop)
+@media (min-width: 1980px) {
+@include item--bigdesktop();
+}
