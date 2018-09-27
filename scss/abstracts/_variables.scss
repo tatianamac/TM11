@@ -1,6 +1,11 @@
+// SCREEN SIZES
+$phone: 320px;
+$tablet: 600px;
+$laptop: 1024px;
+$desktop: 1240px;
+$bigdesktop: 1920px;
 
 // COLORS //
-
 $cobalt: #0e4bff;
 $citron: #F3F315;
 
@@ -25,6 +30,9 @@ $curry: #cbab00;
 $dark-curry: #a88d00;
 $dusty-rose: #cbab99;
 
+$primary-color: $cobalt;
+$secondary-color: $blush-pink;
+
 // TYPOGRAPHY //
 $sans-serif: brother-1816, Helvetica, sans-serif;
 $serif: freight-display-pro, Georgia, serif;
@@ -45,6 +53,6 @@ $bigdesktop: 1980px;
 
 // SPACING //
 
-$thinspace: 1em;
-$midspace: 2em;
-$thickspace: 3em;
+$thinn: 1em;
+$normie: 2em;
+$thicc: 3em;

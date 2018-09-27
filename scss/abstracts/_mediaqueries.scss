@@ -2,17 +2,21 @@
 @media  (min-width: 200px) {
 @include workhero--watch();
 @include wrapperhero--watch();
+@include thiccfont--watch();
 }
 
 // ($tablet)
 @media (min-width: 600px) {
+@include container--tablet();
 @include quarter--tablet();
 @include third--tablet();
 @include workhero--tablet();
+@include thiccfont--tablet();
 }
 
 // ($laptop)
 @media (min-width: 1024px) {
+@include container--laptop();
 @include quarter--laptop();
 @include third--laptop();
 @include half--laptop();

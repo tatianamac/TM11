@@ -1,7 +1,3 @@
-// -----------------------------------------------------------------------------
-// This file contains all application-wide Sass mixins.
-// -----------------------------------------------------------------------------
-
 /// Event wrapper
 /// @author Harry Roberts
 /// @param {Bool} $self [false] - Whether or not to include current selector
@@ -31,4 +27,8 @@
     @content;
   }
 }
+/// Background size helper
 
+@mixin background-size($width, $height: $width) {
+    @include prefix(background-size, $width $height, 'webkit' 'moz');
+}

@@ -334,6 +334,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/scss\/abstracts\/_gradients.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/scss\/abstracts\/_gradients.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/scss\/abstracts\/_mediaqueries.scss": {
 		"aP": 0,
 		"bl": 0,

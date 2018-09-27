@@ -64,6 +64,20 @@ img {
 
 // PADDING THINGS
 
-.thinpadding {
-	padding: $thinspace;
+.thinnpadding {
+	padding: $thinn;
+}
+
+.normiepadding {
+	padding: $normie;
+}
+
+.thiccpadding {
+	padding: $thicc;
+}
+
+// BACKGROUND THINGS
+
+.primarybg {
+	background: $primary-color;
 }
