@@ -104,23 +104,33 @@ img {
 }
 
 .grid-whole\@xs {
-	@include grid-whole;
+	@include screen-xs {
+		@include grid-whole;
+	}
 }
 
 .grid-whole\@s {
-	@include grid-whole;
+	@include screen-s {
+		@include grid-whole;
+	}
 }
 
 .grid-whole\@m {
-	@include grid-whole;
+	@include screen-m {
+		@include grid-whole;
+	}
 }
 
 .grid-whole\@l {
-	@include grid-whole;
+	@include screen-l {
+		@include grid-whole;
+	}
 }
 
 .grid-whole\@xl {
-	@include grid-whole;
+	@include screen-xl {
+		@include grid-whole;
+	}
 }
 
 // GRID ALIGNMENT
@@ -149,6 +159,7 @@ img {
 .thiccpadding {
 	@include thiccpadding;
 }
+
 
 // BACKGROUND THINGS
 
