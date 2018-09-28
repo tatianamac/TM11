@@ -13,74 +13,113 @@ img {
 }
 
 // GRID 
-
-.grid-quarter {
+.grid-quarter\@xs {
 	@include screen-xs {
-		@include grid-whole;
+		@include grid-quarter;
 	}
+}
 
+.grid-quarter\@s {
 	@include screen-s {
-		@include grid-half;
+		@include grid-quarter;
 	}
+}
 
+.grid-quarter\@m {
 	@include screen-m {
 		@include grid-quarter;
 	}
+}
 
+.grid-quarter\@l {
 	@include screen-l {
 		@include grid-quarter;
 	}
+}
 
+.grid-quarter\@xl {
 	@include screen-xl {
 		@include grid-quarter;
 	}
 }
 
-.grid-third {
+.grid-third\@xs { 
 	@include screen-xs {
-		@include grid-whole;
+	@include grid-third;
 	}
+}
 
+.grid-third\@s { 
 	@include screen-s {
-		@include grid-half;
+	@include grid-third;
 	}
+}
 
+.grid-third\@m { 
 	@include screen-m {
 		@include grid-third;
 	}
+}
 
+.grid-third\@l {
 	@include screen-l {
 		@include grid-third;
 	}
+}
 
+.grid-third\@xl {
 	@include screen-xl {
 		@include grid-third;
 	}
 }
 
-.grid-half {
+.grid-half\@xs {
 	@include screen-xs {
-		@include grid-whole;
-	}
-
-	@include screen-s {
 		@include grid-half;
-	}
-
-	@include screen-m {
-		@include grid-half;
-	}
-
-	@include screen-l {
-		@include grid-half;
-	}
-
-	@include screen-xl {
-		@include grid-quarter;
 	}
 }
 
-.grid-whole {
+.grid-half\@s {
+	@include screen-s {
+		@include grid-half;
+	}	
+}
+
+.grid-half\@m {
+	@include screen-m {
+		@include grid-half;
+	}
+}
+
+.grid-half\@l {
+	@include screen-l {
+		@include grid-half;
+	}	
+}
+
+.grid-half\@xl {
+	@include screen-xl {
+		@include grid-half;
+	}
+}
+
+.grid-whole\@xs {
+	@include grid-whole;
+}
+
+.grid-whole\@s {
+	@include grid-whole;
+}
+
+.grid-whole\@m {
+	@include grid-whole;
+}
+
+.grid-whole\@l {
+	@include grid-whole;
+}
+
+.grid-whole\@xl {
 	@include grid-whole;
 }
 
