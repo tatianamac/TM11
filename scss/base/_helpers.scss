@@ -14,22 +14,30 @@
  * 3. Leave some space on the edges, especially valuable on small screens
  */
 .container {
-  max-width: $bigdesktop; /* 1 */
+  max-width: $screen-l-max; /* 1 */
   margin: 0 auto; /* 2 */
-  padding: 2em; /* 3 */
   width: 100%; /* 1 */
+
+  @include screen-xs {
+    @include normiepadding;
  }
 
-@mixin container--tablet() {
-  .container {
-  padding: 3em;
-  }
-}
+  @include screen-s {
+    @include thiccpadding;
+ }
 
-@mixin container--laptop() {
-  .container {
-  padding: 4em;
-  }
+  @include screen-m {
+    @include thiccpadding;
+ }
+
+  @include screen-l {
+    @include thiccpadding;
+ }
+
+ @include screen-xl {
+    @include thiccpadding;
+ }
+
 }
 
 

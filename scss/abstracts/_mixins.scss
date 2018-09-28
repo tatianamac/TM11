@@ -32,3 +32,124 @@
 @mixin background-size($width, $height: $width) {
     @include prefix(background-size, $width $height, 'webkit' 'moz');
 }
+
+//DEVICES
+
+// up to watch
+@mixin screen-xxs {
+  @media screen and (max-width: #{$screen-xxs-max}) {
+    @content;
+  }
+}
+
+// up to phone
+@mixin screen-xs {
+  @media screen and (min-width: #{$screen-xs-min}) and (max-width: #{$screen-xs-max}) {
+    @content;
+  }
+}
+
+// up to tablet
+@mixin screen-s {
+  @media screen and (min-width: #{$screen-s-min}) and (max-width: #{$screen-s-max}) {
+    @content;
+  }
+}
+
+// up to laptop
+@mixin screen-m {
+  @media screen and (min-width: #{$screen-m-min}) and (max-width: #{$screen-m-max}) {
+    @content;
+  }
+}
+
+// up to desktop
+@mixin screen-l {
+  @media screen and (min-width: #{$screen-l-min}) and (max-width: #{$screen-l-max}) {
+    @content;
+  }
+}
+
+// up to giant monitors
+@mixin screen-xl {
+  @media screen and (min-width: #{$screen-xl-min}) {
+    @content;
+  }
+}
+
+@mixin thiccpadding {
+  padding: $thicc;
+}
+
+@mixin thinnpadding {
+  padding: $thinn;
+}
+
+@mixin normiepadding {
+  padding: $normie;
+}
+
+
+//TYPOGRAPHY
+
+@mixin thiccfont() {
+  font-size: $thicc;
+}
+
+@mixin thinnfont() {
+  font-size: $thinn;
+}
+
+@mixin normiefont() {
+  font-size: $normie;
+}
+
+@mixin serif() {
+  font-family: $serif;
+}
+
+@mixin sansserif() {
+  font-family: $sans-serif;
+}
+
+@mixin serifweight() {
+  @include serif;
+  font-weight: $light;
+  line-height: $tightheight;
+}
+
+@mixin babyfont() {
+  font-size: $baby;
+}
+
+@mixin uppercase() {
+  text-transform: uppercase;
+}
+
+@mixin list-clear-style() {
+    list-style: none outside;
+    padding: 0;
+}
+
+@mixin inline-style() {
+    display: inline;
+}
+
+//GRID based on a 12-col
+
+@mixin grid-quarter() {
+  grid-column: span 3;
+}
+
+@mixin grid-third() {
+  grid-column: span 4;
+}
+
+
+@mixin grid-half() {
+  grid-column: span 6;
+}
+
+@mixin grid-whole() {
+  grid-column: span 12;
+}

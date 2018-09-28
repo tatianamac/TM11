@@ -12,68 +12,93 @@ img {
   width: 100%;
 }
 
-// GRID THINGS
 
-.quarter {	
-	grid-column: span 12;
-}
 
-@mixin quarter--tablet() {
-	.quarter {
-	grid-column: span 6;
+
+// GRID 
+
+.grid-quarter {
+	@include screen-xs {
+		@include grid-whole;
+	}
+
+	@include screen-s {
+		@include grid-half;
+	}
+
+	@include screen-m {
+		@include grid-quarter;
+	}
+
+	@include screen-l {
+		@include grid-quarter;
+	}
+
+	@include screen-xl {
+		@include grid-quarter;
 	}
 }
 
-@mixin quarter--laptop() {
-	.quarter {
-	grid-column: span 3;
+.grid-third {
+	@include screen-xs {
+		@include grid-whole;
+	}
+
+	@include screen-s {
+		@include grid-half;
+	}
+
+	@include screen-m {
+		@include grid-third;
+	}
+
+	@include screen-l {
+		@include grid-third;
+	}
+
+	@include screen-xl {
+		@include grid-third;
 	}
 }
 
-@mixin quarter--bigdesktop() {
-	.quarter {
-	grid-column: span 2;
+.grid-half {
+	@include screen-xs {
+		@include grid-whole;
+	}
+
+	@include screen-s {
+		@include grid-half;
+	}
+
+	@include screen-m {
+		@include grid-half;
+	}
+
+	@include screen-l {
+		@include grid-half;
+	}
+
+	@include screen-xl {
+		@include grid-quarter;
 	}
 }
 
-.third {
-	grid-column: span 12;
-}
-
-@mixin third--tablet() {
-	.third {
-	grid-column: span 6;
-	}
-}
-
-@mixin third--laptop() {
-	.third {
-	grid-column: span 4;
-	}
-}
-
-.half {
-	grid-column: span 12;
-}
-
-@mixin half--laptop() {
-	.half {
-	grid-column: span 6;
-	}
+.grid-whole {
+	@include grid-whole;
 }
 
 // PADDING THINGS
 
 .thinnpadding {
-	padding: $thinn;
+	@include thinnpadding;
 }
 
 .normiepadding {
-	padding: $normie;
+	@include normiepadding;
 }
 
 .thiccpadding {
-	padding: $thicc;
+	@include thiccpadding;
 }
 
 // BACKGROUND THINGS

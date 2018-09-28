@@ -1,9 +1,15 @@
 // SCREEN SIZES
-$phone: 320px;
-$tablet: 600px;
-$laptop: 1024px;
-$desktop: 1240px;
-$bigdesktop: 1920px;
+$screen-xs-min: 200px;
+$screen-s-min: 600px;
+$screen-m-min: 1280px;
+$screen-l-min: 1920px;
+$screen-xl-min: 3001px;
+
+$screen-xxs-max: 199px;
+$screen-xs-max: 599px;
+$screen-s-max: 1279px;
+$screen-m-max: 1919px;
+$screen-l-max: 3000px;
 
 // COLORS //
 $cobalt: #0e4bff;
@@ -38,21 +44,23 @@ $sans-serif: brother-1816, Helvetica, sans-serif;
 $serif: freight-display-pro, Georgia, serif;
 $mono: Courier, mono;
 
+$tightheight: 1.1;
+$letter-spaceout-min: .05em;
+
 $thin: 200;
 $light: 300;
 $regular: 400;
 $medium: 500;
 $bold: 700;
 
-// SIZE // 
-$watch: 200px;
-$tablet: 600px;
-$laptop: 1024px;
-$desktop: 1290px;
-$bigdesktop: 1980px;
+// SIZE //
 
-// SPACING //
-
+$baby: .9em;
 $thinn: 1em;
 $normie: 2em;
 $thicc: 3em;
+
+// BORDER STYLES //
+
+ $bdr-thinn-blue: 'border-bottom: 1px solid $cobalt';
+ $bdr-thicc-pink: 'border-bottom: 5px solid $pink';
