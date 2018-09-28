@@ -43,26 +43,6 @@ li.inline {
     background-size: 5em 5em, 5em 5em;
 }
 
-  a {
-    color: $white;
-    border-bottom: 2px solid $blush-pink;
-    transition: all .2s ease-in;
-
-    &:hover {
-      border-bottom: 5px solid $pink;
-      border-width: 100%;
-    }
-
-    &:hover:after {
-      color: $pink;
-    }
-
-    &:after {
-        color: $cobalt;
-        text-decoration: none;
-    }
-  }
-
 
 // EXPERIENCE //
 #experience {

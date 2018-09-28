@@ -104,6 +104,10 @@
   font-size: $normie;
 }
 
+@mixin babyfont() {
+  font-size: $baby;
+}
+
 @mixin serif() {
   font-family: $serif;
 }
@@ -115,15 +119,24 @@
 @mixin serifweight() {
   @include serif;
   font-weight: $light;
-  line-height: $tightheight;
+  line-height: $t-height-tight;
 }
 
-@mixin babyfont() {
-  font-size: $baby;
+@mixin t-white() {
+  color: $white;
 }
 
-@mixin uppercase() {
+@mixin t-uppercase() {
   text-transform: uppercase;
+}
+
+@mixin t-eyebrow {
+    @include babyfont;
+    @include uppercase;
+}
+
+@mixin t-ltr-spaceout-s {
+    letter-spacing: .05em;
 }
 
 @mixin list-clear-style() {
@@ -152,4 +165,58 @@
 
 @mixin grid-whole() {
   grid-column: span 12;
+}
+
+@mixin grid-quarter-in-third-r-r() {
+  grid-column: 8 / span 4;
+}
+
+@mixin align-self-r() {
+  justify-self: end;
+}
+
+
+// BORDER
+
+@mixin bdr-thinn-blue() {
+  border-bottom: 1px solid $cobalt;
+}
+
+@mixin bdr-thinn-white() {
+  border-bottom: 1px solid $white;
+}
+
+
+@mixin bdr-thicc-pink {
+  border-bottom: 5px solid $pink;
+}
+
+@mixin bdr-hover() {
+    &:hover {
+      @include bdr-thicc-pink;
+      border-width: 100%;
+    }
+
+    &:hover:after {
+      color: $pink;
+      @include txn-ease-in-quick;
+    }
+
+    &:after {
+        color: $cobalt;
+        text-decoration: none;
+    }
+}
+
+@mixin t-link-hover() {
+    text-decoration: none;
+    @include bdr-thinn-white;
+    @include bdr-hover;
+}
+
+
+// TRANSITIONS
+
+@mixin txn-ease-in-quick {
+  transition: all .2s ease-in;
 }

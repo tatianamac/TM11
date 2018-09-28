@@ -111,7 +111,7 @@
 
 .t-thinnfont\@xl {
   @include screen-xl {
-  @include thinnfont;
+    @include thinnfont;
   }
 }
 
@@ -198,50 +198,18 @@ body {
      color: $mid-grey;
    }
 
-  a {
-    color: $cobalt;
-    text-transform: uppercase;
-    @include babyfont;
-    line-height: 2.5;
-    letter-spacing: .05em;
-    text-decoration: none;
+.t-white {
+    @include t-white;
+}
+
+.t-link-accent {
+    @include t-uppercase;
+    @include t-link-hover;
+    @include t-ltr-spaceout-s;
+    line-height: $t-height-extra-loose;
     padding: 10px 0;
     margin-right: 2em;
-    border-bottom: 1px solid $cobalt;
-    transition: all .2s ease-in;
-
-    &:hover {
-      border-bottom: 5px solid $pink;
-      border-width: 100%;
-    }
-
-    &:hover:after {
-      color: $pink;
-    }
-
-    &:after {
-        content: "\2197";
-        margin-left: 1em;
-        font-size: .75em;
-        color: $cobalt;
-        text-decoration: none;
-        transition: all .2s ease-in;
-    }
-
-    &.intext {
-      text-decoration: none;
-      text-transform: none;
-      font-size: inherit;
-      margin-right: 0;
-      padding: 0;
-    }
-
-    &.intext:after {
-      content: "";
-      margin-left: 0;
-    }
-
-  }
+}
 
 // LISTS
 

@@ -44,8 +44,9 @@ $sans-serif: brother-1816, Helvetica, sans-serif;
 $serif: freight-display-pro, Georgia, serif;
 $mono: Courier, mono;
 
-$tightheight: 1.1;
-$letter-spaceout-min: .05em;
+$t-height-tight: 1.1;
+$t-height-loose: 2;
+$t-height-extra-loose: 3;
 
 $thin: 200;
 $light: 300;
@@ -61,6 +62,3 @@ $normie: 2em;
 $thicc: 3em;
 
 // BORDER STYLES //
-
- $bdr-thinn-blue: 'border-bottom: 1px solid $cobalt';
- $bdr-thicc-pink: 'border-bottom: 5px solid $pink';

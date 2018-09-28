@@ -12,9 +12,6 @@ img {
   width: 100%;
 }
 
-
-
-
 // GRID 
 
 .grid-quarter {
@@ -86,6 +83,19 @@ img {
 .grid-whole {
 	@include grid-whole;
 }
+
+// GRID ALIGNMENT
+
+// helpful for SVG illustrations that need more breathing room
+
+.grid-quarter-in-third-r-r {
+	@include grid-quarter-in-third-r-r;
+}
+
+.align-self-r {
+	@include align-self-r;
+}
+
 
 // PADDING THINGS
 
