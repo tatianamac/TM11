@@ -20,7 +20,6 @@
   @include serifweight;
 }
 
-
 .t-thiccfont\@xs {
   @include screen-xs {
     @include thiccfont;
@@ -122,49 +121,6 @@ body {
       line-height: 1.45;
   }
 
-  h2 {
-  color: $dark-grey;
-  
-  }
-
-  h3 {
-  font-family: $serif;
-  line-height: 1.25em;
-  font-weight: $light;
-  }
-
-
-  h4 {
-   text-transform: uppercase;
-   font-size: .75em;
-   font-weight: $regular;
-   letter-spacing: .15em;
-   border-right: 1px solid $light-grey;
-   overflow: hidden;
-  }
-
-  h4:after {
-  content: "";
-  border-bottom: 1px solid $light-grey;
-  display: inline-block;
-  width:100%; height:100%;
-  margin-right:-100%;
-  vertical-align: middle;
-  }
-
-  .triptych h4 {
-    border-color: $pink;
-  }
-
-  .triptych h4:after {
-  content: "";
-  border-bottom: 1px solid $pink;
-  display: inline-block;
-  width:100%; height:100%;
-  margin-right:-100%;
-  vertical-align: middle;
-  }
-
   h5 {
     font-family: $serif;
     font-weight: $regular;
@@ -206,10 +162,34 @@ body {
     @include t-uppercase;
     @include t-link-hover;
     @include t-ltr-spaceout-s;
+    @include t-after-arrow-up-r;
     line-height: $t-height-extra-loose;
     padding: 10px 0;
     margin-right: 2em;
 }
+
+.t-eyebrow {
+  @include t-eyebrow;
+}
+
+.bdr-t-bar-r-grey {
+  @include bdr-t-bar-r-grey;
+}
+
+.t-eyebrow-line {
+  @include t-eyebrow;
+  @include bdr-t-bar-r-grey;
+  @include bdr-baby-grey-end;
+  overflow: hidden;
+}
+
+.t-eyebrow-line-pink {
+  @include t-eyebrow;
+  @include bdr-t-bar-r-pink;
+  @include bdr-baby-pink-end;
+  overflow: hidden;
+}
+
 
 // LISTS
 

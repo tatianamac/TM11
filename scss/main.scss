@@ -5,6 +5,7 @@
   'abstracts/variables',
   'abstracts/functions',
   'abstracts/mixins',
+  'abstracts/gradients',
   'abstracts/mediaqueries';
 
 // 2. Vendors
@@ -15,8 +16,8 @@
 @import
   'base/base',
   'base/fonts',
-  'base/typography',
-  'base/helpers';
+  'base/helpers',
+  'base/typography';
 
 // 4. Layout-related sections
 @import

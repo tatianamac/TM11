@@ -7,6 +7,10 @@
   display: table;
 }
 
+img {
+  display: block;
+}
+
 /**
  * Main content containers
  * 1. Make the container full-width with a maximum width
@@ -41,6 +45,17 @@
 
 }
 
+.center-objects {
+  vertical-align: middle;
+}
+
+.align-self-center {
+  @include align-self-center;
+}
+
+.height-full {
+  @include height-full;
+}
 
 /**
  * Hide text while making it readable for screen readers

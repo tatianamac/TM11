@@ -2,6 +2,8 @@
   background-color: transparent;
   display: grid;
   grid-template-columns: repeat(12, [col] 1fr [col]);
+  grid-column-gap: 1em;
+  grid-row-gap: 2em;
     // grid-template-areas: a thing to explore later; cool a a b type formatting
     //   "header"
     //   "nav"
@@ -26,4 +28,100 @@
     content: none;
  }
 
+}
+
+.padding-thinn\@xs {
+  @include screen-xs {
+    @include thinnpadding;
+  }
+}
+
+.padding-thinn\@s {
+  @include screen-s {
+    @include thinnpadding;
+  }
+}
+
+.padding-thinn\@m {
+  @include screen-m {
+    @include thinnpadding;
+  }
+}
+
+.padding-thinn\@l {
+  @include screen-l {
+    @include thinnpadding;
+  }
+}
+
+.padding-thinn\@xl {
+  @include screen-xl {
+    @include thinnpadding;
+  }
+}
+
+.padding-normie\@xs {
+  @include screen-xs {
+    @include normiepadding;
+  }
+}
+
+.padding-normie\@s {
+  @include screen-s {
+    @include normiepadding;
+  }
+}
+
+.padding-normie\@m {
+  @include screen-m {
+    @include normiepadding;
+  }
+}
+
+.padding-normie\@l {
+  @include screen-l {
+    @include normiepadding;
+  }
+}
+
+.padding-normie\@xl {
+  @include screen-xl {
+    @include normiepadding;
+  }
+}
+
+.padding-thicc\@xs {
+  @include screen-xs {
+    @include thiccpadding;
+  }
+}
+
+.padding-thicc\@s {
+  @include screen-s {
+    @include thiccpadding;
+  }
+}
+
+.padding-thicc\@m {
+  @include screen-m {
+    @include thiccpadding;
+  }
+}
+
+.padding-thicc\@l {
+  @include screen-l {
+    @include thiccpadding;
+  }
+}
+
+.padding-thicc\@xl {
+  @include screen-xl {
+    @include thiccpadding;
+  }
+}
+
+.padding-normie\@xs {
+  @include screen-xs {
+    @include normiepadding;
+  }
 }

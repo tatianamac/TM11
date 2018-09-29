@@ -77,18 +77,27 @@
   }
 }
 
-@mixin thiccpadding {
+//SPACING
+
+@mixin thiccpadding() {
   padding: $thicc;
 }
 
-@mixin thinnpadding {
+@mixin thinnpadding(){
   padding: $thinn;
 }
 
-@mixin normiepadding {
+@mixin normiepadding() {
   padding: $normie;
 }
 
+@mixin align-self-center() {
+  align-self: center;
+}
+
+@mixin height-full() {
+  height: 100%;
+}
 
 //TYPOGRAPHY
 
@@ -130,13 +139,26 @@
   text-transform: uppercase;
 }
 
-@mixin t-eyebrow {
-    @include babyfont;
-    @include uppercase;
-}
-
 @mixin t-ltr-spaceout-s {
     letter-spacing: .05em;
+}
+
+@mixin t-ltr-spaceout-m {
+    letter-spacing: .15em;
+}
+
+@mixin t-eyebrow {
+    @include babyfont;
+    @include t-uppercase;
+    @include t-ltr-spaceout-m;
+    font-weight: $light;
+}
+
+@mixin t-after-arrow-up-r() {
+   &::after {
+    content: $t-arrow-up-r;
+    margin-left: 1em;
+  }
 }
 
 @mixin list-clear-style() {
@@ -178,16 +200,18 @@
 // BORDER
 
 @mixin bdr-thinn-blue() {
-  border-bottom: 1px solid $cobalt;
+  border-bottom: 2px solid $cobalt;
+  @include txn-ease-in-quick;
 }
 
 @mixin bdr-thinn-white() {
-  border-bottom: 1px solid $white;
+  border-bottom: 2px solid $white;
 }
 
 
 @mixin bdr-thicc-pink {
   border-bottom: 5px solid $pink;
+  @include txn-ease-in-quick;
 }
 
 @mixin bdr-hover() {
@@ -198,7 +222,6 @@
 
     &:hover:after {
       color: $pink;
-      @include txn-ease-in-quick;
     }
 
     &:after {
@@ -209,9 +232,53 @@
 
 @mixin t-link-hover() {
     text-decoration: none;
+    @include txn-ease-in-quick;
     @include bdr-thinn-white;
     @include bdr-hover;
 }
+
+// this is accent t-bar border
+
+@mixin bdr-baby-grey-line {
+  border-bottom: 1px solid $light-grey;
+}
+
+@mixin bdr-baby-grey-end {
+  border-right: 1px solid $light-grey;
+}
+
+@mixin bdr-baby-pink-line {
+  border-bottom: 1px solid $pink;
+}
+
+@mixin bdr-baby-pink-end {
+  border-right: 1px solid $pink;
+}
+
+@mixin bdr-t-bar-r-grey() {
+&::after {
+  content: "";
+  @include bdr-baby-grey-line;
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  margin-right: -100%;
+  vertical-align: middle;
+  }
+}
+
+@mixin bdr-t-bar-r-pink() {
+&::after {
+  content: "";
+  @include bdr-baby-pink-line;
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  margin-right: -100%;
+  vertical-align: middle;
+  }
+}
+
 
 
 // TRANSITIONS
