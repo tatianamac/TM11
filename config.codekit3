@@ -247,6 +247,61 @@
 		"oAP": "/images/teocali-flatlay.jpg",
 		"oF": 0,
 		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/images/teocali-laying.jpg": {
+		"ft": 16384,
+		"iS": 725795,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/teocali-laying.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/images/teocali-lean.jpg": {
+		"ft": 16384,
+		"iS": 162659,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/teocali-lean.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/images/teocali-overview.jpg": {
+		"ft": 16384,
+		"iS": 179095,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/teocali-overview.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/images/teocali-reflection.jpg": {
+		"ft": 16384,
+		"iS": 180061,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/teocali-reflection.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/images/teocali-sliver.jpg": {
+		"ft": 16384,
+		"iS": 582693,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/teocali-sliver.jpg",
+		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
