@@ -2,9 +2,8 @@ li.inline {
   display: inline;    
 }
 
-#separator {
-  margin:0;
-  padding:0;
+.clearspace {
+  @include clearspace;
 }
 
 .zigzag {

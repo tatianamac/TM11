@@ -1,13 +1,13 @@
 // SCREEN SIZES
 $screen-xs-min: 200px;
 $screen-s-min: 600px;
-$screen-m-min: 1280px;
-$screen-l-min: 1920px;
-$screen-xl-min: 3001px;
+$screen-m-min: 1024px;
+$screen-l-min: 1440px;
+$screen-xl-min: 1920px;
 
-$screen-xxs-max: 199px;
-$screen-xs-max: 599px;
-$screen-s-max: 1279px;
+$screen-xxs-max: 599px;
+$screen-xs-max: 1023px;
+$screen-s-max: 1439px;
 $screen-m-max: 1919px;
 $screen-l-max: 3000px;
 
@@ -58,7 +58,8 @@ $bold: 700;
 
 $baby: .8em;
 $thinn: 1em;
-$normie: 2em;
+$slimm: 1.5em;
+$normie: 2.5em;
 $thicc: 3em;
 
 // BORDER STYLES //

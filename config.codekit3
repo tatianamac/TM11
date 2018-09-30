@@ -65,11 +65,31 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"/images/butterflies.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/butterflies.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"/images/hands.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
 		"oAP": "/images/hands.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/images/hat.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/hat.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -197,6 +217,39 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"/images/teocali-bags.jpg": {
+		"ft": 16384,
+		"iS": 1326579,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/teocali-bags.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/images/teocali-chairbag.jpg": {
+		"ft": 16384,
+		"iS": 844460,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/teocali-chairbag.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/images/teocali-flatlay.jpg": {
+		"ft": 16384,
+		"iS": 2920460,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/teocali-flatlay.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/images/teocali-teaser-chair.jpg": {
 		"ft": 16384,
 		"iS": 0,
@@ -240,6 +293,16 @@
 		"opt": 1,
 		"oT": 1,
 		"q": 100
+		},
+	"/images/uxskillshare_illo.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/uxskillshare_illo.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"/images/uxskillshare_img.jpg": {
 		"ft": 16384,

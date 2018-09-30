@@ -3,7 +3,7 @@
   display: grid;
   grid-template-columns: repeat(12, [col] 1fr [col]);
   grid-column-gap: 1em;
-  grid-row-gap: 2em;
+  grid-row-gap: 3em;
     // grid-template-areas: a thing to explore later; cool a a b type formatting
     //   "header"
     //   "nav"
@@ -123,5 +123,145 @@
 .padding-normie\@xs {
   @include screen-xs {
     @include normiepadding;
+  }
+}
+
+.order-one {
+  order: 1;
+}
+
+.order-minusone {
+  order: -1;
+}
+
+.order-minusone\@xs {
+  @include screen-xs {
+    order: -1;
+  }
+}
+
+.order-minusone\@s {
+  @include screen-s {
+    order: -1;
+  }
+}
+
+.order-minusone\@m {
+  @include screen-m {
+    order: -1;
+  }
+}
+
+.order-minusone\@l {
+  @include screen-l {
+    order: -1;
+  }
+}
+
+.order-minusone\@xl {
+  @include screen-xl {
+    order: -1;
+  }
+}
+
+.order-zero {
+  order: 0;
+}
+
+.order-zero\@xs {
+  @include screen-xs {
+    order: 0;
+  }
+}
+
+.order-zero\@s {
+  @include screen-s {
+    order: 0;
+  }
+}
+
+.order-zero\@m {
+  @include screen-m {
+    order: 0;
+  }
+}
+
+.order-zero\@l {
+  @include screen-l {
+    order: 0;
+  }
+}
+
+.order-zero\@xl {
+  @include screen-xl {
+    order: 0;
+  }
+}
+
+.order-one {
+  order: 1;
+}
+
+.order-one\@xs {
+  @include screen-xs {
+    order: 1;
+  }
+}
+
+.order-one\@s {
+  @include screen-s {
+    order: 1;
+  }
+}
+
+.order-one\@m {
+  @include screen-m {
+    order: 1;
+  }
+}
+
+.order-one\@l {
+  @include screen-l {
+    order: 1;
+  }
+}
+
+.order-one\@xl {
+  @include screen-xl {
+    order: 1;
+  }
+}
+
+.order-two {
+  order: 1;
+}
+
+.order-two\@xs {
+  @include screen-xs {
+    order: 1;
+  }
+}
+
+.order-two\@s {
+  @include screen-s {
+    order: 1;
+  }
+}
+
+.order-two\@m {
+  @include screen-m {
+    order: 1;
+  }
+}
+
+.order-two\@l {
+  @include screen-l {
+    order: 1;
+  }
+}
+
+.order-two\@xl {
+  @include screen-xl {
+    order: 1;
   }
 }

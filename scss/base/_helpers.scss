@@ -57,6 +57,14 @@ img {
   @include height-full;
 }
 
+.padding-btm-none {
+  @include padding-btm-none;
+}
+
+.clearspace {
+  @include clearspace;
+}
+
 /**
  * Hide text while making it readable for screen readers
  * 1. Needed in WebKit-based browsers because of an implementation bug;

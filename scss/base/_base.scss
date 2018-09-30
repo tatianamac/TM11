@@ -103,9 +103,40 @@ img {
 	}
 }
 
+.grid-twothirds\@xs {
+	@include screen-xs {
+		@include grid-twothirds;
+	}
+}
+
+.grid-twothirds\@s {
+	@include screen-s {
+		@include grid-twothirds;
+	}
+}
+
+.grid-twothirds\@m {
+	@include screen-m {
+		@include grid-twothirds;
+	}
+}
+
+.grid-twothirds\@l {
+	@include screen-l {
+		@include grid-twothirds;
+	}
+}
+
+.grid-twothirds\@xl {
+	@include screen-xl {
+		@include grid-twothirds;
+	}
+}
+
+
 .grid-whole\@xs {
 	@include screen-xs {
-		@include grid-whole;
+		@include grid-twothirds;
 	}
 }
 

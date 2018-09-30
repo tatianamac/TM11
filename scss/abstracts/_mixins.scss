@@ -79,6 +79,11 @@
 
 //SPACING
 
+@mixin clearspace() {
+  margin:0;
+  padding:0;
+}
+
 @mixin thiccpadding() {
   padding: $thicc;
 }
@@ -91,6 +96,10 @@
   padding: $normie;
 }
 
+@mixin padding-btm-none() {
+  padding-bottom: 0;
+}
+
 @mixin align-self-center() {
   align-self: center;
 }
@@ -101,21 +110,28 @@
 
 //TYPOGRAPHY
 
-@mixin thiccfont() {
-  font-size: $thicc;
+// Size
+
+@mixin babyfont() {
+  font-size: $baby;
 }
 
 @mixin thinnfont() {
   font-size: $thinn;
 }
 
+@mixin slimmfont() {
+  font-size: $slimm;
+}
+
 @mixin normiefont() {
   font-size: $normie;
 }
 
-@mixin babyfont() {
-  font-size: $baby;
+@mixin thiccfont() {
+  font-size: $thicc;
 }
+
 
 @mixin serif() {
   font-family: $serif;
@@ -123,6 +139,7 @@
 
 @mixin sansserif() {
   font-family: $sans-serif;
+  font-weight: $light;
 }
 
 @mixin serifweight() {
@@ -154,12 +171,13 @@
     font-weight: $light;
 }
 
+/* removing arrow until I can it acccessibly :( 
 @mixin t-after-arrow-up-r() {
    &::after {
     content: $t-arrow-up-r;
     margin-left: 1em;
   }
-}
+}*/
 
 @mixin list-clear-style() {
     list-style: none outside;
@@ -182,6 +200,10 @@
 
 @mixin grid-half() {
   grid-column: span 6;
+}
+
+@mixin grid-twothirds() {
+  grid-column: span 8;
 }
 
 @mixin grid-whole() {
@@ -208,7 +230,6 @@
   border-bottom: 2px solid $white;
 }
 
-
 @mixin bdr-thicc-pink {
   border-bottom: 5px solid $pink;
   @include txn-ease-in-quick;
@@ -220,20 +241,20 @@
       border-width: 100%;
     }
 
+/* removing arrow until I can figure out how to do it accessibly
     &:hover:after {
-      color: $pink;
+      color: $white;
     }
 
     &:after {
-        color: $cobalt;
+        color: $pink;
         text-decoration: none;
-    }
+    }*/
 }
 
 @mixin t-link-hover() {
     text-decoration: none;
     @include txn-ease-in-quick;
-    @include bdr-thinn-white;
     @include bdr-hover;
 }
 

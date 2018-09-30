@@ -80,6 +80,36 @@
   }
 }
 
+.t-slimmfont\@xs {
+  @include screen-xs {
+    @include slimmfont;
+  }
+}
+
+.t-slimmfont\@s {
+  @include screen-s {
+  @include slimmfont;
+  }
+}
+
+.t-slimmfont\@m {
+  @include screen-m {
+  @include slimmfont;
+  }
+}
+
+.t-slimmfont\@l {
+  @include screen-l {
+  @include slimmfont;
+  }
+}
+
+.t-slimmfont\@xl {
+  @include screen-xl {
+  @include slimmfont;
+  }
+}
+
 .t-thinnfont\@xs {
   @include screen-xs {
   @include thinnfont;
@@ -158,14 +188,27 @@ body {
     @include t-white;
 }
 
-.t-link-accent {
+.t-link-accent-white {
     @include t-uppercase;
     @include t-link-hover;
+    @include bdr-thinn-white;
     @include t-ltr-spaceout-s;
-    @include t-after-arrow-up-r;
+//    @include t-after-arrow-up-r;
     line-height: $t-height-extra-loose;
     padding: 10px 0;
     margin-right: 2em;
+}
+
+.t-link-accent-blue {
+    @include t-uppercase;
+    @include t-link-hover;
+    @include bdr-thinn-blue;
+    @include t-ltr-spaceout-s;
+//    @include t-after-arrow-up-r;
+    line-height: $t-height-extra-loose;
+    padding: 10px 0;
+    margin-right: 2em;
+    font-size: $baby;
 }
 
 .t-eyebrow {
@@ -195,6 +238,7 @@ body {
 
 ul.resumelist {
     @include list-clear-style;
+    font-weight: $light;
     line-height: 1.3;
    
    li {
@@ -202,8 +246,10 @@ ul.resumelist {
     margin-bottom: 10px;
 
       &.subtitle {
-      @include serif;
-      color: $cobalt;
+      @include serifweight;
+      @include thinnfont;
+      color: $fuschia;
+      font-weight: $medium;
       margin-top: 1.5em;
       }
     }
