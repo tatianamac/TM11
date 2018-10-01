@@ -156,11 +156,11 @@
   text-transform: uppercase;
 }
 
-@mixin t-ltr-spaceout-s {
+@mixin t-ltr-spaceout-s() {
     letter-spacing: .05em;
 }
 
-@mixin t-ltr-spaceout-m {
+@mixin t-ltr-spaceout-m() {
     letter-spacing: .15em;
 }
 
@@ -230,7 +230,7 @@
   border-bottom: 2px solid $white;
 }
 
-@mixin bdr-thicc-pink {
+@mixin bdr-thicc-pink() {
   border-bottom: 5px solid $pink;
   @include txn-ease-in-quick;
 }
@@ -260,19 +260,19 @@
 
 // this is accent t-bar border
 
-@mixin bdr-baby-grey-line {
+@mixin bdr-baby-grey-line() {
   border-bottom: 1px solid $light-grey;
 }
 
-@mixin bdr-baby-grey-end {
+@mixin bdr-baby-grey-end() {
   border-right: 1px solid $light-grey;
 }
 
-@mixin bdr-baby-pink-line {
+@mixin bdr-baby-pink-line() {
   border-bottom: 1px solid $pink;
 }
 
-@mixin bdr-baby-pink-end {
+@mixin bdr-baby-pink-end() {
   border-right: 1px solid $pink;
 }
 
@@ -304,6 +304,12 @@
 
 // TRANSITIONS
 
-@mixin txn-ease-in-quick {
+@mixin txn-ease-in-quick() {
   transition: all .2s ease-in;
+}
+
+// DROP SHADOW
+
+@mixin dropshadow-grey() {
+  filter: drop-shadow(.5em .5em 0px $light-grey);
 }

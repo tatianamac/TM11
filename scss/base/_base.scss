@@ -73,6 +73,7 @@ img {
 	}
 }
 
+
 .grid-half\@xs {
 	@include screen-xs {
 		@include grid-half;
@@ -251,9 +252,18 @@ img {
 	@include thiccpadding;
 }
 
+.padding-btm-none {
+	padding-bottom: 0;
+}
 
 // BACKGROUND THINGS
 
 .primarybg {
 	background: $primary-color;
+}
+
+// DROP SHADOW
+
+.dropshadow-grey {
+	@include dropshadow-grey;
 }

@@ -126,6 +126,39 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"/images/salondoux-comp.jpg": {
+		"ft": 16384,
+		"iS": 1429783,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/salondoux-comp.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/images/salondoux-comp.png": {
+		"ft": 32768,
+		"iS": 748329,
+		"oA": 0,
+		"oAP": "/images/salondoux-comp.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/selfdefined-comp.png": {
+		"ft": 32768,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "/images/selfdefined-comp.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"/images/site.manifest.png": {
 		"ft": 32768,
 		"iS": 1021,
@@ -343,6 +376,28 @@
 		"iS": 317842,
 		"oA": 0,
 		"oAP": "/images/teocalihero.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/ucx-comp.jpg": {
+		"ft": 16384,
+		"iS": 49643,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/ucx-comp.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/images/ucx-comp.png": {
+		"ft": 32768,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "/images/ucx-comp.png",
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,

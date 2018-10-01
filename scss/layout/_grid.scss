@@ -28,6 +28,11 @@
     content: none;
  }
 
+ .wrapper-photogrid {
+  grid-row-gap: 1em;
+  grid-auto-rows: min-content;
+ }
+
 }
 
 .padding-thinn\@xs {
@@ -117,12 +122,6 @@
 .padding-thicc\@xl {
   @include screen-xl {
     @include thiccpadding;
-  }
-}
-
-.padding-normie\@xs {
-  @include screen-xs {
-    @include normiepadding;
   }
 }
 

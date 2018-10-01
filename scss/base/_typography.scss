@@ -206,6 +206,7 @@ body {
     @include t-ltr-spaceout-s;
 //    @include t-after-arrow-up-r;
     line-height: $t-height-extra-loose;
+    color: $primary-color;
     padding: 10px 0;
     margin-right: 2em;
     font-size: $baby;

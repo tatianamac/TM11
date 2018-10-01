@@ -24,11 +24,11 @@ img {
   width: 100%; /* 1 */
 
   @include screen-xs {
-    @include normiepadding;
+    @include thinnpadding;
  }
 
   @include screen-s {
-    @include thiccpadding;
+    @include normiepadding;
  }
 
   @include screen-m {
