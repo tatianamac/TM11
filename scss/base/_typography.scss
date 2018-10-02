@@ -268,7 +268,7 @@ ul.resumelist {
 
       &.subtitle {
       @include serifweight;
-      @include thinnfont;
+      @include slimmfont;
       color: $fuschia;
       font-weight: $medium;
       margin-top: 1.5em;

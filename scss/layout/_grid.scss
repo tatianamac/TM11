@@ -2,7 +2,7 @@
   background-color: transparent;
   display: grid;
   grid-template-columns: repeat(12, [col] 1fr [col]);
-  grid-column-gap: 1em;
+  grid-column-gap: 2em;
   grid-row-gap: 3em;
     // grid-template-areas: a thing to explore later; cool a a b type formatting
     //   "header"
@@ -15,7 +15,7 @@
   display: grid;
   grid-template-columns: repeat(12, [col] 1fr [col]);
   grid-template-rows: repeat (2);
-  grid-column-gap: 1em;
+  grid-column-gap: 2em;
   grid-row-gap: 2em;
   grid-auto-flow: dense;
     // grid-template-areas: a thing to explore later; cool a a b type formatting
