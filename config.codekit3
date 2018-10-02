@@ -75,6 +75,16 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"/images/downtime.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/downtime.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"/images/hands.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -291,7 +301,7 @@
 		"oAP": "/images/teocali-laying.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/images/teocali-lean.jpg": {
@@ -368,7 +378,7 @@
 		"oAP": "/images/teocali-teaser-hands.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/images/teocalihero.png": {
@@ -430,6 +440,13 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "/index.html",
+		"oF": 0
+		},
+	"/inktober2018.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/inktober2018.html",
 		"oF": 0
 		},
 	"/node_modules": {
