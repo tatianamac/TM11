@@ -151,6 +151,10 @@
   color: $white;
 }
 
+@mixin t-black() {
+  color: $black;
+}
+
 @mixin t-uppercase() {
   text-transform: uppercase;
 }

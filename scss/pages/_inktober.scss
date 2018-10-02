@@ -1,0 +1,51 @@
+/*@import url('https://fonts.googleapis.com/css?family=Six+Caps');*/
+ @import url('https://fonts.googleapis.com/css?family=Chewy|Overpass+Mono');
+
+
+.t-inktober-title {
+	font-size: 26vw;
+	font-family: 'Chewy', Helvetica, sans-serif;
+	text-transform: uppercase;
+	line-height: .125em;
+  
+  @include screen-xxs {
+
+	margin: .5vw 0 0 -5vw;
+  }
+
+  @include screen-xs {
+	margin: 2vw 0 0 -5vw;
+  }
+
+  @include screen-s {
+	margin: 5vw 0 0 -5vw;
+  }
+
+  @include screen-m {
+	margin: 10vw 0 0 -5vw;
+  }
+
+  @include screen-l {
+	margin: 15vw 0 0 -5vw;
+  }
+
+  @include screen-xl {
+	margin: 20vw 0 0 -5vw;
+  }
+}
+
+.t-inktober-copy {
+	font-family: 'Overpass Mono', 'Lucida Console', Courier, monospace;
+	color: $black;
+}
+
+.t-inktober-number {
+	font-family: 'Chewy', Helvetica, sans-serif;
+	font-size: 4em;
+}
+
+.t-inktober-link {
+	color: $pink;
+	text-decoration: none;
+	border-bottom: 10px solid $primary-color;
+}

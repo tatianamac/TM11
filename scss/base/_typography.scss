@@ -198,6 +198,10 @@ body {
     @include t-white;
 }
 
+.t-black {
+    @include t-black;
+}
+
 .t-link-accent-white {
     @include t-uppercase;
     @include t-link-hover;
