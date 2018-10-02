@@ -8,8 +8,8 @@
     font-weight: $bold;
   }
 
-.accentstatement {
-  font-size: 2em;
+.t-jumbo{
+  font-size: 4em;
 }
 
 .whitetext {
@@ -134,15 +134,17 @@
   }
 }
 
-.t-babyfont {
-  @include babyfont;
-}
-
 .t-thinnfont\@xl {
   @include screen-xl {
     @include thinnfont;
   }
 }
+
+.t-babyfont {
+  @include babyfont;
+}
+
+
 
 
 body {
@@ -210,6 +212,16 @@ body {
     padding: 10px 0;
     margin-right: 2em;
     font-size: $baby;
+}
+
+.t-link-accent-pink {
+    @include t-link-hover;
+    line-height: $t-height-loose;
+    @include bdr-thinn-white;
+//    @include t-after-arrow-up-r;
+    color: $pink;
+    padding: 4px 0;
+    margin-right: 2em;
 }
 
 .t-eyebrow {

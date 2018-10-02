@@ -145,7 +145,6 @@
 @mixin serifweight() {
   @include serif;
   font-weight: $light;
-  line-height: $t-height-tight;
 }
 
 @mixin t-white() {

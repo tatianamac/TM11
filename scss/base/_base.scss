@@ -258,8 +258,12 @@ img {
 
 // BACKGROUND THINGS
 
-.primarybg {
+.bg-primary {
 	background: $primary-color;
+}
+
+.bg-black {
+	background: $black;
 }
 
 // DROP SHADOW
