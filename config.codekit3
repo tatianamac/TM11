@@ -115,6 +115,26 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"/images/inktober-1.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/inktober-1.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/images/inktober-2.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/inktober-2.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"/images/lovelust_tee.jpg": {
 		"ft": 16384,
 		"iS": 115690,
@@ -255,6 +275,16 @@
 		"miP": 0,
 		"oA": 2,
 		"oAP": "/images/tatianamac_logo.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/images/tatianamac_logo_blk.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/tatianamac_logo_blk.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
