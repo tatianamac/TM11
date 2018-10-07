@@ -2,8 +2,8 @@
   background-color: transparent;
   display: grid;
   grid-template-columns: repeat(12, [col] 1fr [col]);
-  grid-column-gap: 2em;
-  grid-row-gap: 3em;
+  grid-column-gap: 2vw;
+  grid-row-gap: 2vh;
     // grid-template-areas: a thing to explore later; cool a a b type formatting
     //   "header"
     //   "nav"
@@ -33,6 +33,10 @@
   grid-auto-rows: min-content;
  }
 
+}
+
+.padding-thinn {
+  @include thinnpadding;
 }
 
 .padding-thinn\@xs {
@@ -232,35 +236,138 @@
 }
 
 .order-two {
-  order: 1;
+  order: 2;
 }
 
 .order-two\@xs {
   @include screen-xs {
-    order: 1;
+    order: 2;
   }
 }
 
 .order-two\@s {
   @include screen-s {
-    order: 1;
+    order: 2;
   }
 }
 
 .order-two\@m {
   @include screen-m {
-    order: 1;
+    order: 2;
   }
 }
 
 .order-two\@l {
   @include screen-l {
-    order: 1;
+    order: 2;
   }
 }
 
 .order-two\@xl {
   @include screen-xl {
-    order: 1;
+    order: 2;
+  }
+}
+
+
+.order-three {
+  order: 3;
+}
+
+.order-three\@xs {
+  @include screen-xs {
+    order: 3;
+  }
+}
+
+.order-three\@s {
+  @include screen-s {
+    order: 3;
+  }
+}
+
+.order-three\@m {
+  @include screen-m {
+    order: 3;
+  }
+}
+
+.order-three\@l {
+  @include screen-l {
+    order: 3;
+  }
+}
+
+.order-three\@xl {
+  @include screen-xl {
+    order: 3;
+  }
+}
+
+.order-four {
+  order: 4;
+}
+
+.order-four\@xs {
+  @include screen-xs {
+    order: 4;
+  }
+}
+
+.order-four\@s {
+  @include screen-s {
+    order: 4;
+  }
+}
+
+.order-four\@m {
+  @include screen-m {
+    order: 4;
+  }
+}
+
+.order-four\@l {
+  @include screen-l {
+    order: 4;
+  }
+}
+
+.order-four\@xl {
+  @include screen-xl {
+    order: 4;
+  }
+}
+
+.order-five {
+  order: 5;
+}
+
+.order-five\@xs {
+  @include screen-xs {
+    order: 5;
+  }
+}
+
+.order-five\@s {
+  @include screen-s {
+    order: 5;
+  }
+}
+
+.order-five\@m {
+  @include screen-m {
+    order: 5;
+  }
+}
+
+.order-five\@l {
+  @include screen-l {
+    order: 5;
+  }
+}
+
+.order-five\@xl {
+  @include screen-xl {
+    order: 5;
   }
 }

@@ -3,34 +3,34 @@
 
 
 .t-inktober-title {
-	font-size: 26vw;
+	font-size: 22vw;
 	font-family: 'Chewy', Helvetica, sans-serif;
 	text-transform: uppercase;
 	line-height: .125em;
   
   @include screen-xxs {
 
-	margin: .5vw 0 0 -5vw;
+	margin: .5vw 0 0 0;
   }
 
   @include screen-xs {
-	margin: 2vw 0 0 -5vw;
+	margin: 1.5vw 0 0 0;
   }
 
   @include screen-s {
-	margin: 5vw 0 0 -5vw;
+	margin: 4vw 0 0 0;
   }
 
   @include screen-m {
-	margin: 10vw 0 0 -5vw;
+	margin: 8vw 0 0 0;
   }
 
   @include screen-l {
-	margin: 15vw 0 0 -5vw;
+	margin: 15vw 0 0 0;
   }
 
   @include screen-xl {
-	margin: 20vw 0 0 -5vw;
+	margin: 20vw 0 0 0;
   }
 }
 
