@@ -203,27 +203,27 @@ body {
 }
 
 .t-link-accent-white {
-    @include t-uppercase;
     @include t-link-hover;
     @include bdr-thinn-white;
-    @include t-ltr-spaceout-s;
 //    @include t-after-arrow-up-r;
     line-height: $t-height-extra-loose;
     padding: 10px 0;
     margin-right: 2em;
 }
 
-.t-link-accent-blue {
+.t-ltr-stretch {
     @include t-uppercase;
+    @include t-ltr-spaceout-s;
+}
+
+.t-link-accent-blue {
     @include t-link-hover;
     @include bdr-thinn-blue;
-    @include t-ltr-spaceout-s;
 //    @include t-after-arrow-up-r;
     line-height: $t-height-extra-loose;
     color: $primary-color;
     padding: 10px 0;
     margin-right: 2em;
-    font-size: $baby;
 }
 
 .t-link-accent-pink {
