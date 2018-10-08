@@ -135,6 +135,43 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"/images/inktober-3.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/inktober-3.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/images/inktober-5.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/inktober-5.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/images/inktober-6.ai": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/images/inktober-6.ai",
+		"oF": 0
+		},
+	"/images/inktober-6.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/inktober-6.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"/images/lovelust_tee.jpg": {
 		"ft": 16384,
 		"iS": 115690,
@@ -478,6 +515,16 @@
 		"oA": 0,
 		"oAP": "/inktober2018.html",
 		"oF": 0
+		},
+	"/main.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/main-min.css",
+		"oF": 0,
+		"oS": 3
 		},
 	"/node_modules": {
 		"ft": 65536,
