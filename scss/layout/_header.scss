@@ -1,8 +1,45 @@
 .logo {
-  margin: 1em 0;
+  display: block;
+  position: relative;
+  margin: 1em 0 0 1em;
   width: 40px;
+  flex: 0 0 50%;
+  border: 1px solid red;
 
   a {
   border-bottom: none;
 	}
+}
+
+.site-header {
+  padding: 0;
+  position: fixed;
+  z-index: 9999;
+  width: 100%;
+  background: $cobalt;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.main-navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  justify-content: flex-end;
+  border: 1px solid white;
+}
+
+.navi {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  opacity: 1;
+  transition: opacity 200ms ease-out;
+
+  li {
+    text-align: center;
+    margin: .5rem auto;
+  }
 }
