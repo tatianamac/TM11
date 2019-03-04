@@ -1,16 +1,3 @@
-.logo {
-  display: block;
-  position: relative;
-  margin: 1em 0 0 1em;
-  width: 40px;
-  flex: 0 0 50%;
-  border: 1px solid red;
-
-  a {
-  border-bottom: none;
-	}
-}
-
 .site-header {
   padding: 0;
   position: fixed;
@@ -18,17 +5,28 @@
   width: 100%;
   background: $cobalt;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+}
 
+.logo {
+  display: block;
+  position: flex;
+  margin: 1em 0 0 1em;
+  width: 40px;
+ margin: 0 3rem;
+
+  a {
+  border-bottom: none;
+	}
 }
 
 .main-navigation {
+  width: 100%
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-start;
   justify-content: flex-end;
-  border: 1px solid white;
 }
 
 .navi {
