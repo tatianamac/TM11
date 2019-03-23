@@ -1,7 +1,29 @@
+#skip a {
+  display: block;
+  position: absolute;
+
+  left: 1em;
+  top: 1em;
+
+  transform: translateY(calc(-100% - 1em));
+
+  padding: 1em;
+  color: $white;
+  text-decoration: none;
+  background: $dark-grey;
+  border: 1px $pink;
+
+}
+
+#skip a:focus {
+  transform: translateY(0);
+  transition: all .2s ease-in-out;
+  }
+
 .site-header {
-  padding: 0;
-  position: fixed;
-  z-index: 9999;
+  padding: 2rem 0;
+  // position: fixed;
+  // z-index: 9999;
   width: 100%;
   background: $cobalt;
   display: flex;
@@ -21,15 +43,14 @@
 }
 
 .main-navigation {
-  width: 100%
-  display: flex;
+  // width: 100%;
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-start;
   justify-content: flex-end;
 }
 
-.navi {
+.navi ul {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
