@@ -28,6 +28,36 @@
   line-height: $t-height-cozy;
 }
 
+.t-chonkfont\@xs {
+  @include screen-xs {
+    @include chonkfont;
+  }
+}
+
+.t-chonkfont\@s {
+  @include screen-s {
+    @include chonkfont;
+  }
+}
+
+.t-chonkfont\@m {
+  @include screen-m {
+    @include chonkfont;
+  }
+}
+
+.t-chonkfont\@l {
+  @include screen-l {
+    @include chonkfont;
+  }
+}
+
+.t-chonkfont\@xl {
+  @include screen-l {
+    @include chonkfont;
+  }
+}
+
 .t-thiccfont\@xs {
   @include screen-xs {
     @include thiccfont;

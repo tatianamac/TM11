@@ -34,6 +34,13 @@
 		"rFN": 0,
 		"uCM": 0
 		},
+	"/css/.htaccess": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/css/.htaccess",
+		"oF": 0
+		},
 	"/css/main.css": {
 		"aP": 1,
 		"bl": 0,
@@ -43,6 +50,27 @@
 		"oAP": "/css/main-min.css",
 		"oF": 0,
 		"oS": 3
+		},
+	"/images/a11y-project.jpg": {
+		"ft": 16384,
+		"iS": 283577,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/a11y-project.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/images/a11y-project.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/a11y-project.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"/images/apple-touch-icon.png": {
 		"ft": 32768,
@@ -329,6 +357,26 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"/images/spilled-glasses-01.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/spilled-glasses-01.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/images/spilled-glasses.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/spilled-glasses.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"/images/tacobell_illo.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -508,6 +556,16 @@
 		"opt": 1,
 		"oT": 1,
 		"q": 100
+		},
+	"/images/thot-leader.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/thot-leader.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"/images/ucx-comp.jpg": {
 		"ft": 16384,

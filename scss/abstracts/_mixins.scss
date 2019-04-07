@@ -132,6 +132,9 @@
   font-size: $thicc;
 }
 
+@mixin chonkfont() {
+  font-size: $chonk;
+}
 
 @mixin serif() {
   font-family: $serif;

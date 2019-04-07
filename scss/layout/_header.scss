@@ -1,7 +1,7 @@
 #skip a {
   display: block;
   position: absolute;
-
+  z-index: 9999;
   left: 1em;
   top: 1em;
 
@@ -10,7 +10,7 @@
   padding: 1em;
   color: $white;
   text-decoration: none;
-  background: $dark-grey;
+  background: $black;
   border: 1px $pink;
 
 }
@@ -21,9 +21,8 @@
   }
 
 .site-header {
-  padding: 2rem 0;
-  // position: fixed;
-  // z-index: 9999;
+  padding: 1rem 0 .25rem 0;
+
   width: 100%;
   background: $cobalt;
   display: flex;
