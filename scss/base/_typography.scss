@@ -226,7 +226,9 @@ body {
     font-size: .8em;
     color: $dark-grey;
     letter-spacing: .025em;
+    padding-top: 1em;
   }
+
   .wip {
      font-style: italic;
      color: $mid-grey;
@@ -266,7 +268,6 @@ body {
     @include t-link-hover;
     @include bdr-thinn-blue;
 //    @include t-after-arrow-up-r;
-    line-height: $t-height-extra-loose;
     color: $primary-color;
     padding: 4px 0;
     margin-right: 2em;
@@ -278,7 +279,7 @@ body {
     @include bdr-thinn-white;
 //    @include t-after-arrow-up-r;
     color: $pink;
-    padding: 4px 0;
+    padding: 2px 0;
     margin-right: 2em;
 }
 

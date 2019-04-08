@@ -122,6 +122,34 @@ li.inline {
     grid-column: span 1;
   }
 
+  .grid-calendar {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 0;
+    padding: 0;
+  }
+
+  .calendar-item {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+    border: 1px solid $light-grey;
+    padding: .25em 1.5em;
+    margin: 1em;
+  }
+
+  .calendar-item-h {
+    display: flex;
+    align-items: stretch;
+    // justify-content: space-between;
+    text-align:left;
+    flex-direction: row;
+    border: 1px solid $light-grey;
+    padding: .25em 1.5em;
+    margin: 1em;
+  }
+
   #contact {
     background: $fuschia;
   }
