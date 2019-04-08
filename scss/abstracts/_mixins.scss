@@ -236,6 +236,10 @@
   border-bottom: 2px solid $white;
 }
 
+@mixin bdr-thinn-green() {
+  border-bottom: 2px solid $green;
+}
+
 @mixin bdr-thicc-pink() {
   border-bottom: 5px solid $pink;
   @include txn-ease-in-quick;

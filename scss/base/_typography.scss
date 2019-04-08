@@ -8,8 +8,16 @@
     font-weight: $bold;
   }
 
+.t-mini{
+  font-size: .75em;
+}
+
 .t-jumbo{
   font-size: 5em;
+}
+
+.t-center {
+  text-align: center;
 }
 
 .whitetext {
@@ -239,6 +247,14 @@ body {
     line-height: $t-height-extra-loose;
     padding: 10px 0;
     margin-right: 2em;
+}
+
+.t-link-accent-green {
+  @include t-link-hover;
+  @include bdr-thinn-green;
+  line-height: $t-height-extra-loose;
+  padding: 10px 0;
+  margin-right: 2em;
 }
 
 .t-ltr-stretch {

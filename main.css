@@ -690,6 +690,10 @@ img {
 .align-self-center {
   align-self: center; }
 
+.align-center {
+  text-align: center;
+}
+
 .height-full {
   height: 100%; }
 
