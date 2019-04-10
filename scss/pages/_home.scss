@@ -6,7 +6,7 @@ li.inline {
   @include clearspace;
 }
 
-.zigzag {
+.zigzag-blue-yellow {
     height: 5em;
     background: 
                 linear-gradient(45deg, transparent 50%, $cobalt 50%),
@@ -16,7 +16,7 @@ li.inline {
     background-size: 5em 5em, 5em 5em;
 }
 
-.zigzag2 {
+.zigzag-yellow-white {
     height: 5em;
     background: linear-gradient(-45deg, transparent 74%, $curry 75%),
                 linear-gradient(45deg, transparent 74%, $yellow 75%) 0 50%;
@@ -24,7 +24,7 @@ li.inline {
     background-size: 5em 5em, 5em 5em;
 }
 
-.zigzag3 {
+.zigzag-white-grey {
     height: 5em;
     background: 
                 linear-gradient(45deg, transparent 50%, $white 50%),
@@ -34,7 +34,7 @@ li.inline {
     background-size: 5em 5em, 5em 5em;
 }
 
-.zigzag4 {
+.zigzag-grey-black {
     height: 5em;
     background: linear-gradient(-45deg, transparent 74%, $mid-grey 75%),
                 linear-gradient(45deg, $black 74%, $light-grey 75%) 0 50%;
@@ -42,7 +42,7 @@ li.inline {
     background-size: 5em 5em, 5em 5em;
 }
 
-.zigzag5 {
+.zigzag-black-pink {
     height: 5em;
     background: 
                 linear-gradient(45deg, transparent 50%, $black 50%),
@@ -52,7 +52,7 @@ li.inline {
     background-size: 5em 5em, 5em 5em;
 }
 
-.zigzag6 {
+.zigzag-pink-white {
     height: 5em;
     background: linear-gradient(-45deg, transparent 74%, $fuschia 75%),
                 linear-gradient(45deg, $white 74%, $pink 75%) 0 50%;
@@ -60,7 +60,7 @@ li.inline {
     background-size: 5em 5em, 5em 5em;
 }
 
-.zigzag7 {
+.zigzag-white-blue {
   height: 5em;
   background: 
               linear-gradient(45deg, transparent 50%, $white 50%),
@@ -70,7 +70,7 @@ li.inline {
   background-size: 5em 5em, 5em 5em;
 }
 
-.zigzag8 {
+.zigzag-blue-blush {
   height: 5em;
   background: linear-gradient(-45deg, transparent 74%, $true-blue 75%),
               linear-gradient(45deg, $blush-pink 74%, $cobalt 75%) 0 50%;
@@ -78,7 +78,7 @@ li.inline {
   background-size: 5em 5em, 5em 5em;
 }
 
-.zigzag9 {
+.zigzag-blush-green {
   height: 5em;
   background: 
               linear-gradient(45deg, transparent 50%, $blush-pink 50%),
@@ -88,7 +88,7 @@ li.inline {
   background-size: 5em 5em, 5em 5em;
 }
 
-.zigzag10 {
+.zigzag-green-fuschia {
   height: 5em;
   background: linear-gradient(-45deg, transparent 74%, $leaf-green 75%),
               linear-gradient(45deg, $fuschia 74%, $green 75%) 0 50%;
@@ -142,7 +142,7 @@ li.inline {
 
   .grid-calendar {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     margin: 0;
     padding: 0;
   }
@@ -154,6 +154,7 @@ li.inline {
     flex-direction: column;
     border: 1px solid $light-grey;
     padding: .25em 1.5em;
+    vertical-align: text-top;
     margin: 1em;
   }
 
