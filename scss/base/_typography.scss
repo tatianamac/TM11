@@ -283,7 +283,6 @@ body {
 //    @include t-after-arrow-up-r;
     line-height: $t-height-extra-loose;
     padding: 10px 0;
-    margin-right: 2em;
 }
 
 .t-link-accent-green {
@@ -291,7 +290,6 @@ body {
   @include bdr-thinn-green;
   line-height: $t-height-extra-loose;
   padding: 10px 0;
-  margin-right: 2em;
 }
 
 .t-ltr-stretch {
@@ -382,6 +380,7 @@ ul.resumelist {
 
     li {
     @include inline-style;
+    margin: 0 2rem 0 0;
     }
 
   }
