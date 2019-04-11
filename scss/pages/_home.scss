@@ -190,6 +190,28 @@ li.inline {
     background: $white;
   }
 
+  // .cut-out {
+  //   $punchSize: 1rem;
+    
+  //   clip-path: 
+  //     polygon(
+  //       // 0% $punchSize, 
+  //       // $punchSize 0%, 
+  //       // calc(100% - #{$punchSize}) 0%, 
+  //       // 100% $punchSize, 
+  //       // 100% calc(100% - #{$punchSize}), 
+  //       // calc(100% - #{$punchSize}) 100%, 
+  //       // $punchSize 100%, 
+  //       // 0% calc(100% - #{$punchSize})
+  //     );
+  // }
+
+  .cut-out {
+    outline: 6rem dotted $white;
+    outline-offset: -1rem;
+    overflow: hidden;
+}
+
   .cut-out--nw {
     border-radius: 30px;
     width: 4rem;
@@ -256,27 +278,39 @@ li.inline {
    }
 
    .stamp--neg10\@m {
+    @include screen-m {
     transform: rotate(-10deg);
+    }
    }
 
    .stamp--neg10\@l {
+     @include screen-l {
     transform: rotate(-10deg);
+  }
    }
 
    .stamp--neg10\@xl {
+    @include screen-xl {
     transform: rotate(-10deg);
+    }
    }
 
-   .stamp--neg10\@m {
-    transform: rotate(-10deg);
+   .stamp--neg5\@m {
+     @include screen-m {
+    transform: rotate(-5deg);
+  }
    }
 
-   .stamp--neg10\@l {
-    transform: rotate(-10deg);
-   }
+   .stamp--neg5\@l {
+     @include screen-l {
+    transform: rotate(-5deg);
+  } 
+  }
 
-   .stamp--neg10\@xl {
-    transform: rotate(-10deg);
+   .stamp--neg5\@xl {
+    @include screen-xl {
+    transform: rotate(-5deg);
+    }
    }
 
    .stamp--10\@m {
@@ -294,6 +328,24 @@ li.inline {
   .stamp--10\@xl {
     @include screen-xl {
       transform: rotate (10deg);
+    }
+  }
+
+  .stamp--5\@m {
+    @include screen-m {
+      transform: rotate(5deg);
+    }
+  }
+
+  .stamp--5\@l {
+    @include screen-l {
+      transform: rotate(5deg);
+    }
+  }
+
+  .stamp--5\@xl {
+    @include screen-xl {
+      transform: rotate (5deg);
     }
   }
 
