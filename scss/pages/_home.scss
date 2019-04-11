@@ -147,26 +147,202 @@ li.inline {
     padding: 0;
   }
 
-  .calendar-item {
+  // STAMPS
+
+  .stamp {
+    outline: 20px dotted $white;
+    outline-offset: -10px;
+    background: $light-grey;
+    margin: 1em;
+    box-shadow: 1px 1px 1px 1px $blush-pink;
+
+  }
+
+  .stub {
+    // outline: 10px dotted $white;
+    // outline-offset: -20px;
+    background: $yellow;
+    margin: 4rem 2rem;
+    border-radius: 10px;
+  }
+
+.stub-content {
+    outline: 1px solid $white;
     display: flex;
-    align-items: flex-start;
+    text-align:left;
     justify-content: space-between;
     flex-direction: column;
-    border: 1px solid $light-grey;
+    // border: 1px solid $light-grey;
     padding: .25em 1.5em;
-    vertical-align: text-top;
-    margin: 1em;
+    margin: 1.25em;
+    vertical-align: baseline;
+  }
+
+  .calendar-item {
+    display: flex;
+    text-align:left;
+    justify-content: space-between;
+    flex-direction: column;
+    // border: 1px solid $light-grey;
+    padding: .25em 1.5em;
+    margin: 1.25em;
+    vertical-align: baseline;
+    background: $white;
+  }
+
+  .cut-out--nw {
+    border-radius: 30px;
+    width: 4rem;
+    height: 4rem;
+    display: block;
+    margin-left: -2rem;
+    margin-top: -2rem;
+    background: $white;
+    position: absolute;
+  }
+
+  .cut-out--ne {
+    border-radius: 30px;
+    width: 4rem;
+    height: 4rem;
+    display: block;
+    margin-left: 20rem;
+    margin-top: -2rem;
+    background: $white;
+    position: absolute;
+  }
+
+  .cut-out--sw {
+    border-radius: 30px;
+    width: 4rem;
+    height: 4rem;
+    display: block;
+    margin-left: -2rem;
+    margin-top: 11rem;
+    background: $white;
+    position: absolute;
+  }
+
+  .cut-out--se {
+    border-radius: 30px;
+    width: 4rem;
+    height: 4rem;
+    display: block;
+    margin-left: 20rem;
+    margin-top: 11rem;
+    background: $white;
+    position: absolute;
+  }
+
+  .stamp-date {
+    width: 7em;
+    height: 7em;
+    position: absolute;
+  }
+  .stamp-date text {
+  text-transform: uppercase;
+  fill: $red;
+  font-size: .65em;
+  font-family: Courier;
+}
+
+.stamp-date path {
+  fill: none;
+  border: 1px solid $red;}
+
+  .stamp-date svg {
+    display: block;
+    overflow: visible;
+   }
+
+   .stamp--neg10\@m {
+    transform: rotate(-10deg);
+   }
+
+   .stamp--neg10\@l {
+    transform: rotate(-10deg);
+   }
+
+   .stamp--neg10\@xl {
+    transform: rotate(-10deg);
+   }
+
+   .stamp--neg10\@m {
+    transform: rotate(-10deg);
+   }
+
+   .stamp--neg10\@l {
+    transform: rotate(-10deg);
+   }
+
+   .stamp--neg10\@xl {
+    transform: rotate(-10deg);
+   }
+
+   .stamp--10\@m {
+    @include screen-m {
+      transform: rotate(10deg);
+    }
+  }
+
+  .stamp--10\@l {
+    @include screen-l {
+      transform: rotate(10deg);
+    }
+  }
+
+  .stamp--10\@xl {
+    @include screen-xl {
+      transform: rotate (10deg);
+    }
+  }
+
+  .stamp--aboveleft {
+    margin: -3rem -5rem 0 0;
+   }
+
+
+  .stamp--aboveright {
+    margin: -2rem 0 0 11rem;
+   }
+
+   .stamp--topright {
+    margin: 2rem 0 0 12rem;
+   }
+
+   .stamp--midleft {
+    margin: 13rem 0 0 -1rem;
+   }
+
+   .stamp--btmright {
+    margin: 16rem 0 0 10rem;
+  }
+
+  .calendar-item {
+    display: flex;
+    text-align:left;
+    justify-content: space-between;
+    flex-direction: column;
+    // border: 1px solid $light-grey;
+    padding: .25em 1.5em;
+    margin: 1.25em;
+    vertical-align: baseline;
+    background: $white;
   }
 
   .calendar-item-h {
     display: flex;
-    align-items: stretch;
-    // justify-content: space-between;
     text-align:left;
     flex-direction: row;
     border: 1px solid $light-grey;
     padding: .25em 1.5em;
     margin: 1em;
+    vertical-align: baseline;
+  }
+
+  .calendar-item--stl {
+    background: url("https://images.unsplash.com/photo-1424274414501-ce96d567b5c5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80");
+    background-size: 100% 100%;
   }
 
   #contact {

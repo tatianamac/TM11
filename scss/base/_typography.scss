@@ -20,12 +20,12 @@
   text-align: center;
 }
 
-.whitetext {
-  color: $white;
-}
-
 .t-serifweight {
   @include serifweight;
+}
+
+.t-typeweight {
+  @include typewriter;
 }
 
 .t-height-tight {
@@ -93,6 +93,36 @@
 .t-thiccfont\@xl {
   @include screen-l {
     @include thiccfont;
+  }
+}
+
+.t-fullfont\@xs {
+  @include screen-xs {
+    @include fullfont;
+  }
+}
+
+.t-fullfont\@s {
+  @include screen-s {
+    @include fullfont;
+  }
+}
+
+.t-fullfont\@m {
+  @include screen-m {
+    @include fullfont;
+  }
+}
+
+.t-fullfont\@l {
+  @include screen-l {
+    @include fullfont;
+  }
+}
+
+.t-fullfont\@xl {
+  @include screen-l {
+    @include fullfont;
   }
 }
 
@@ -239,6 +269,10 @@ body {
     @include t-white;
 }
 
+.t-red {
+  color: $pink;
+}
+
 .t-black {
     @include t-black;
 }
@@ -271,7 +305,6 @@ body {
 //    @include t-after-arrow-up-r;
     color: $primary-color;
     padding: 4px 0;
-    margin-right: 2em;
 }
 
 .t-link-accent-pink {
@@ -304,6 +337,22 @@ body {
   @include bdr-t-bar-r-pink;
   @include bdr-baby-pink-end;
   overflow: hidden;
+}
+
+.t-titlingfont {
+  font-family: rama-gothic-m, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  text-transform: uppercase;
+}
+
+.t-chip {
+  background: $dark-grey;
+  border-radius: 10px;
+  padding: .5em;
+  font-size: .75em;
+  color: $white;
+  text-transform: uppercase;
 }
 
 
