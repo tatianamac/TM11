@@ -151,34 +151,40 @@ li.inline {
     outline-offset: -10px;
     background: $light-grey;
     margin: 1em;
-    box-shadow: 1px 1px 1px 1px $blush-pink;
-
+    position: relative;
   }
 
   .stub {
-    margin: 10rem auto;
+    display: flex;
+    align-self: center;
+    width: 80%;
     border-radius: 10px;
-    max-height: 14rem;
-    min-width: 19rem;
-    background: radial-gradient(
-		transparent 0px, 
-		transparent 40px, 
-    $yellow 40px,
-		$yellow	);
-	background-size: 20em 20em;
-	background-position: -10em -2.5em;
+    margin: 2rem 0;
+    max-height: 15rem;
+    min-width: 250px;
+    background:
+    radial-gradient(circle at 0 100%, transparent 30px, $yellow 30px),
+    radial-gradient(circle at 100% 100%, transparent 30px, $yellow 30px),
+    radial-gradient(circle at 100% 0, transparent 30px, $yellow 30px),
+    radial-gradient(circle at 0 0, transparent 30px, $yellow 30px);
+    background-position: bottom left, bottom right, top right, top left;
+    background-size: 51% 51%, 51% 51%, 51% 51%, 51% 51%;
+    background-repeat: no-repeat;
+
+    // background-size: calc(100%) calc(100%);
+    // background-position: calc(50% - 50px) calc(50% - 20px);
+    // background-position: -10rem -2.5rem;
+
   }
 
 .stub-content {
-    outline: 1px solid $white;
-    display: flex;
-    text-align:left;
-    justify-content: space-between;
-    flex-direction: column;
-    // border: 1px solid $light-grey;
-    padding: .25em 1.5em;
-    margin: 1.25em;
-    vertical-align: baseline;
+  display: flex;
+  text-align: left;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: .5rem 2.5rem;
+  margin: 1.25em;
+  vertical-align: baseline;
   }
 
   .calendar-item {
@@ -193,77 +199,12 @@ li.inline {
     background: $white;
   }
 
-  // .cut-out {
-  //   $punchSize: 1rem;
-    
-  //   clip-path: 
-  //     polygon(
-  //       // 0% $punchSize, 
-  //       // $punchSize 0%, 
-  //       // calc(100% - #{$punchSize}) 0%, 
-  //       // 100% $punchSize, 
-  //       // 100% calc(100% - #{$punchSize}), 
-  //       // calc(100% - #{$punchSize}) 100%, 
-  //       // $punchSize 100%, 
-  //       // 0% calc(100% - #{$punchSize})
-  //     );
-  // }
-
-  .cut-out {
-    outline: 6rem dotted $white;
-    outline-offset: -1rem;
-    overflow: hidden;
-}
-
-  .cut-out--nw {
-    border-radius: 30px;
-    width: 4rem;
-    height: 4rem;
-    display: block;
-    margin-left: -2rem;
-    margin-top: -2rem;
-    background: $white;
-    position: absolute;
-  }
-
-  .cut-out--ne {
-    border-radius: 30px;
-    width: 4rem;
-    height: 4rem;
-    display: block;
-    margin-left: 20rem;
-    margin-top: -2rem;
-    background: $white;
-    position: absolute;
-  }
-
-  .cut-out--sw {
-    border-radius: 30px;
-    width: 4rem;
-    height: 4rem;
-    display: block;
-    margin-left: -2rem;
-    margin-top: 11rem;
-    background: $white;
-    position: absolute;
-  }
-
-  .cut-out--se {
-    border-radius: 30px;
-    width: 4rem;
-    height: 4rem;
-    display: block;
-    margin-left: 20rem;
-    margin-top: 11rem;
-    background: $white;
-    position: absolute;
-  }
-
   .stamp-date {
     width: 7em;
     height: 7em;
     position: absolute;
   }
+
   .stamp-date text {
   text-transform: uppercase;
   fill: $cobalt;
@@ -353,24 +294,28 @@ li.inline {
   }
 
   .stamp--aboveleft {
-    margin: -3rem -5rem 0 0;
-   }
-
+    top: -2rem;
+    right: -2rem;
+  }
 
   .stamp--aboveright {
-    margin: 5rem 0 0 12rem;
+    top: -3rem;
+    right: -3rem;
    }
 
    .stamp--topright {
-    margin: 2rem 0 0 12rem;
+    top: 2rem;
+    right: -3rem;
    }
 
    .stamp--midleft {
-    margin: 13rem 0 0 -1rem;
+    top: 5rem;
+    right: -4rem;
    }
 
    .stamp--btmright {
-    margin: 16rem 0 0 10rem;
+    bottom: -2rem;
+    right: -2rem;
   }
 
   .calendar-item {
