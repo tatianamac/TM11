@@ -22,10 +22,12 @@
 
 .t-serifweight {
   @include serifweight;
+  font-display: swap;
 }
 
 .t-typeweight {
   @include typewriter;
+  font-display: swap;
 }
 
 .t-height-tight {
@@ -220,17 +222,16 @@
   @include babyfont;
 }
 
-
-
-
 body {
       font-family: $sans-serif;
+      font-display: swap;
       font-size: 18px; //The smallest it should be!
       line-height: 1.5;
   }
 
   h5 {
     font-family: $serif;
+    font-display: swap;
     font-weight: $regular;
     font-size:1.25em;
   }
@@ -238,6 +239,7 @@ body {
 
   p {
     color: $mid-grey;
+    font-display: swap;
 
   &.comingsoon {
       color: $mid-grey;
