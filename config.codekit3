@@ -51,16 +51,6 @@
 		"oF": 0,
 		"oS": 3
 		},
-	"/css/main.min.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/css/main.min-min.css",
-		"oF": 0,
-		"oS": 3
-		},
 	"/images/a11y-project.jpg": {
 		"ft": 16384,
 		"iS": 283577,
@@ -361,6 +351,111 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"/images/lovelust_tee,w_1013.webp": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/images/lovelust_tee,w_1013.webp",
+		"oF": 0
+		},
+	"/images/lovelust_tee,w_1040.jpg": {
+		"ft": 16384,
+		"iS": 133629,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/lovelust_tee,w_1040.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/images/lovelust_tee,w_1040.webp": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/images/lovelust_tee,w_1040.webp",
+		"oF": 0
+		},
+	"/images/lovelust_tee,w_200.jpg": {
+		"ft": 16384,
+		"iS": 11432,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/lovelust_tee,w_200.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/images/lovelust_tee,w_200.webp": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/images/lovelust_tee,w_200.webp",
+		"oF": 0
+		},
+	"/images/lovelust_tee,w_390.jpg": {
+		"ft": 16384,
+		"iS": 31959,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/lovelust_tee,w_390.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/images/lovelust_tee,w_534.jpg": {
+		"ft": 16384,
+		"iS": 52699,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/lovelust_tee,w_534.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/images/lovelust_tee,w_648.jpg": {
+		"ft": 16384,
+		"iS": 71072,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/lovelust_tee,w_648.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/images/lovelust_tee,w_667.webp": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/images/lovelust_tee,w_667.webp",
+		"oF": 0
+		},
+	"/images/lovelust_tee,w_770.jpg": {
+		"ft": 16384,
+		"iS": 92539,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/lovelust_tee,w_770.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/images/lovelust_tee,w_882.jpg": {
+		"ft": 16384,
+		"iS": 113712,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/lovelust_tee,w_882.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/images/lovelust_tee.jpg": {
 		"ft": 16384,
 		"iS": 115690,
@@ -372,6 +467,13 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/images/lovelust_tee.webp": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/images/lovelust_tee.webp",
+		"oF": 0
+		},
 	"/images/safari-pinned-tab.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -381,6 +483,64 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"/images/salondoux-comp,w_200.png": {
+		"ft": 32768,
+		"iS": 90074,
+		"oA": 0,
+		"oAP": "/images/salondoux-comp,w_200.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/salondoux-comp,w_200.webp": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/images/salondoux-comp,w_200.webp",
+		"oF": 0
+		},
+	"/images/salondoux-comp,w_227.png": {
+		"ft": 32768,
+		"iS": 109527,
+		"oA": 0,
+		"oAP": "/images/salondoux-comp,w_227.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/salondoux-comp,w_247.png": {
+		"ft": 32768,
+		"iS": 127438,
+		"oA": 0,
+		"oAP": "/images/salondoux-comp,w_247.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/salondoux-comp,w_400.png": {
+		"ft": 32768,
+		"iS": 159238,
+		"oA": 0,
+		"oAP": "/images/salondoux-comp,w_400.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/salondoux-comp,w_400.webp": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/images/salondoux-comp,w_400.webp",
+		"oF": 0
 		},
 	"/images/salondoux-comp.jpg": {
 		"ft": 16384,
@@ -403,6 +563,13 @@
 		"opt": 1,
 		"oT": 1,
 		"q": 100
+		},
+	"/images/salondoux-comp.webp": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/images/salondoux-comp.webp",
+		"oF": 0
 		},
 	"/images/self-defined.svg": {
 		"ft": 2097152,
@@ -498,6 +665,16 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"/images/tacobell-email.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/tacobell-email.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"/images/tacobell_illo.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -554,7 +731,7 @@
 		"oAP": "/images/teocali-bags.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/images/teocali-chairbag.jpg": {
@@ -563,6 +740,176 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/images/teocali-chairbag.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/images/teocali-flatlay,w_1034.webp": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/images/teocali-flatlay,w_1034.webp",
+		"oF": 0
+		},
+	"/images/teocali-flatlay,w_1067.jpg": {
+		"ft": 16384,
+		"iS": 332367,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/teocali-flatlay,w_1067.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/images/teocali-flatlay,w_1067.webp": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/images/teocali-flatlay,w_1067.webp",
+		"oF": 0
+		},
+	"/images/teocali-flatlay,w_200.jpg": {
+		"ft": 16384,
+		"iS": 18624,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/teocali-flatlay,w_200.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/images/teocali-flatlay,w_200.webp": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/images/teocali-flatlay,w_200.webp",
+		"oF": 0
+		},
+	"/images/teocali-flatlay,w_294.jpg": {
+		"ft": 16384,
+		"iS": 38570,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/teocali-flatlay,w_294.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/images/teocali-flatlay,w_369.jpg": {
+		"ft": 16384,
+		"iS": 58932,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/teocali-flatlay,w_369.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/images/teocali-flatlay,w_419.webp": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/images/teocali-flatlay,w_419.webp",
+		"oF": 0
+		},
+	"/images/teocali-flatlay,w_434.jpg": {
+		"ft": 16384,
+		"iS": 79685,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/teocali-flatlay,w_434.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/images/teocali-flatlay,w_493.jpg": {
+		"ft": 16384,
+		"iS": 99978,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/teocali-flatlay,w_493.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/images/teocali-flatlay,w_548.jpg": {
+		"ft": 16384,
+		"iS": 120419,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/teocali-flatlay,w_548.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/images/teocali-flatlay,w_586.webp": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/images/teocali-flatlay,w_586.webp",
+		"oF": 0
+		},
+	"/images/teocali-flatlay,w_702.jpg": {
+		"ft": 16384,
+		"iS": 182449,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/teocali-flatlay,w_702.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/images/teocali-flatlay,w_737.webp": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/images/teocali-flatlay,w_737.webp",
+		"oF": 0
+		},
+	"/images/teocali-flatlay,w_795.jpg": {
+		"ft": 16384,
+		"iS": 222327,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/teocali-flatlay,w_795.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/images/teocali-flatlay,w_864.webp": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/images/teocali-flatlay,w_864.webp",
+		"oF": 0
+		},
+	"/images/teocali-flatlay,w_888.jpg": {
+		"ft": 16384,
+		"iS": 264416,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/teocali-flatlay,w_888.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/images/teocali-flatlay,w_977.jpg": {
+		"ft": 16384,
+		"iS": 306067,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/teocali-flatlay,w_977.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -578,6 +925,34 @@
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
+		},
+	"/images/teocali-flatlay.webp": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/images/teocali-flatlay.webp",
+		"oF": 0
+		},
+	"/images/teocali-laying,w_1200.webp": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/images/teocali-laying,w_1200.webp",
+		"oF": 0
+		},
+	"/images/teocali-laying,w_200.webp": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/images/teocali-laying,w_200.webp",
+		"oF": 0
+		},
+	"/images/teocali-laying,w_905.webp": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/images/teocali-laying,w_905.webp",
+		"oF": 0
 		},
 	"/images/teocali-laying.jpg": {
 		"ft": 16384,
@@ -612,6 +987,27 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/images/teocali-reflection,w_200.webp": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/images/teocali-reflection,w_200.webp",
+		"oF": 0
+		},
+	"/images/teocali-reflection,w_588.webp": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/images/teocali-reflection,w_588.webp",
+		"oF": 0
+		},
+	"/images/teocali-reflection,w_750.webp": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/images/teocali-reflection,w_750.webp",
+		"oF": 0
+		},
 	"/images/teocali-reflection.jpg": {
 		"ft": 16384,
 		"iS": 180061,
@@ -620,8 +1016,15 @@
 		"oAP": "/images/teocali-reflection.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
+		},
+	"/images/teocali-reflection.webp": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/images/teocali-reflection.webp",
+		"oF": 0
 		},
 	"/images/teocali-sliver.jpg": {
 		"ft": 16384,
@@ -656,6 +1059,140 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/images/teocali-teaser-hands,w_200.jpg": {
+		"ft": 16384,
+		"iS": 19186,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/teocali-teaser-hands,w_200.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/images/teocali-teaser-hands,w_200.webp": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/images/teocali-teaser-hands,w_200.webp",
+		"oF": 0
+		},
+	"/images/teocali-teaser-hands,w_303.jpg": {
+		"ft": 16384,
+		"iS": 38680,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/teocali-teaser-hands,w_303.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/images/teocali-teaser-hands,w_386.jpg": {
+		"ft": 16384,
+		"iS": 60137,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/teocali-teaser-hands,w_386.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/images/teocali-teaser-hands,w_452.webp": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/images/teocali-teaser-hands,w_452.webp",
+		"oF": 0
+		},
+	"/images/teocali-teaser-hands,w_457.jpg": {
+		"ft": 16384,
+		"iS": 79976,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/teocali-teaser-hands,w_457.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/images/teocali-teaser-hands,w_523.jpg": {
+		"ft": 16384,
+		"iS": 101315,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/teocali-teaser-hands,w_523.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/images/teocali-teaser-hands,w_583.jpg": {
+		"ft": 16384,
+		"iS": 120750,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/teocali-teaser-hands,w_583.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/images/teocali-teaser-hands,w_641.webp": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/images/teocali-teaser-hands,w_641.webp",
+		"oF": 0
+		},
+	"/images/teocali-teaser-hands,w_645.jpg": {
+		"ft": 16384,
+		"iS": 143346,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/teocali-teaser-hands,w_645.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/images/teocali-teaser-hands,w_696.jpg": {
+		"ft": 16384,
+		"iS": 162254,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/teocali-teaser-hands,w_696.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/images/teocali-teaser-hands,w_793.webp": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/images/teocali-teaser-hands,w_793.webp",
+		"oF": 0
+		},
+	"/images/teocali-teaser-hands,w_800.jpg": {
+		"ft": 16384,
+		"iS": 186695,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/teocali-teaser-hands,w_800.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/images/teocali-teaser-hands,w_800.webp": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/images/teocali-teaser-hands,w_800.webp",
+		"oF": 0
+		},
 	"/images/teocali-teaser-hands.jpg": {
 		"ft": 16384,
 		"iS": 161866,
@@ -688,6 +1225,64 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"/images/ucx-comp,w_200.jpg": {
+		"ft": 16384,
+		"iS": 8845,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/ucx-comp,w_200.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/images/ucx-comp,w_200.webp": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/images/ucx-comp,w_200.webp",
+		"oF": 0
+		},
+	"/images/ucx-comp,w_425.jpg": {
+		"ft": 16384,
+		"iS": 30041,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/ucx-comp,w_425.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/images/ucx-comp,w_617.jpg": {
+		"ft": 16384,
+		"iS": 52975,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/ucx-comp,w_617.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/images/ucx-comp,w_720.jpg": {
+		"ft": 16384,
+		"iS": 55703,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/ucx-comp,w_720.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/images/ucx-comp,w_720.webp": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/images/ucx-comp,w_720.webp",
+		"oF": 0
+		},
 	"/images/ucx-comp.jpg": {
 		"ft": 16384,
 		"iS": 49643,
@@ -696,7 +1291,7 @@
 		"oAP": "/images/ucx-comp.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/images/ucx-comp.png": {
@@ -710,11 +1305,18 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/images/uxskillshare_illo.svg": {
+	"/images/ucx-comp.webp": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/images/ucx-comp.webp",
+		"oF": 0
+		},
+	"/images/uxskillshare-illo.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "/images/uxskillshare_illo.svg",
+		"oAP": "/images/uxskillshare-illo.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -744,36 +1346,6 @@
 		"oA": 0,
 		"oAP": "/inktober2018.html",
 		"oF": 0
-		},
-	"/main-min.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/main-min-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"/main.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/main-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"/main.min.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/main.min-min.css",
-		"oF": 0,
-		"oS": 3
 		},
 	"/node_modules": {
 		"ft": 65536,
