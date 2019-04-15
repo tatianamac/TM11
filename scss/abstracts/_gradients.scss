@@ -1,9 +1,3 @@
-.gradient-slate {
-background: #000000;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-}
-
 .gradient-fire {
   background: #f12711;  /*fallback for old browsers */
   background: -webkit-linear-gradient(to bottom, #f5af19, #f12711);
@@ -22,35 +16,4 @@ background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, F
 background: -moz-linear-gradient(top, rgba(212,228,239,1) 0%, rgba(249,227,215,1) 100%);
 background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(212,228,239,1)), color-stop(100%, rgba(249,227,215,1)));
 background: -webkit-linear-gradient(top, rgba(212,228,239,1) 0%, rgba(249,227,215,1) 100%);
-}
-
-.gradient-electricpink {
-  background: #f5576c;
-  background: linear-gradient(120deg, #f093fb, #f5576c);
-  background: -webkit-linear-gradient(120deg, #f093fb, #f5576c);
-
-}
-
-.gradient-lavender {
-  background: #B8B8FF;
-  background-image: linear-gradient(120deg, #D4D4FF, #B8B8FF);
-  background-image: -webkit-linear-gradient(120deg, #D4D4FF, #B8B8FFb);
-}
-
-.gradient-blushpink {
-  background: #fdf2ee;
-  background: -webkit-linear-gradient(to right, #fdf2ee, #ffdde1);  
-  background: linear-gradient(to right, #fdf2ee, #ffdde1);
-}
-
-.gradient-cerulean {
-  background: #2980B9;  
-  background: -webkit-linear-gradient(to bottom, #FFFFFF, #6DD5FA, #2980B9);  
-  background: linear-gradient(to bottom, #FFFFFF, #6DD5FA, #2980B9);
-}
-
-.gradient-violet {
-  background: #9D50BB;  
-background: -webkit-linear-gradient(to top, #6E48AA, #9D50BB);  
-background: linear-gradient(to top, #6E48AA, #9D50BB);
 }

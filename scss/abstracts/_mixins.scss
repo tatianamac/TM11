@@ -185,14 +185,6 @@
     font-weight: $light;
 }
 
-/* removing arrow until I can it acccessibly :( 
-@mixin t-after-arrow-up-r() {
-   &::after {
-    content: $t-arrow-up-r;
-    margin-left: 1em;
-  }
-}*/
-
 @mixin list-clear-style() {
     list-style: none outside;
     padding: 0;

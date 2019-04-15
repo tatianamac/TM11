@@ -96,8 +96,6 @@ li.inline {
   background-size: 5em 5em, 5em 5em;
 }
 
-
-
 // EXPERIENCE //
 #about {
   background: $blush-pink;
@@ -131,17 +129,6 @@ li.inline {
       flex: 0 1;
       padding: 1em;
     }
-  }
-
-  .logos {
-    grid-column: span 1;
-  }
-
-  .grid-calendar {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    margin: 0;
-    padding: 0;
   }
 
   // STAMPS

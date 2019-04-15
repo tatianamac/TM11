@@ -765,6 +765,16 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"/main.min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/main.min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"/node_modules": {
 		"ft": 65536,
 		"oA": 2,
@@ -1060,32 +1070,6 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/scss/pages/_home.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/scss/pages/_inktober.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/scss/pages/_inktober.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/scss/pages/_work.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/scss/pages/_work.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1

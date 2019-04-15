@@ -236,7 +236,6 @@ body {
     font-size:1.25em;
   }
 
-
   p {
     color: $mid-grey;
     font-display: swap;
@@ -282,7 +281,6 @@ body {
 .t-link-accent-white {
     @include t-link-hover;
     @include bdr-thinn-white;
-//    @include t-after-arrow-up-r;
     line-height: $t-height-extra-loose;
     padding: 10px 0;
 }
@@ -302,7 +300,6 @@ body {
 .t-link-accent-blue {
     @include t-link-hover;
     @include bdr-thinn-blue;
-//    @include t-after-arrow-up-r;
     color: $primary-color;
     padding: 4px 0;
 }
@@ -311,7 +308,6 @@ body {
     @include t-link-hover;
     line-height: $t-height-loose;
     @include bdr-thinn-white;
-//    @include t-after-arrow-up-r;
     color: $pink;
     padding: 2px 0;
     margin-right: 2em;
@@ -346,36 +342,7 @@ body {
   text-transform: uppercase;
 }
 
-.t-chip {
-  background: $dark-grey;
-  border-radius: 10px;
-  padding: .5em;
-  font-size: .75em;
-  color: $white;
-  text-transform: uppercase;
-}
-
-
 // LISTS
-
-ul.resumelist {
-    @include list-clear-style;
-    font-weight: $light;
-    line-height: 1.3;
-   
-   li {
-    font-size: .9em;
-    margin-bottom: 10px;
-
-      &.subtitle {
-      @include serifweight;
-      @include slimmfont;
-      color: $fuschia;
-      font-weight: $medium;
-      margin-top: 1.5em;
-      }
-    }
-  }
 
   ul.linklist {
     @include list-clear-style;
