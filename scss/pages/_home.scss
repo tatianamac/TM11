@@ -144,6 +144,7 @@ li.inline {
   .stub {
     display: flex;
     align-self: center;
+    position: relative;
     width: 80%;
     margin: 2rem 0;
     max-height: 15rem;
@@ -280,17 +281,17 @@ li.inline {
 
   .stamp--aboveright {
     top: -3rem;
-    right: -3rem;
+    right: -2rem;
    }
 
    .stamp--topright {
     top: 2rem;
-    right: -3rem;
+    right: -2rem;
    }
 
    .stamp--midleft {
     top: 5rem;
-    right: -4rem;
+    right: -2rem;
    }
 
    .stamp--btmright {
