@@ -34,6 +34,13 @@
 		"rFN": 0,
 		"uCM": 0
 		},
+	"/cracked.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/cracked.html",
+		"oF": 0
+		},
 	"/css/.htaccess": {
 		"cB": 0,
 		"ft": 8192,
@@ -1361,6 +1368,13 @@
 		"oO": 0,
 		"oS": 1
 		},
+	"/perf-matters-101.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/perf-matters-101.html",
+		"oF": 0
+		},
 	"/README.md": {
 		"cB": 0,
 		"cS": 0,
@@ -1743,6 +1757,13 @@
 		"pME": 1,
 		"rFN": 0,
 		"uCM": 0
+		},
+	"/stoolean.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/stoolean.html",
+		"oF": 0
 		},
 	"/tired.html": {
 		"cB": 0,

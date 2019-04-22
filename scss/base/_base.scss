@@ -74,7 +74,6 @@ img {
 	}
 }
 
-
 .grid-half\@xs {
 	@include screen-xs {
 		@include grid-half;
@@ -134,7 +133,6 @@ img {
 		@include grid-twothirds;
 	}
 }
-
 
 .grid-whole\@xs {
 	@include screen-xs {
@@ -196,7 +194,6 @@ img {
 	}
 }
 
-
 .span-row-two\@xs {
 	@include screen-xs {
 		grid-row: span 2;
@@ -238,7 +235,6 @@ img {
 	@include align-self-r;
 }
 
-
 // PADDING THINGS
 
 .thinnpadding {
@@ -269,6 +265,10 @@ img {
 
 .bg-ltgrey {
 	background: $light-grey;
+}
+
+.bg-emeraldgreen {
+	background: $emerald-green;
 }
 
 // DROP SHADOW
