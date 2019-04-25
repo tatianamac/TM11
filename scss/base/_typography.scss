@@ -341,10 +341,9 @@ body {
 }
 
 .t-titlingfont {
-  font-family: rama-gothic-m, sans-serif;
-  font-weight: 300;
-  font-style: normal;
+  font-family: $condensed;
   text-transform: uppercase;
+  font-weight: 200;
 }
 
 // LISTS
