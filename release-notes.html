@@ -8,6 +8,9 @@
     <meta name="description"
         content="A personal site for Tatiana Mac, an American designer who builds inclusive, accessible, and ethical products with thoughtful practices.">
     <title>Release Notes &middot; Designer &middot; Tatiana Mac</title>
+    <link rel="preload" href="../fonts/05-brother1816-book-webfont.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="../fonts/freigdisproboo-webfont.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="../fonts/leaguegothic-condensed-regular-webfont.woff" as="font" type="font/woff" crossorigin>
     <link rel="stylesheet" href="css/main.css">
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -31,19 +34,19 @@
             <nav
                 class="main-navigation grid-whole@xxs grid-whole@xs grid-half@s grid-twothirds@m grid-twothirds@l grid-twothirds@xl">
                 <ul class="navi linklist">
-                    <li><a href="#work" class="t-white t-link-accent-white t-ltr-stretch t-height-medium">Work</a></li>
-                    <li><a href="#writing" class="t-white t-link-accent-white t-ltr-stretch t-height-medium">Writing</a>
+                    <li><a href="..#work" class="t-white t-link-accent-white t-ltr-stretch t-height-medium">Work</a></li>
+                    <li><a href="..#writing" class="t-white t-link-accent-white t-ltr-stretch t-height-medium">Writing</a>
                     </li>
-                    <li><a href="#speaking" class="t-white t-link-accent-white t-ltr-stretch">Speaking</a></li>
-                    <li><a href="#sponsor" class="t-white t-link-accent-white t-ltr-stretch">Sponsor</a></li>
-                    <li><a href="#about" class="t-white t-link-accent-white t-ltr-stretch">About</a></li>
-                    <li><a href="#contact" class="t-white t-link-accent-white t-ltr-stretch">Contact</a></li>
+                    <li><a href="..#speaking" class="t-white t-link-accent-white t-ltr-stretch">Speaking</a></li>
+                    <li><a href="..#sponsor" class="t-white t-link-accent-white t-ltr-stretch">Sponsor</a></li>
+                    <li><a href="..#about" class="t-white t-link-accent-white t-ltr-stretch">About</a></li>
+                    <li><a href="..#contact" class="t-white t-link-accent-white t-ltr-stretch">Contact</a></li>
                 </ul>
             </nav>
         </header>
     </div>
-    <div class="container bg-black">
-        <div class="wrapper">
+    <main id="content">
+    <section id="intro" class="container wrapper bg-black">
             <div class="grid-whole@xxs grid-whole@xs grid-whole@s grid-third@m grid-third@l grid-third@xl t-white">
                 <h1
                     class="t-serifweight t-thiccfont@xs t-thiccfont@s t-chonkfont@m t-chonkfont@l t-chonkfont@xl t-height-tight">
@@ -52,7 +55,7 @@
                     caught and released, accessibility and performance improvements, explorations and learnings in
                     markup.</p>
 
-                <p class="t-white">Catch something, eagle eyes?<br /><a class="t-link-accent-pink"
+                <p class="t-white">Catch something?<br /><a class="t-link-accent-pink"
                         href="https://github.com/tatianamac/TM11/issues/new" target="_blank"
                         rel="noreferrer noopener">File an issue on Github</a>
             </div>
@@ -84,6 +87,18 @@
                         Because I structured my CSS to media-query at the component level (in markup), I always end up
                         needing that flexibility. I get lazy sometimes and always regret it. I really enjoyed
                         refactoring my CSS this way.</li>
+                </ul>
+
+                <h3
+                    class="t-serifweight t-normiefont@xs t-normiefont@s t-normiefont@m t-normiefont@l t-normiefont@xl t-space-strip t-light-green">
+                    Performance</h3>
+                <ul class="longform">
+                    <li>Broke up with Typekit. It was too heavy. I purchased font licences and localised all my typography. I found this <a class="t-link-accent-pink" href="https://css-tricks.com/understanding-web-fonts-getting/" target="_blank" rel="noreferrer noopener">webfonts article by Thierry Blancpain</a> to be extra helpful.</li>
+                    <li>Applied <code>font-display: swap</code> to my <code>@font-face</code> declarations. What <code>font-display: swap</code> does is it tells the browser to use your fallback fonts while your custom fonts are being downloaded, so the user isn't waiting for fonts to load to read. Support is not ubiquitous yet, and hosted fonts like Typekit and Google Fonts don't support it, so you have to self host (see above).</li>
+                    <li>Added <code>prefetch</code> as a support for <code>font-display: swap</code>. Together, this the dynamic font-loading duo we need.</li>
+                    <li>Friend <a class="t-link-accent-pink" href="https://www.zachleat.com/web/comprehensive-webfonts/#font-display" target="_blank" rel="noreferrer noopener">Zach Leatherman's article on comprehensive webfonts</a> is one of the best resources. Zach is so good at explaining technical things in an accessible way.
+                    <li>Also, friend <a class="t-link-accent-pink" href="https://noti.st/mandy/AzhOpz/performance-benefits-of-variable-fonts" target="_blank" rel="noreferrer noopener">Mandy Michael's talk on variable fonts</a> inspires me as a next step.</li>
+                    <li>Oh,  and because of these improvements, I kicked my PageSpeed score up from 98 to 100 for mobile. Now, I'm rocking double 100s! I'm super proud of this. Have you checked your <a class="t-link-accent-pink" href="https://developers.google.com/speed/pagespeed/insights/" target="_blank" rel="noreferrer noopener">PageSpeed Insights</a>?
                 </ul>
                 <h3
                     class="t-serifweight t-normiefont@xs t-normiefont@s t-normiefont@m t-normiefont@l t-normiefont@xl t-space-strip t-light-green">
@@ -160,32 +175,31 @@
                     class="t-serifweight t-normiefont@xs t-normiefont@s t-normiefont@m t-normiefont@l t-normiefont@xl t-space-strip t-light-green">
                     Accessibility</h3>
                 <ul class="longform">
-                    <li>Created <code>&lt;nav&gt;</code> area with anchor links to help access information more fluidly.
+                    <li>Created <code>&lt;nav&gt;</code> area with anchor links to help access information more fluidly. Reminder: If you are about to use an <code>aria-label</code>, first ask yourself: Is there a semantic tag that intrinsically provides that landmark role? (The answer is almost always yes). I see a lot of navigations that are made with <code>divs</code> and this makes me cry a little bit.
                     </li>
                     <li>Replaced seasonless <code>&lt;divs&gt;</code> with semantic HTML. What a joy for screenreader
                         users to know the sections! I also had a revelation that <code>&lt;divs&gt;</code> should only
                         be used for things that have no content consequence. Said another way, if a section has meaning
                         from an information architecture perspective, it likely has a relevant semantic HTML tag. Taking
                         this approach, I think that <code>&lt;divs&gt;</code> should only have computational meaning; to
-                        aid in m aking something look a certain way.</li>
+                        aid in making something look a certain way.</li>
                     <li>Rearranged and removed h tags that didn't make sense. Thanks to my super-smart friend <a
                             href="https://www.twitter.com/MarcySutton" class="t-link-accent-pink" target="_blank"
                             rel="noreferrer noopener">Marcy Sutton</a> for pointing this out. Remember kids, h tag order
                         is separate from your visual hierarchy. Don't use h tags to represent sizing; make that
                         agnostic.</li>
-                    <li>Added Skip to content link with the help of my brilliant fren <a
+                    <li>Added Skip to content link with the help of my brilliant friend <a
                             href="https://www.twitter.com/ZoeBijl" class="t-link-accent-pink" target="_blank"
-                            rel="noreferrer noopener">Zoe Bijl</a>.</li>
+                            rel="noreferrer noopener">Zo&euml; Bijl</a>.</li>
                     <li>Rewrote <code>alt</code> tags to be more about the content, and less formal analysis. We have a
                         tendency to overdescribe. Conciseness and clarity over comprehensiveness.</li>
 
                 </ul>
 
             </div>
-        </div>
-    </div>
-    </div>
+        </section>
 
+</main>
 </body>
 
 </html>
