@@ -5,7 +5,8 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="A personal site for Tatiana Mac, an American designer who builds inclusive, accessible, and ethical products with thoughtful practices.">
+    <meta name="description"
+        content="A personal site for Tatiana Mac, an American designer who builds inclusive, accessible, and ethical products with thoughtful practices.">
     <title>Release Notes &middot; Designer &middot; Tatiana Mac</title>
     <link rel="stylesheet" href="css/main.css">
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -24,12 +25,15 @@
     <div class="container bg-black">
         <header class="site-header wrapper ">
             <div class="logo grid-whole@xxs grid-whole@xs grid-half@s grid-third@m grid-third@l grid-third@xl">
-                <a href="index.html"><img src="images/tatianamac_logo.svg" alt="Geometric logo with two parallel lines on top and bottom, then a backwards 11 in the middle." /></a>
+                <a href="index.html"><img src="images/tatianamac_logo.svg"
+                        alt="Geometric logo with two parallel lines on top and bottom, then a backwards 11 in the middle." /></a>
             </div>
-            <nav class="main-navigation grid-whole@xxs grid-whole@xs grid-half@s grid-twothirds@m grid-twothirds@l grid-twothirds@xl">
+            <nav
+                class="main-navigation grid-whole@xxs grid-whole@xs grid-half@s grid-twothirds@m grid-twothirds@l grid-twothirds@xl">
                 <ul class="navi linklist">
                     <li><a href="#work" class="t-white t-link-accent-white t-ltr-stretch t-height-medium">Work</a></li>
-                    <li><a href="#writing" class="t-white t-link-accent-white t-ltr-stretch t-height-medium">Writing</a></li>
+                    <li><a href="#writing" class="t-white t-link-accent-white t-ltr-stretch t-height-medium">Writing</a>
+                    </li>
                     <li><a href="#speaking" class="t-white t-link-accent-white t-ltr-stretch">Speaking</a></li>
                     <li><a href="#sponsor" class="t-white t-link-accent-white t-ltr-stretch">Sponsor</a></li>
                     <li><a href="#about" class="t-white t-link-accent-white t-ltr-stretch">About</a></li>
@@ -40,72 +44,148 @@
     </div>
     <div class="container bg-black">
         <div class="wrapper">
-                <div class="grid-whole@xxs grid-whole@xs grid-whole@s grid-third@m grid-third@l grid-third@xl t-white">
-                        <h1 class="t-serifweight t-thiccfont@xs t-thiccfont@s t-chonkfont@m t-chonkfont@l t-chonkfont@xl t-height-tight">Release Notes</h1>
-                        <p class="t-white">Because without documentation, what even the fuck am I doing? A summary of bugs caught and released, accessibility and  performance improvements, explorations and learnings in markup.</p>
+            <div class="grid-whole@xxs grid-whole@xs grid-whole@s grid-third@m grid-third@l grid-third@xl t-white">
+                <h1
+                    class="t-serifweight t-thiccfont@xs t-thiccfont@s t-chonkfont@m t-chonkfont@l t-chonkfont@xl t-height-tight">
+                    Release Notes</h1>
+                <p class="t-white">Because without documentation, what even the fuck am I doing? A summary of bugs
+                    caught and released, accessibility and performance improvements, explorations and learnings in
+                    markup.</p>
 
-                        <p class="t-white">Catch something, eagle eyes?<br/><a class="t-link-accent-pink" href="https://github.com/tatianamac/TM11/issues/new" target="_blank" rel="noreferrer noopener">File an issue on Github</a>
-                </div>
-                <div class="grid-whole@xxs grid-whole@xs grid-whole@s grid-twothirds@m grid-twothirds@l grid-twothirds@xl t-white padding-thicc">
-                    <p class="t-white t-typeweight t-space-strip">26 April 2019</p>
-                    <h2 class="t-titlingfont t-thiccfont@xs t-thiccfont@s t-thiccfont@m  t-thiccfont@l t-thiccfont@xl t-space-strip">Version 1.2.1</h2>
-                    <p class="t-white">Launched my <a class="t-link-accent-pink" href="https://www.patreon.com/tatianamac/" target="_blank" rel="noreferrer noopener">Patreon</a>, so this update ws fueled by adding a sponsorship section to reflect that. Adding a section visually impacted flow, which gave me a chance to explore the extended colour palette.</p>
-                    <h3 class="t-serifweight t-normiefont@xs t-normiefont@s t-normiefont@m t-normiefont@l t-normiefont@xl t-space-strip t-light-green">Content</h3>
-                    <ul class="longform">
-                        <li>Added section for sponsorship to both encourage new patronage and to thank current ones.</li>
-                    </ul>
-                    <h3 class="t-serifweight t-normiefont@xs t-normiefont@s t-normiefont@m t-normiefont@l t-normiefont@xl t-space-strip t-light-green">Systems</h3>
-                    <ul class="longform">
-                        <li>In some CSS explorations, I learned that <code>filter</code> can't be compounded. But, because it has overlap qualities with <code>box-shadow</code>, I doubled them up for this fun 8-bit effect to highlight top-level sponsors. It's a progressive enhancement, so I'm less concerned about the fact that its browser support isn't  across the board.</li>
-                        <li>A friendly reminder to myself that I should always just write my full <code>@mixins</code>. Because I structured my CSS to media-query at the component level (in markup), I always end up needing that flexibility. I get lazy sometimes and always regret it. I really enjoyed refactoring my CSS this way.</li>
-                    </ul>
-                    <h3 class="t-serifweight t-normiefont@xs t-normiefont@s t-normiefont@m t-normiefont@l t-normiefont@xl t-space-strip t-light-green">Security</h3>
-                    <ul class="longform">
-                        <li>Added <code>noreferrer</code> and <code>noopener</code> to all my external links. Lots of nuance here, but tl;dr is that in doing so, it does not allow browsing data to be passed forward to the site  being opened and closes vulnerabilities of opening a new browser window when using <code>target="_blank"</code>, respectively. Because I don't care to invade my users' privacy, this has no impact on my analytics. People who want to steal information about their users by way of Google Analytics and other tracking should avoid this. Also, I learned that this doesn't have a negative SEO impact, which many misunderstand it to.</li>
-                    </ul>
-
-                    <p class="t-white t-typeweight t-space-strip">15 April 2019</p>
-                    <h2 class="t-titlingfont t-thiccfont@xs t-thiccfont@s t-thiccfont@m  t-thiccfont@l t-thiccfont@xl t-space-strip">Version 1.1.1</h2>
-                    <p class="t-white">Tax day release (why should I pay taxes to a corrupt  government with a president who doesn't pay taxes?) made some substantial improvements to accessibility and performance. Inspired what I learned at <a class="t-link-accent-pink" href="https://perfmattersconf.com/" target="_blank" rel="noreferrer noopener">PerfMatters</a>, I implemented some major performance improvements.</p> I also learned a lot about semantic HTML, which improved the site's accessibility.</p>
-                    <p class="t-white">From a content strategy perspective, I reframed myself for job hunting and speaking events.</p>
-                    <h3 class="t-serifweight t-normiefont@xs t-normiefont@s t-normiefont@m t-normiefont@l t-normiefont@xl t-space-strip t-light-green">Content</h3>
-                    <ul class="longform">
-                            <li>Added Canary in a Coal Mine to writing section.</li>
-                            <li>Built out speaking section into its own tier for past and future gigs! Very proud of the fun use of CSS <code>radial-gradients()</code> and <code>outline</code> to get the stamp effect. In unsupported browsers, it has more of a puzzle piece feel, which I dig.</li>
-                            <li>Added city stamps to show first (!) international speaking gigs! First time experimenting with SVG <code>textPaths</code>. The semantics are odd to me; will need to read more.  Also, when running standard accessibility tests, it can get confused about contrast checking, so I had to manually check.</li>
-                            <li>Built out about section into its own tier. Rewrote it to be a more coherent bio.</li>
-                            
-                    </ul>
-                    <h3 class="t-serifweight t-normiefont@xs t-normiefont@s t-normiefont@m t-normiefont@l t-normiefont@xl t-space-strip t-light-green">Systems</h3>
-                       <ul class="longform">
-                           <li>Added third titling style typeface</li>
-                           <li>Renamed zigzag dividers to be more intuitive and reusable (colours as opposed to arbitrary sequence numbers).</li>
-                       </li>
-                       </ul>
-                    <h3 class="t-serifweight t-normiefont@xs t-normiefont@s t-normiefont@m t-normiefont@l t-normiefont@xl t-space-strip t-light-green">Performance</h3>
-                    <ul class="longform">
-                        <li>Changed all raster <code>&lt;imgs&gt;</code> from JPGs to WEBPs. In order to make sure browsers that don't support WEBP, I used to <code>&lt;picture&gt;</code> with <code>&lt;source&gt;</code> to build in appropriate fallbacks. Building all those image stacks was a bitch, but online image generators helped me out there.</li>
-                        <li>Added <code>srcsets</code> so that the appropriate image size is served up. <a class="t-link-accent-pink" href="https://css-tricks.com/responsive-images-css/" target="_blank" rel="noreferrer noopener">Chris Coyier's article on responsive images</a> was so helpful!</li>
-                        <li>Replaced the heavy-ass Taco Bell gif with a cute SVG. Ultimately from a content perspective, it wasn't offering its performance weight. Bye boi, bye.</li>
-                        <li>Minified all my code: SVGs (using Jake Archibald's <a class="t-link-accent-pink" href="https://jakearchibald.github.io/svgomg/" target="_blank" rel="noreferrer noopener">SVGOMG</a>) and CSS file using a VSCode extension.</li>
-                        <li>Subsetted Typekit fonts to dispaly only Roman characters.</li>
-                        <li>Implemented cachine. Holy hell was this hard to figure out. I presumed that I'd append it to my <code>.htaccess</code> file, but none of the tutorials explicitly mentioned this.</li>
-                        <li>Started the day with PageSpeed scores of 91 (mobile) and 94  (desktop). Ended at 98 and 100, respectively!</li>
-                    </ul>
-                        <h3 class="t-serifweight t-normiefont@xs t-normiefont@s t-normiefont@m t-normiefont@l t-normiefont@xl t-space-strip t-light-green">Accessibility</h3>
-                        <ul class="longform">
-                            <li>Created <code>&lt;nav&gt;</code> area with anchor links to help access information more fluidly.</li>
-                            <li>Replaced seasonless <code>&lt;divs&gt;</code> with semantic HTML.  What a joy for screenreader users to know the sections!  I also had a revelation that <code>&lt;divs&gt;</code> should only be used for things that have no content consequence. Said another way, if a section has meaning from an information architecture perspective, it likely has a relevant semantic HTML tag. Taking this approach, I think that <code>&lt;divs&gt;</code> should only have computational meaning; to aid in m aking something look a certain way.</li>
-                            <li>Rearranged and removed h tags that didn't make sense. Thanks to my super-smart friend <a href="https://www.twitter.com/MarcySutton" class="t-link-accent-pink" target="_blank" rel="noreferrer noopener">Marcy Sutton</a> for pointing this out. Remember kids, h tag order is separate from your visual hierarchy. Don't use h tags to represent sizing; make that agnostic.</li>
-                            <li>Added Skip to content link with the help of my brilliant fren <a href="https://www.twitter.com/ZoeBijl" class="t-link-accent-pink" target="_blank" rel="noreferrer noopener">Zoe Bijl</a>.</li>
-                            <li>Rewrote <code>alt</code> tags to be more about the content, and less formal analysis. We have a tendency to overdescribe. Conciseness and clarity over comprehensiveness.</li>
-
-                    </ul>
-
+                <p class="t-white">Catch something, eagle eyes?<br /><a class="t-link-accent-pink"
+                        href="https://github.com/tatianamac/TM11/issues/new" target="_blank"
+                        rel="noreferrer noopener">File an issue on Github</a>
             </div>
+            <div
+                class="grid-whole@xxs grid-whole@xs grid-whole@s grid-twothirds@m grid-twothirds@l grid-twothirds@xl t-white padding-thicc">
+                <p class="t-white t-typeweight t-space-strip">26 April 2019</p>
+                <h2
+                    class="t-titlingfont t-thiccfont@xs t-thiccfont@s t-thiccfont@m  t-thiccfont@l t-thiccfont@xl t-space-strip">
+                    Version 1.2.1</h2>
+                <p class="t-white">Launched my <a class="t-link-accent-pink" href="https://www.patreon.com/tatianamac/"
+                        target="_blank" rel="noreferrer noopener">Patreon</a>, so this update was fueled by adding a
+                    sponsorship section to reflect that. Adding a section visually impacted flow, which gave me a chance
+                    to explore the extended colour palette.</p>
+                <h3
+                    class="t-serifweight t-normiefont@xs t-normiefont@s t-normiefont@m t-normiefont@l t-normiefont@xl t-space-strip t-light-green">
+                    Content</h3>
+                <ul class="longform">
+                    <li>Added section for sponsorship to both encourage new patronage and to thank current ones.</li>
+                </ul>
+                <h3
+                    class="t-serifweight t-normiefont@xs t-normiefont@s t-normiefont@m t-normiefont@l t-normiefont@xl t-space-strip t-light-green">
+                    Systems</h3>
+                <ul class="longform">
+                    <li>In some CSS explorations, I learned that <code>filter</code> can't be compounded. But, because
+                        it has overlap qualities with <code>box-shadow</code>, I doubled them up for this fun 8-bit
+                        effect to highlight top-level sponsors. It's a progressive enhancement, so I'm less concerned
+                        about the fact that its browser support isn't across the board.</li>
+                    <li>A friendly reminder to myself that I should always just write my full <code>@mixins</code>.
+                        Because I structured my CSS to media-query at the component level (in markup), I always end up
+                        needing that flexibility. I get lazy sometimes and always regret it. I really enjoyed
+                        refactoring my CSS this way.</li>
+                </ul>
+                <h3
+                    class="t-serifweight t-normiefont@xs t-normiefont@s t-normiefont@m t-normiefont@l t-normiefont@xl t-space-strip t-light-green">
+                    Security</h3>
+                <ul class="longform">
+                    <li>Added <code>noreferrer</code> and <code>noopener</code> to all my external links. Lots of nuance
+                        here, but tl;dr is that in doing so, it does not allow browsing data to be passed forward to the
+                        site being opened and closes vulnerabilities of opening a new browser window when using
+                        <code>target="_blank"</code>, respectively. Because I don't care to invade my users' privacy,
+                        this has no impact on my analytics. People who want to steal information about their users by
+                        way of Google Analytics and other tracking should avoid this. Also, I learned that this doesn't
+                        have a negative SEO impact, which many misunderstand it to.</li>
+                </ul>
+
+                <p class="t-white t-typeweight t-space-strip">15 April 2019</p>
+                <h2
+                    class="t-titlingfont t-thiccfont@xs t-thiccfont@s t-thiccfont@m  t-thiccfont@l t-thiccfont@xl t-space-strip">
+                    Version 1.1.1</h2>
+                <p class="t-white">Tax day release (why should I pay taxes to a corrupt government with a president who
+                    doesn't pay taxes?) made some substantial improvements to accessibility and performance. Inspired
+                    what I learned at <a class="t-link-accent-pink" href="https://perfmattersconf.com/" target="_blank"
+                        rel="noreferrer noopener">PerfMatters</a>, I implemented some major performance improvements.
+                </p> I also learned a lot about semantic HTML, which improved the site's accessibility.</p>
+                <p class="t-white">From a content strategy perspective, I reframed myself for job hunting and speaking
+                    events.</p>
+                <h3
+                    class="t-serifweight t-normiefont@xs t-normiefont@s t-normiefont@m t-normiefont@l t-normiefont@xl t-space-strip t-light-green">
+                    Content</h3>
+                <ul class="longform">
+                    <li>Added Canary in a Coal Mine to writing section.</li>
+                    <li>Built out speaking section into its own tier for past and future gigs! Very proud of the fun use
+                        of CSS <code>radial-gradients()</code> and <code>outline</code> to get the stamp effect. In
+                        unsupported browsers, it has more of a puzzle piece feel, which I dig.</li>
+                    <li>Added city stamps to show first (!) international speaking gigs! First time experimenting with
+                        SVG <code>textPaths</code>. The semantics are odd to me; will need to read more. Also, when
+                        running standard accessibility tests, it can get confused about contrast checking, so I had to
+                        manually check.</li>
+                    <li>Built out about section into its own tier. Rewrote it to be a more coherent bio.</li>
+
+                </ul>
+                <h3
+                    class="t-serifweight t-normiefont@xs t-normiefont@s t-normiefont@m t-normiefont@l t-normiefont@xl t-space-strip t-light-green">
+                    Systems</h3>
+                <ul class="longform">
+                    <li>Added third titling style typeface</li>
+                    <li>Renamed zigzag dividers to be more intuitive and reusable (colours as opposed to arbitrary
+                        sequence numbers).</li>
+                    </li>
+                </ul>
+                <h3
+                    class="t-serifweight t-normiefont@xs t-normiefont@s t-normiefont@m t-normiefont@l t-normiefont@xl t-space-strip t-light-green">
+                    Performance</h3>
+                <ul class="longform">
+                    <li>Changed all raster <code>&lt;imgs&gt;</code> from JPGs to WEBPs. In order to make sure browsers
+                        that don't support WEBP, I used to <code>&lt;picture&gt;</code> with <code>&lt;source&gt;</code>
+                        to build in appropriate fallbacks. Building all those image stacks was a bitch, but online image
+                        generators helped me out there.</li>
+                    <li>Added <code>srcsets</code> so that the appropriate image size is served up. <a
+                            class="t-link-accent-pink" href="https://css-tricks.com/responsive-images-css/"
+                            target="_blank" rel="noreferrer noopener">Chris Coyier's article on responsive images</a>
+                        was so helpful!</li>
+                    <li>Replaced the heavy-ass Taco Bell gif with a cute SVG. Ultimately from a content perspective, it
+                        wasn't offering its performance weight. Bye boi, bye.</li>
+                    <li>Minified all my code: SVGs (using Jake Archibald's <a class="t-link-accent-pink"
+                            href="https://jakearchibald.github.io/svgomg/" target="_blank"
+                            rel="noreferrer noopener">SVGOMG</a>) and CSS file using a VSCode extension.</li>
+                    <li>Subsetted Typekit fonts to dispaly only Roman characters.</li>
+                    <li>Implemented cachine. Holy hell was this hard to figure out. I presumed that I'd append it to my
+                        <code>.htaccess</code> file, but none of the tutorials explicitly mentioned this.</li>
+                    <li>Started the day with PageSpeed scores of 91 (mobile) and 94 (desktop). Ended at 98 and 100,
+                        respectively!</li>
+                </ul>
+                <h3
+                    class="t-serifweight t-normiefont@xs t-normiefont@s t-normiefont@m t-normiefont@l t-normiefont@xl t-space-strip t-light-green">
+                    Accessibility</h3>
+                <ul class="longform">
+                    <li>Created <code>&lt;nav&gt;</code> area with anchor links to help access information more fluidly.
+                    </li>
+                    <li>Replaced seasonless <code>&lt;divs&gt;</code> with semantic HTML. What a joy for screenreader
+                        users to know the sections! I also had a revelation that <code>&lt;divs&gt;</code> should only
+                        be used for things that have no content consequence. Said another way, if a section has meaning
+                        from an information architecture perspective, it likely has a relevant semantic HTML tag. Taking
+                        this approach, I think that <code>&lt;divs&gt;</code> should only have computational meaning; to
+                        aid in m aking something look a certain way.</li>
+                    <li>Rearranged and removed h tags that didn't make sense. Thanks to my super-smart friend <a
+                            href="https://www.twitter.com/MarcySutton" class="t-link-accent-pink" target="_blank"
+                            rel="noreferrer noopener">Marcy Sutton</a> for pointing this out. Remember kids, h tag order
+                        is separate from your visual hierarchy. Don't use h tags to represent sizing; make that
+                        agnostic.</li>
+                    <li>Added Skip to content link with the help of my brilliant fren <a
+                            href="https://www.twitter.com/ZoeBijl" class="t-link-accent-pink" target="_blank"
+                            rel="noreferrer noopener">Zoe Bijl</a>.</li>
+                    <li>Rewrote <code>alt</code> tags to be more about the content, and less formal analysis. We have a
+                        tendency to overdescribe. Conciseness and clarity over comprehensiveness.</li>
+
+                </ul>
+
             </div>
         </div>
     </div>
-   
+    </div>
+
 </body>
+
 </html>
