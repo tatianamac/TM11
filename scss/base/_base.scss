@@ -237,15 +237,15 @@ img {
 
 // PADDING THINGS
 
-.thinnpadding {
+.padding-thinn {
 	@include thinnpadding;
 }
 
-.normiepadding {
+.padding-normie {
 	@include normiepadding;
 }
 
-.thiccpadding {
+.padding-thicc {
 	@include thiccpadding;
 }
 
@@ -265,6 +265,10 @@ img {
 
 .bg-purple {
 	background: $purple;
+}
+
+.bg-teal-green {
+	background: $teal-green;
 }
 
 .bg-ltgrey {

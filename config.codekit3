@@ -975,6 +975,17 @@
 		"oAP": "/images/teocali-flatlay.webp",
 		"oF": 0
 		},
+	"/images/teocali-laying,w_1200.jpg": {
+		"ft": 16384,
+		"iS": 132314,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/teocali-laying,w_1200.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/images/teocali-laying,w_1200.webp": {
 		"cB": 0,
 		"ft": 8192,
@@ -982,12 +993,34 @@
 		"oAP": "/images/teocali-laying,w_1200.webp",
 		"oF": 0
 		},
+	"/images/teocali-laying,w_200.jpg": {
+		"ft": 16384,
+		"iS": 9679,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/teocali-laying,w_200.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/images/teocali-laying,w_200.webp": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "/images/teocali-laying,w_200.webp",
 		"oF": 0
+		},
+	"/images/teocali-laying,w_735.jpg": {
+		"ft": 16384,
+		"iS": 71280,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/teocali-laying,w_735.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"/images/teocali-laying,w_905.webp": {
 		"cB": 0,
@@ -1029,6 +1062,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/images/teocali-reflection,w_200.jpg": {
+		"ft": 16384,
+		"iS": 13452,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/teocali-reflection,w_200.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/images/teocali-reflection,w_200.webp": {
 		"cB": 0,
 		"ft": 8192,
@@ -1036,12 +1080,34 @@
 		"oAP": "/images/teocali-reflection,w_200.webp",
 		"oF": 0
 		},
+	"/images/teocali-reflection,w_528.jpg": {
+		"ft": 16384,
+		"iS": 82258,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/teocali-reflection,w_528.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/images/teocali-reflection,w_588.webp": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "/images/teocali-reflection,w_588.webp",
 		"oF": 0
+		},
+	"/images/teocali-reflection,w_750.jpg": {
+		"ft": 16384,
+		"iS": 143199,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/teocali-reflection,w_750.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"/images/teocali-reflection,w_750.webp": {
 		"cB": 0,
@@ -1374,6 +1440,16 @@
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
+		},
+	"/images/webflow-logo.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/webflow-logo.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"/index.html": {
 		"cB": 0,
@@ -10986,6 +11062,13 @@
 		"pME": 1,
 		"rFN": 0,
 		"uCM": 0
+		},
+	"/release-notes.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/release-notes.html",
+		"oF": 0
 		},
 	"/scss/abstracts/_functions.scss": {
 		"aP": 0,

@@ -140,6 +140,10 @@
   font-size: $chonk;
 }
 
+@mixin giganticfont() {
+  font-size: $gigantic;
+}
+
 @mixin serif() {
   font-family: $serif;
 }
@@ -223,7 +227,6 @@
 @mixin align-self-r() {
   justify-self: end;
 }
-
 
 // BORDER
 
@@ -309,8 +312,6 @@
   vertical-align: middle;
   }
 }
-
-
 
 // TRANSITIONS
 

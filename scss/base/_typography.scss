@@ -43,6 +43,10 @@
   line-height: $t-height-cozy;
 }
 
+.t-height-none {
+  line-height: $t-height-none;
+}
+
 .t-chonkfont\@xs {
   @include screen-xs {
     @include chonkfont;
@@ -223,27 +227,54 @@
   }
 }
 
+.t-giganticfont\@xs {
+  @include screen-xs {
+  @include giganticfont;
+  }
+}
+
+.t-giganticfont\@s {
+  @include screen-s {
+  @include giganticfont;
+  }
+}
+
+.t-giganticfont\@m {
+  @include screen-m {
+  @include giganticfont;
+  }
+}
+
+.t-giganticfont\@l {
+  @include screen-l {
+  @include giganticfont;
+  }
+}
+
+.t-giganticfont\@xl {
+  @include screen-xl {
+    @include giganticfont;
+  }
+}
+
 .t-babyfont {
   @include babyfont;
 }
 
 body {
       font-family: $sans-serif;
-      font-display: swap;
       font-size: 18px; //The smallest it should be!
       line-height: 1.5;
   }
 
   h5 {
     font-family: $serif;
-    font-display: swap;
     font-weight: $regular;
     font-size:1.25em;
   }
 
   p {
     color: $mid-grey;
-    font-display: swap;
 
   &.comingsoon {
       color: $mid-grey;
@@ -283,6 +314,14 @@ body {
     @include t-black;
 }
 
+.t-light-green {
+  color: #bdf5bd;
+}
+
+.t-blush-pink {
+  color: $blush-pink;
+}
+
 .t-link-accent-white {
     @include t-link-hover;
     @include bdr-thinn-white;
@@ -315,7 +354,6 @@ body {
     @include bdr-thinn-white;
     color: $pink;
     padding: 2px 0;
-    margin-right: 2em;
 }
 
 .t-eyebrow {
@@ -343,7 +381,14 @@ body {
 .t-titlingfont {
   font-family: $condensed;
   text-transform: uppercase;
-  font-weight: 200;
+  font-weight: 100;
+}
+
+code {
+  background: $green;
+  padding:  .5rem;
+  color: $black;
+  margin: .25rem;
 }
 
 // LISTS
@@ -356,4 +401,13 @@ body {
     margin: 0 2rem 0 0;
     }
 
+  }
+
+  ul.longform {
+    list-style-type: square;
+    padding-bottom: .5rem;
+
+    li {
+      margin:  0 0 1rem 0;
+    }
   }

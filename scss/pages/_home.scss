@@ -78,12 +78,12 @@ li.inline {
   background-size: 5em 5em, 5em 5em;
 }
 
-.zigzag-blush-green {
+.zigzag-lt-grey-green {
   height: 5em;
   background: 
-              linear-gradient(45deg, transparent 50%, $blush-pink 50%),
+              linear-gradient(45deg, transparent 50%, $light-grey 50%),
               linear-gradient(90deg, transparent 50%, $green 50%),
-              linear-gradient(135deg, $blush-pink 50%, $leaf-green 50%), 0 50%;
+              linear-gradient(135deg, $light-grey 50%, $leaf-green 50%), 0 50%;
   background-repeat: repeat-x;
   background-size: 5em 5em, 5em 5em;
 }
@@ -96,9 +96,35 @@ li.inline {
   background-size: 5em 5em, 5em 5em;
 }
 
+.zigzag-yellow-black {
+  height: 5em;
+  background: 
+              linear-gradient(45deg, transparent 50%, $neon-yellow 50%),
+              linear-gradient(90deg, transparent 50%, $dark-grey 50%),
+              linear-gradient(135deg, $neon-yellow 50%, $black 50%), 0 50%;
+  background-repeat: repeat-x;
+  background-size: 5em 5em, 5em 5em;
+}
+
+.zigzag-black-grey {
+  height: 5em;
+  background: linear-gradient(-45deg, transparent 74%, $black 75%),
+              linear-gradient(45deg, $light-grey 74%, $dark-grey 75%) 0 50%;
+  background-repeat: repeat-x;
+  background-size: 5em 5em, 5em 5em;
+}
+
+.zigzag-grey-yellow {
+  height: 5em;
+  background: linear-gradient(-45deg, transparent 74%, $mid-grey 75%),
+              linear-gradient(45deg, $neon-yellow 74%, $light-grey 75%) 0 50%;
+  background-repeat: repeat-x;
+  background-size: 5em 5em, 5em 5em;
+}
+
 // EXPERIENCE //
 #about {
-  background: $blush-pink;
+  background: $neon-yellow;
   padding-top: 0;
 
   #about {
@@ -106,12 +132,6 @@ li.inline {
   display: flex;
   }
 }
-
-  @mixin triptych--tablet() {
-    .triptych {
-    grid-column: span 4;
-    }
-  }
 
   .clients {
     display: flex;
@@ -309,6 +329,30 @@ li.inline {
     margin: 1.25em;
     vertical-align: baseline;
     background: $white;
+  }
+
+  // SPONSOR //
+
+  #sponsor  {
+    background: $light-grey;
+  }
+  
+    @mixin triptych--tablet() {
+      .triptych {
+      grid-column: span 4;
+      }
+    }
+
+  .pixel-box {
+    display: inline-block;
+    margin: 2rem;
+    padding: 1rem;
+    width: 150px;
+    height: 150px;
+    background: $green;
+    border: 5px solid black;
+    box-shadow: 5px 5px 0px black;
+    filter: drop-shadow(10px 10px 0px black);
   }
 
   #contact {
