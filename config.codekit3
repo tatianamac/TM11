@@ -11024,6 +11024,13 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"/monday-communication-tips.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/monday-communication-tips.html",
+		"oF": 0
+		},
 	"/node_modules": {
 		"ft": 65536,
 		"oA": 2,
@@ -11062,6 +11069,13 @@
 		"pME": 1,
 		"rFN": 0,
 		"uCM": 0
+		},
+	"/release-notes.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/release-notes.html",
+		"oF": 0
 		},
 	"/scss/abstracts/_functions.scss": {
 		"aP": 0,
