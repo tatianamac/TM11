@@ -1,0 +1,22 @@
+
+RewriteEngine On
+RewriteCond %{HTTP_HOST} tatianamac\.com [NC]
+RewriteCond %{SERVER_PORT} 80
+RewriteRule ^(.*)$ https://tatianamac.com/$1 [R,L]
+
+Redirect /perfmatters https://slides.com/tatianamac/how-privilege-defines-performance/fullscreen
+Redirect /perfmatters/ https://slides.com/tatianamac/how-privilege-defines-performance/fullscreen
+Redirect /PerfMatters/ https://slides.com/tatianamac/how-privilege-defines-performance/fullscreen
+Redirect /PerfMatters https://slides.com/tatianamac/how-privilege-defines-performance/fullscreen
+
+<filesMatch ".(svg|webp|jpg|jpeg|png|gif|ico|woff|woff2)$">
+Header set Cache-Control "max-age=31536000, public"
+</filesMatch>
+
+<filesMatch ".(css|js)$">
+Header set Cache-Control "max-age=86400, public"
+</filesMatch>
+
+<ifmodule mod_deflate.c>
+AddOutputFilterByType DEFLATE text/text text/html text/plain text/xml text/css application/x-javascript application/javascript
+</ifmodule>
