@@ -16,6 +16,13 @@
 		"oAP": "/.gitignore",
 		"oF": 0
 		},
+	"/.htaccess": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/.htaccess",
+		"oF": 0
+		},
 	"/.vscode/settings.json": {
 		"ft": 524288,
 		"oA": 1,
@@ -23,6 +30,13 @@
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
+		},
+	"/_redirects": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "/_redirects",
+		"oF": 0
 		},
 	"/CHANGELOG.md": {
 		"cB": 0,
@@ -47,13 +61,6 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "/cracked.html",
-		"oF": 0
-		},
-	"/css/.htaccess": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/css/.htaccess",
 		"oF": 0
 		},
 	"/css/main.css": {
@@ -1340,6 +1347,17 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"/images/tmac-speakerheadshot-2019.jpg": {
+		"ft": 16384,
+		"iS": 5904880,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/tmac-speakerheadshot-2019.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"/images/ucx-comp,w_200.jpg": {
 		"ft": 16384,
