@@ -179,6 +179,18 @@ li.inline {
     background-repeat: no-repeat;
   }
 
+  .stub:hover {
+    background: 
+    radial-gradient(circle at 0 100%, transparent 30px, $green 30px),
+    radial-gradient(circle at 100% 100%, transparent 30px, $green 30px),
+    radial-gradient(circle at 100% 0, transparent 30px, $green 30px),
+    radial-gradient(circle at 0 0, transparent 30px, $green 30px);
+    background-position: bottom left, bottom right, top right, top left;
+    background-size: 51% 51%, 51% 51%, 51% 51%, 51% 51%;
+    background-repeat: no-repeat;
+    // content: "tixx on sale";
+  }
+
 .stub-content {
   display: flex;
   text-align: left;

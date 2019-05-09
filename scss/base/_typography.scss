@@ -314,6 +314,10 @@ body {
     @include t-black;
 }
 
+.t-light-grey {
+  color: $light-grey;
+}
+
 .t-light-green {
   color: #bdf5bd;
 }
