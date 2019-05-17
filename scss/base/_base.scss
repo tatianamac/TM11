@@ -223,6 +223,36 @@ img {
 		grid-row: span 2;
 	}
 }
+
+.span-row-three\@xs {
+	@include screen-xs {
+		grid-row: span 3;
+	}
+}
+
+.span-row-three\@s {
+	@include screen-s {
+		grid-row: span 32;
+	}
+}
+
+.span-row-three\@m {
+	@include screen-m {
+		grid-row: span 3;
+	}
+}
+
+.span-row-three\@l {
+	@include screen-l {
+		grid-row: span 3;
+	}
+}
+
+.span-row-three\@xl {
+	@include screen-xl {
+		grid-row: span 3;
+	}
+}
 // GRID ALIGNMENT
 
 // helpful for SVG illustrations that need more breathing room

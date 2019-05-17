@@ -52,8 +52,8 @@
         </header>
     </div>
     <main id="content">
-    <section id="intro" class="container wrapper bg-black">
-            <div class="grid-whole@xxs grid-whole@xs grid-whole@s grid-third@m grid-third@l grid-third@xl t-white padding-thinn">
+    <div id="intro" class="container wrapper bg-black">
+            <section class="grid-whole@xxs grid-whole@xs grid-whole@s grid-third@m grid-third@l grid-third@xl t-white padding-thinn">
                 <h1
                     class="t-serifweight t-thiccfont@xs t-thiccfont@s t-chonkfont@m t-chonkfont@l t-chonkfont@xl t-height-tight">
                     Release Notes</h1>
@@ -64,9 +64,45 @@
                 <p class="t-white">Catch something?<br /><a class="t-link-accent-pink"
                         href="https://github.com/tatianamac/TM11/issues/new" target="_blank"
                         rel="noreferrer noopener">File an issue on Github</a>
-            </div>
-            <div
+            </section>
+        
+            <section 
                 class="grid-whole@xxs grid-whole@xs grid-whole@s grid-twothirds@m grid-twothirds@l grid-twothirds@xl t-white padding-thinn">
+
+                <p class="t-white t-typeweight t-space-strip">17 May 2019</p>
+                <h2
+                    class="t-titlingfont t-thiccfont@xs t-thiccfont@s t-thiccfont@m t-thiccfont@l t-thiccfont@xl t-space-strip">
+                    Version 1.2.2</h2>
+                <p class="t-white">Accepted a few conference gigs (!), broke my MBP2017 keyboard (after months of frustration with the hardware spacebar issue), and mostly added a few words and refined content through design.</p>
+                <h3
+                    class="t-serifweight t-normiefont@xs t-normiefont@s t-normiefont@m t-normiefont@l t-normiefont@xl t-space-strip t-light-green">
+                    Content</h3>
+                <ul class="longform">
+                    <li>Upgraded Webflow to Empress sponsorship (thanks, y'all!), which meant adding an Empress area. Not feeling resolved about the design solution here.</li>
+                    <li>Added Amanda Johnson, Heidi Olsen, and Vanessa Wang as Star sponsors! Thank you!</li>
+                </ul>
+                <h3
+                    class="t-serifweight t-normiefont@xs t-normiefont@s t-normiefont@m t-normiefont@l t-normiefont@xl t-space-strip t-light-green">
+                    Systems</h3>
+                <ul class="longform">
+                    <li>Found that using a super-condensed font was hard to read for longer talk titles. Instead opted to use serif for my speaking section; feels cleaner and less dense.</li>
+                    <li>Added a <code>span-row-three</code> for use at larger screen sizes (triggered by the Empress addition to sponsors section), though this time I remembered to write it for my full screen-size range, bc I will need it later.</li>
+                    <li>When validating my HTML, I realised a few SVG <code>textPaths</code> had duplicate <code>ids</code> and <code>hrefs</code>. Whoops.</li>
+                </ul>
+
+                <h3
+                    class="t-serifweight t-normiefont@xs t-normiefont@s t-normiefont@m t-normiefont@l t-normiefont@xl t-space-strip t-light-green">
+                    Performance</h3>
+                <ul class="longform">
+                    <li>Installed <a class="t-link-accent-pink" href="https://speedcurve.com/" target="_blank" rel="noreferrer noopener">Speedcurve</a>. I'm still very new to this whole performance bit, but I like the way it visualises the filmstrips and ties performance to user-engagement.</li>
+                </ul>
+                <h3
+                    class="t-serifweight t-normiefont@xs t-normiefont@s t-normiefont@m t-normiefont@l t-normiefont@xl t-space-strip t-light-green">
+                    Accessibility</h3>
+                <ul class="longform">
+                    <li>Changed a few <code>divs</code> to more meaningful semantic tags here and there.</li>
+                </ul>
+
                 <p class="t-white t-typeweight t-space-strip">26 April 2019</p>
                 <h2
                     class="t-titlingfont t-thiccfont@xs t-thiccfont@s t-thiccfont@m  t-thiccfont@l t-thiccfont@xl t-space-strip">
@@ -86,9 +122,7 @@
                     Systems</h3>
                 <ul class="longform">
                     <li>In some CSS explorations, I learned that <code>filter</code> can't be compounded. But, because
-                        it has overlap qualities with <code>box-shadow</code>, I doubled them up for this fun 8-bit
-                        effect to highlight top-level sponsors. It's a progressive enhancement, so I'm less concerned
-                        about the fact that its browser support isn't across the board.</li>
+                        it has overlap qualities with <code>box-shadow</code>, I doubled them up for this fun 8-bit                        effect to highlight top-level sponsors. It's a progressive enhancement, so I'm less concerned  about the fact that its browser support isn't across the board.</li>
                     <li>A friendly reminder to myself that I should always just write my full <code>@mixins</code>.
                         Because I structured my CSS to media-query at the component level (in markup), I always end up
                         needing that flexibility. I get lazy sometimes and always regret it. I really enjoyed
@@ -104,7 +138,7 @@
                     <li>Added <code>prefetch</code> as a support for <code>font-display: swap</code>. Together, this the dynamic font-loading duo we need.</li>
                     <li>Friend <a class="t-link-accent-pink" href="https://www.zachleat.com/web/comprehensive-webfonts/#font-display" target="_blank" rel="noreferrer noopener">Zach Leatherman's article on comprehensive webfonts</a> is one of the best resources. Zach is so good at explaining technical things in an accessible way.
                     <li>Also, friend <a class="t-link-accent-pink" href="https://noti.st/mandy/AzhOpz/performance-benefits-of-variable-fonts" target="_blank" rel="noreferrer noopener">Mandy Michael's talk on variable fonts</a> inspires me as a next step.</li>
-                    <li>Oh,  and because of these improvements, I kicked my PageSpeed score up from 98 to 100 for mobile. Now, I'm rocking double 100s! I'm super proud of this. Have you checked your <a class="t-link-accent-pink" href="https://developers.google.com/speed/pagespeed/insights/" target="_blank" rel="noreferrer noopener">PageSpeed Insights</a>?
+                    <li>Oh,  and because of these improvements, I kicked my PageSpeed score up from 98 to 100 for mobile. Now, I'm rocking double 100s! I'm super proud of this. Have you checked your <a class="t-link-accent-pink" href="https://developers.google.com/speed/pagespeed/insights/" target="_blank" rel="noreferrer noopener">PageSpeed Insights</a>?</li>
                 </ul>
                 <h3
                     class="t-serifweight t-normiefont@xs t-normiefont@s t-normiefont@m t-normiefont@l t-normiefont@xl t-space-strip t-light-green">
@@ -202,9 +236,9 @@
 
                 </ul>
 
-            </div>
+            
         </section>
-
+    </div>
 </main>
 </body>
 

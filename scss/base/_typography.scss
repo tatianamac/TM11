@@ -293,7 +293,7 @@ body {
     font-size: .8em;
     color: $dark-grey;
     letter-spacing: .025em;
-    padding-top: 1em;
+    padding-top: .5em;
     min-width: 100px;
   }
 
@@ -331,6 +331,13 @@ body {
     @include bdr-thinn-white;
     line-height: $t-height-extra-loose;
     padding: 10px 0;
+}
+
+.t-link-accent-black {
+  @include t-link-hover;
+  @include bdr-thinn-black;
+  // line-height: $t-height-loose;
+  padding: 2px 0;
 }
 
 .t-link-accent-green {
@@ -386,6 +393,7 @@ body {
   font-family: $condensed;
   text-transform: uppercase;
   font-weight: 100;
+  margin: .25rem;
 }
 
 code {

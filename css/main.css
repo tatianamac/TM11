@@ -571,6 +571,26 @@ img {
   .span-row-two\@xl {
     grid-row: span 2; } }
 
+@media screen and (min-width: 200px) and (max-width: 599px) {
+  .span-row-three\@xs {
+    grid-row: span 3; } }
+
+@media screen and (min-width: 600px) and (max-width: 1023px) {
+  .span-row-three\@s {
+    grid-row: span 32; } }
+
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+  .span-row-three\@m {
+    grid-row: span 3; } }
+
+@media screen and (min-width: 1440px) and (max-width: 3000px) {
+  .span-row-three\@l {
+    grid-row: span 3; } }
+
+@media screen and (min-width: 1920px) {
+  .span-row-three\@xl {
+    grid-row: span 3; } }
+
 .grid-quarter-in-third-r-r {
   grid-column: 8 / span 4; }
 
@@ -923,7 +943,7 @@ p {
   font-size: .8em;
   color: #4F4F4F;
   letter-spacing: .025em;
-  padding-top: 1em;
+  padding-top: .5em;
   min-width: 100px; }
 
 .wip {
@@ -964,6 +984,25 @@ p {
   line-height: 3;
   padding: 10px 0; }
   .t-link-accent-white:hover {
+    border-bottom: 5px solid #FF0DD1;
+    transition: all .2s ease-in;
+    border-width: 100%; }
+
+.t-link-accent-black {
+  text-decoration: none;
+  transition: all .2s ease-in;
+  /* removing arrow until I can figure out how to do it accessibly
+    &:hover:after {
+      color: $white;
+    }
+
+    &:after {
+        color: $pink;
+        text-decoration: none;
+    }*/
+  border-bottom: 2px solid #222222;
+  padding: 2px 0; }
+  .t-link-accent-black:hover {
     border-bottom: 5px solid #FF0DD1;
     transition: all .2s ease-in;
     border-width: 100%; }
@@ -1084,7 +1123,8 @@ p {
 .t-titlingfont {
   font-family: "League Gothic Condensed", Impact, sans-serif;
   text-transform: uppercase;
-  font-weight: 100; }
+  font-weight: 100;
+  margin: .25rem; }
 
 code {
   background: #42ff0d;
@@ -1653,6 +1693,10 @@ li.inline {
   top: 5rem;
   right: -2rem; }
 
+.stamp--midright {
+  top: 5rem;
+  left: -2rem; }
+
 .stamp--btmright {
   bottom: -2rem;
   right: -2rem; }
@@ -1662,7 +1706,7 @@ li.inline {
   text-align: left;
   justify-content: space-between;
   flex-direction: column;
-  padding: .25em 1.5em;
+  padding: .1em 1.5em;
   margin: 1.25em;
   vertical-align: baseline;
   background: #ffffff; }
