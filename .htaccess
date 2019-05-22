@@ -11,7 +11,7 @@ Redirect /PerfMatters https://slides.com/tatianamac/how-privilege-defines-perfor
 Redirect /EdgeCases/ https://slides.com/tatianamac/edge-cases/fullscreen
 Redirect /edgecases/ https://slides.com/tatianamac/edge-cases/fullscreen
 Redirect /edgecases https://slides.com/tatianamac/edge-cases/fullscreen
-Redirect /EdgeCases https://slides.com/tatianamac/edge-cases
+Redirect /EdgeCases https://slides.com/tatianamac/edge-cases/fullscreen
 
 <filesMatch ".(svg|webp|jpg|jpeg|png|gif|ico|woff|woff2)$">
 Header set Cache-Control "max-age=31536000, public"
