@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+
+    <channel>
+        <atom:link href="https://tatianamac.com/rss.xml" rel="self" type="application/rss+xml" />
+        <title>Tatiana Mac</title>
+        <link>https://www.tatianamac.com/</link>
+        <description>Personal website for Tatiana Mac</description>
+        <copyright>2019 Tatiana Mac. All rights reserved.</copyright> 
+        <language>en-us</language>
+        <lastBuildDate>Sun, 9 Jun 2019 17:05:14 PDT</lastBuildDate>
+  <item>
+    <title>Monday Communication Tips</title>
+    <link>https://tatianamac.com/monday-communication-tips.html</link>
+    <guid>https://tatianamac.com/monday-communication-tips.html</guid>
+    <description>Helpful tips for being a more productive and happier email communicator.</description>
+    <category>Blog, Communication</category>
+    <pubDate>Mon, 29 April 2019 12:31:41 PDT</pubDate>
+  </item>
+
+  <item>
+    <title>Monday Communication Tips</title>
+    <link>https://tatianamac.com/monday-communication-tips.html</link>
+    <guid>https://tatianamac.com/monday-communication-tips.html</guid>
+    <description>Helpful tips for being a more productive and happier email communicator.</description>
+    <category>Blog, Communication</category>
+    <pubDate>Mon, 29 April 2019 12:31:41 PDT</pubDate>
+  </item>
+
+  <item>
+    <title>Cracked</title>
+    <link>https://tatianamac.com/cracked.html</link>
+    <guid>https://tatianamac.com/cracked.html</guid>
+    <description>Driving with cracked windshields</description>
+    <category>Blog, Personal Stories</category>
+    <pubDate>Wed, 17 Apr 2019 00:09:02 PDT</pubDate>
+  </item>
+
+</channel>
+
+</rss> 
