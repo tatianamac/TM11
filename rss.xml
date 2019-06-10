@@ -9,6 +9,16 @@
         <copyright>2019 Tatiana Mac. All rights reserved.</copyright> 
         <language>en-us</language>
         <lastBuildDate>Sun, 9 Jun 2019 17:05:14 PDT</lastBuildDate>
+
+  <item>
+    <title>Release Notes 1.2.2</title>
+    <link>https://tatianamac.com/release-notes.html#1-2-2</link>
+    <guid>https://tatianamac.com/release-notes.html#1-2-2</guid>
+    <description>Borken keyboard edition: speaking announcements,sponsor additions.</description>
+    <category>Release Notes</category>
+    <pubDate>Fri, 26 Apr 2019 17:45:00 PDT</pubDate>
+  </item>
+
   <item>
     <title>Monday Communication Tips</title>
     <link>https://tatianamac.com/monday-communication-tips.html</link>
@@ -16,6 +26,15 @@
     <description>Helpful tips for being a more productive and happier email communicator.</description>
     <category>Blog, Communication</category>
     <pubDate>Mon, 29 Apr 2019 12:31:41 PDT</pubDate>
+  </item>
+
+  <item>
+    <title>Release Notes 1.2.1</title>
+    <link>https://tatianamac.com/release-notes.html#1-2-1</link>
+    <guid>https://tatianamac.com/release-notes.html#1-2-1</guid>
+    <description>Patreon launch edition: box-shadow/filter experiments, font performance, link security.</description>
+    <category>Release Notes, Security, a11y, WebPerf, Design Systems</category>
+    <pubDate>Fri, 26 Apr 2019 17:45:00 PDT</pubDate>
   </item>
 
   <item>
@@ -34,6 +53,15 @@
     <description>I'm tired of not being seen.</description>
     <category>Blog, Personal Stories</category>
     <pubDate>Tue, 16 Apr 2019 14:23:01 PDT</pubDate>
+  </item>
+https://tatianamac.com/release-notes.html#1-2-1
+  <item>
+    <title>Release Notes 1.1.1</title>
+    <link>https://tatianamac.com/release-notes.html#1-1-1</link>
+    <guid>https://tatianamac.com/release-notes.html#1-1-1</guid>
+    <description>Tax Day release: performance updates, a11y improvements, added articles.</description>
+    <category>Release Notes, a11y, WebPerf, Design Systems</category>
+    <pubDate>Mon, 15 Apr 2019 16:01:33 PDT</pubDate>
   </item>
 
 </channel>
