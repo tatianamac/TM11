@@ -326,6 +326,11 @@ li.inline {
     right: -2rem;
    }
 
+   .stamp--midright {
+    top: 5rem;
+    left: -2rem;
+   }
+
    .stamp--btmright {
     bottom: -2rem;
     right: -2rem;
@@ -336,8 +341,7 @@ li.inline {
     text-align:left;
     justify-content: space-between;
     flex-direction: column;
-    // border: 1px solid $light-grey;
-    padding: .25em 1.5em;
+    padding: .1em 1.5em;
     margin: 1.25em;
     vertical-align: baseline;
     background: $white;
