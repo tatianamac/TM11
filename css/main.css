@@ -1459,13 +1459,6 @@ button {
     background: #ffffff;
     color: #0e4bff; }
 
-li.inline {
-  display: inline; }
-
-.clearspace {
-  margin: 0;
-  padding: 0; }
-
 .zigzag-blue-yellow {
   height: 5em;
   background: linear-gradient(45deg, transparent 50%, #0e4bff 50%), linear-gradient(90deg, transparent 50%, #FFD926 50%), linear-gradient(135deg, #0e4bff 50%, #cbab00 50%), 0 50%;
@@ -1520,6 +1513,12 @@ li.inline {
   background-repeat: repeat-x;
   background-size: 5em 5em, 5em 5em; }
 
+.zigzag-black-green {
+  height: 5em;
+  background: linear-gradient(45deg, transparent 50%, #222222 50%), linear-gradient(90deg, transparent 50%, #42ff0d 50%), linear-gradient(135deg, #222222 50%, #27B300 50%), 0 50%;
+  background-repeat: repeat-x;
+  background-size: 5em 5em, 5em 5em; }
+
 .zigzag-green-fuschia {
   height: 5em;
   background: linear-gradient(-45deg, transparent 74%, #27B300 75%), linear-gradient(45deg, #B2098B 74%, #42ff0d 75%) 0 50%;
@@ -1543,6 +1542,13 @@ li.inline {
   background: linear-gradient(-45deg, transparent 74%, #767676 75%), linear-gradient(45deg, #f3f315 74%, #eeeeee 75%) 0 50%;
   background-repeat: repeat-x;
   background-size: 5em 5em, 5em 5em; }
+
+li.inline {
+  display: inline; }
+
+.clearspace {
+  margin: 0;
+  padding: 0; }
 
 #about {
   background: #f3f315;
