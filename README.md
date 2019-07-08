@@ -6,7 +6,9 @@ Built by hand using CSS Grid.
 
 ## Built With
 
+* [Eleventy](https://www.11ty.io)
 * CSS Grid
+* Set in [Freight Display](https://www.myfonts.com/fonts/garagefonts/freight-disp-pro/), [Brother 1816](https://www.myfonts.com/fonts/tipotype/brother-1816/), and [League Gothic Condensed](https://www.myfonts.com/fonts/tipotype/brother-1816/). 
 
 ## Authors
 
